@@ -1,0 +1,20 @@
+Sequence file is:
+tokenize
+NOHASH rule: _num [] [] <- _xNUM [1,1 singlet] [] . [1,1 singlet] [] _xNUM [1,1 singlet] [] @@
+NOHASH rule: _abbrev [] [] <- _xCAP [1,1 singlet] [] . [1,1 singlet] [] _xCAP [1,1 singlet] [] . [1,1 singlet] [] @@
+NOHASH rule: _alphaNum [] [] <- _xALPHA [1,1 singlet] [] _xNUM [1,1 singlet] [] @@
+NOHASH rule: _numAlpha [] [] <- _xNUM [1,1 singlet] [] _xALPHA [1,1 singlet] [] @@
+NOHASH rule: _number [] [] <- _xNUM [1,1 singlet] [] , [1,1 singlet] [] _xNUM [1,1 singlet] [] @@
+NOHASH rule: _percent [] [] <- _xNUM [1,1 singlet] [] % [1,1 singlet] [] @@
+NOHASH rule: _sentence [unsealed] [] <- _xWILD [1,0 singlet fails=(. ? ! _paragraphSeparator)] [] _xWILD [1,1 singlet matches=(. ? !)] [] @@
+NOHASH rule: _sentence [unsealed] [] <- _xWILD [1,0 singlet fails=(_paragraphSeparator)] [] @@
+NOHASH rule: _xNIL [] [] <- _xWHITE [1,1 singlet] [] @@
+NOHASH rule: _company [] [] <- _xALPHA [1,1 singlet] [] _xALPHA [1,1 singlet] [] _xALPHA [1,1 singlet] [] _xALPHA [1,1 singlet] [] @@
+NOHASH rule: _company [] [] <- _xALPHA [1,1 singlet] [] _xALPHA [1,1 singlet] [] _xALPHA [1,1 singlet] [] @@
+NOHASH rule: _company [] [] <- _xALPHA [1,1 singlet] [] _xALPHA [1,1 singlet] [] @@
+NOHASH rule: _company [] [] <- _xALPHA [1,1 singlet] [] @@
+NOHASH rule: _money [] [] <- _xNUM [1,1 singlet] [] million [1,1 singlet] [] dollars [1,1 singlet] [] @@
+NOHASH rule: _company [] [] <- _xWILD [1,2 group=_name matches=(_xCAP)] [] , [1,1 singlet] [] _officer [1,1 singlet] [] _prep [1,1 singlet] [] _company [1,1 singlet] [] , [1,1 singlet] [] @@
+
+Passes: (tok,nil) (nlp,KBFuncs) (nlp,initKB) (nlp,join) (nlp,sentences) (nlp,paragraphs) (nlp,removeWhite) (nlp,city) (nlp,company) (nlp,state) (nlp,lookup) (nlp,vocabulary) (nlp,phrases) (nlp,money) (nlp,moneyAttributes) (nlp,conjMoney) (nlp,companies) (nlp,companyAttributes) (nlp,companyDet) (nlp,anaphora) (nlp,anaphoraCompany) (nlp,conjCompany) (nlp,events) (nlp,eventAttributes) (nlp,anaphoraEvent) (nlp,events2) (nlp,output) (nlp,kbOutput) 
+

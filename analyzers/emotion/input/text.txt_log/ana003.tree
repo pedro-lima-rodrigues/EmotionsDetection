@@ -1,0 +1,18 @@
+
+***************
+    PASS 3 (time)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,23,0,23,0,0,node,un]
+   roubaram [0,7,0,7,0,0,alpha]
+   \_ [8,8,8,8,0,0,white]
+   _palmeiras [9,23,9,23,3,13,node,fired,blt]
+      _o [9,10,9,10,2,12,node]
+         o [9,9,9,9,0,0,alpha]
+         \_ [10,10,10,10,0,0,white]
+      _meu [11,14,11,14,2,17,node]
+         meu [11,13,11,13,0,0,alpha]
+         \_ [14,14,14,14,0,0,white]
+      palmeiras [15,23,15,23,0,0,alpha]

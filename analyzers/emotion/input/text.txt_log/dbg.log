@@ -1,0 +1,14 @@
+[Pass 1 time: 0.001 sec     tokenize]
+[Pass 2 time: 0.001 sec     artigo]
+[Pass 3 time: 0.002 sec     time]
+[Pass 4 time: 0.001 sec     alegria]
+[Pass 5 time: 0.003 sec     amor]
+[Pass 6 time: 0.002 sec     raiva]
+[Input file: c:\Users\pepel\GitHub\EmotionsDetection\analyzers\emotion\input\text.txt]
+[Total passes: 6
+[Total time: 0.01 sec]
+[Time per 1000 chars (0.01/24): 0.416667 sec]
+[Time per pass per 1000 chars: 0.0694444]
+infile  passes tottime length tot/1000 tot/pass/1000
+c:\Users\pepel\GitHub\EmotionsDetection\analyzers\emotion\input\text.txt	6	0.01	24	0.416667	0.0694444
+[Clean time: 0.002 sec]

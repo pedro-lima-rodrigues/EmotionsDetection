@@ -1,0 +1,331 @@
+currtext
+  objects: 
+    count=[10]
+    object1 = inc. (tai: 
+      type=[object]
+      text=[inc. (tai]
+      sem=[organization]
+      refs=["concept" "currtext" "parse" "sent1" "clause1" "obj1 = inc. (tai"]
+    object2 = the american medical records processing (amrp: 
+      type=[object]
+      text=[the american medical records processing (amrp]
+      sem=[name]
+      refs=["concept" "currtext" "parse" "sent1" "clause1" "obj2 = the american medical records processing (amrp"]
+    object3 = avi meyers, ceo and president of tai,: 
+      type=[object]
+      text=[avi meyers, ceo and president of tai,]
+      sem=[person]
+      refs=["concept" "currtext" "parse" "sent2" "clause1" "obj1 = avi meyers, ceo and president of tai,"]
+    object4 = the los angeles-based amrp: 
+      type=[object]
+      text=[the los angeles-based amrp]
+      refs=["concept" "currtext" "parse" "sent2" "clause3" "obj1 = the los angeles-based amrp"]
+    object5 = amrp: 
+      type=[object]
+      text=[amrp]
+      refs=["concept" "currtext" "parse" "sent3" "clause2" "obj1 = amrp"]
+    object6 = tai's visualtext technology: 
+      type=[object]
+      text=[tai's visualtext technology]
+      sem=[technology]
+      refs=["concept" "currtext" "parse" "sent3" "clause4" "obj1 = tai's visualtext technology"]
+    object7 = tai: 
+      type=[object]
+      text=[tai]
+      refs=["concept" "currtext" "parse" "sent5" "clause2" "obj1 = tai","concept" "currtext" "parse" "sent6" "clause2" "obj1 = tai"]
+    object8 = md files, new hampshire medical inc., and carezani med company of maryland: 
+      type=[object]
+      text=[md files, new hampshire medical inc., and carezani med company of maryland]
+      sem=[location]
+      refs=["concept" "currtext" "parse" "sent5" "clause2" "obj2 = md files, new hampshire medical inc., and carezani med company of maryland"]
+    object9 = nlp: 
+      type=[object]
+      text=[nlp]
+      refs=["concept" "currtext" "parse" "sent9" "clause2" "obj1 = nlp"]
+    object10 = the conceptual grammar: 
+      type=[object]
+      text=[the conceptual grammar]
+      sem=[name]
+      refs=["concept" "currtext" "parse" "sent9" "clause3" "obj1 = the conceptual grammar"]
+  entities: 
+    count=[11]
+    entity1 = inc. (tai: 
+      text=[inc. (tai]
+      sem=[name]
+      ne=[1]
+      ne type conf=[50]
+      ne type=[organization]
+      ne text=[Inc. (TAI]
+      refs=["concept" "currtext" "ents" "ent1 = inc. (tai"]
+    entity2 = american medical records processing (amrp: 
+      text=[american medical records processing (amrp]
+      sem=[name]
+      ne=[1]
+      refs=["concept" "currtext" "ents" "ent2 = american medical records processing (amrp"]
+    entity3 = avi meyers: 
+      text=[avi meyers]
+      sem=[person]
+      ne=[1]
+      ne type conf=[90]
+      ne type=[person]
+      refs=["concept" "currtext" "ents" "ent3 = avi meyers"]
+    entity4 = on friday: 
+      text=[on friday]
+      sem=[date]
+      ne=[1]
+      ne type conf=[95]
+      ne type=[date]
+      refs=["concept" "currtext" "ents" "ent4 = on friday"]
+    entity5 = amrp: 
+      text=[amrp]
+      ne=[1]
+      refs=["concept" "currtext" "ents" "ent5 = amrp","concept" "currtext" "ents" "ent6 = amrp"]
+    entity6 = visualtext: 
+      text=[visualtext]
+      ne=[1]
+      refs=["concept" "currtext" "ents" "ent7 = visualtext","concept" "currtext" "ents" "ent12 = visualtext","concept" "currtext" "ents" "ent13 = visualtext"]
+    entity7 = tai: 
+      text=[tai]
+      ne=[1]
+      refs=["concept" "currtext" "ents" "ent8 = tai","concept" "currtext" "ents" "ent10 = tai"]
+    entity8 = carezani med company: 
+      text=[carezani med company]
+      sem=[name]
+      ne=[1]
+      refs=["concept" "currtext" "ents" "ent9 = carezani med company"]
+    entity9 = with miasmacraft: 
+      text=[with miasmacraft]
+      ne=[1]
+      refs=["concept" "currtext" "ents" "ent11 = with miasmacraft"]
+    entity10 = nlp: 
+      text=[nlp]
+      ne=[1]
+      refs=["concept" "currtext" "ents" "ent14 = nlp"]
+    entity11 = conceptual grammar: 
+      text=[conceptual grammar]
+      sem=[name]
+      ne=[1]
+      refs=["concept" "currtext" "ents" "ent15 = conceptual grammar"]
+  ents: 
+    nents=[15]
+    ent1 = inc. (tai: 
+      text=[inc. (tai]
+      sem=[name]
+      ne=[1]
+      ne type=[organization]
+      ne type conf=[50]
+      ne text=[Inc. (TAI]
+      resolver=["concept" "currtext" "entities" "entity1 = inc. (tai"]
+    ent2 = american medical records processing (amrp: 
+      text=[american medical records processing (amrp]
+      sem=[name]
+      ne=[1]
+      resolver=["concept" "currtext" "entities" "entity2 = american medical records processing (amrp"]
+    ent3 = avi meyers: 
+      text=[avi meyers]
+      sem=[person]
+      ne=[1]
+      ne type=[person]
+      ne type conf=[90]
+      resolver=["concept" "currtext" "entities" "entity3 = avi meyers"]
+    ent4 = on friday: 
+      text=[on friday]
+      sem=[date]
+      ne=[1]
+      ne type=[date]
+      ne type conf=[95]
+      resolver=["concept" "currtext" "entities" "entity4 = on friday"]
+    ent5 = amrp: 
+      text=[amrp]
+      ne=[1]
+      resolver=["concept" "currtext" "entities" "entity5 = amrp"]
+    ent6 = amrp: 
+      text=[amrp]
+      ne=[1]
+      resolver=["concept" "currtext" "entities" "entity5 = amrp"]
+    ent7 = visualtext: 
+      text=[visualtext]
+      ne=[1]
+      resolver=["concept" "currtext" "entities" "entity6 = visualtext"]
+    ent8 = tai: 
+      text=[tai]
+      ne=[1]
+      resolver=["concept" "currtext" "entities" "entity7 = tai"]
+    ent9 = carezani med company: 
+      text=[carezani med company]
+      sem=[name]
+      ne=[1]
+      resolver=["concept" "currtext" "entities" "entity8 = carezani med company"]
+    ent10 = tai: 
+      text=[tai]
+      ne=[1]
+      resolver=["concept" "currtext" "entities" "entity7 = tai"]
+    ent11 = with miasmacraft: 
+      text=[with miasmacraft]
+      ne=[1]
+      resolver=["concept" "currtext" "entities" "entity9 = with miasmacraft"]
+    ent12 = visualtext: 
+      text=[visualtext]
+      ne=[1]
+      resolver=["concept" "currtext" "entities" "entity6 = visualtext"]
+    ent13 = visualtext: 
+      text=[visualtext]
+      ne=[1]
+      resolver=["concept" "currtext" "entities" "entity6 = visualtext"]
+    ent14 = nlp: 
+      text=[nlp]
+      ne=[1]
+      resolver=["concept" "currtext" "entities" "entity10 = nlp"]
+    ent15 = conceptual grammar: 
+      text=[conceptual grammar]
+      sem=[name]
+      ne=[1]
+      resolver=["concept" "currtext" "entities" "entity11 = conceptual grammar"]
+  events
+  parse
+    sent1: 
+      type=[sent]
+      clause1: 
+        type=[clause]
+        zone=[0]
+        obj1 = inc. (tai: 
+          type=[obj]
+          text=[inc. (tai]
+          ne type conf=[50]
+          sem=[organization]
+          resolver=["concept" "currtext" "objects" "object1 = inc. (tai"]
+        obj2 = the american medical records processing (amrp: 
+          type=[obj]
+          text=[the american medical records processing (amrp]
+          sem=[name]
+          resolver=["concept" "currtext" "objects" "object2 = the american medical records processing (amrp"]
+    sent2: 
+      type=[sent]
+      clause1: 
+        type=[clause]
+        zone=[0]
+        obj1 = avi meyers, ceo and president of tai,: 
+          type=[obj]
+          text=[avi meyers, ceo and president of tai,]
+          ne type conf=[90]
+          sem=[person]
+          resolver=["concept" "currtext" "objects" "object3 = avi meyers, ceo and president of tai,"]
+      clause2: 
+        type=[clause]
+        zone=[0]
+      clause3: 
+        type=[clause]
+        zone=[0]
+        obj1 = the los angeles-based amrp: 
+          type=[obj]
+          text=[the los angeles-based amrp]
+          resolver=["concept" "currtext" "objects" "object4 = the los angeles-based amrp"]
+    sent3: 
+      type=[sent]
+      clause1: 
+        type=[clause]
+        zone=[0]
+      clause2: 
+        type=[clause]
+        zone=[0]
+        obj1 = amrp: 
+          type=[obj]
+          text=[amrp]
+          resolver=["concept" "currtext" "objects" "object5 = amrp"]
+      clause3: 
+        type=[clause]
+        zone=[0]
+      clause4: 
+        type=[clause]
+        zone=[0]
+        obj1 = tai's visualtext technology: 
+          type=[obj]
+          text=[tai's visualtext technology]
+          sem=[technology]
+          resolver=["concept" "currtext" "objects" "object6 = tai's visualtext technology"]
+    sent4: 
+      type=[sent]
+      clause1: 
+        type=[clause]
+        zone=[0]
+      clause2: 
+        type=[clause]
+        zone=[0]
+    sent5: 
+      type=[sent]
+      clause1: 
+        type=[clause]
+        zone=[0]
+      clause2: 
+        type=[clause]
+        zone=[0]
+        obj1 = tai: 
+          type=[obj]
+          text=[tai]
+          resolver=["concept" "currtext" "objects" "object7 = tai"]
+        obj2 = md files, new hampshire medical inc., and carezani med company of maryland: 
+          type=[obj]
+          text=[md files, new hampshire medical inc., and carezani med company of maryland]
+          ne text=[MD Files, New Hampshire Medical Inc., and Carezani Med Company]
+          sem=[location]
+          resolver=["concept" "currtext" "objects" "object8 = md files, new hampshire medical inc., and carezani med company of maryland"]
+    sent6: 
+      type=[sent]
+      clause1: 
+        type=[clause]
+        zone=[0]
+      clause2: 
+        type=[clause]
+        zone=[0]
+        obj1 = tai: 
+          type=[obj]
+          text=[tai]
+          resolver=["concept" "currtext" "objects" "object7 = tai"]
+      clause3: 
+        type=[clause]
+        zone=[0]
+      clause4: 
+        type=[clause]
+        zone=[0]
+    sent7: 
+      type=[sent]
+      clause1: 
+        type=[clause]
+        zone=[0]
+      clause2: 
+        type=[clause]
+        zone=[0]
+    sent8: 
+      type=[sent]
+      clause1: 
+        type=[clause]
+        zone=[0]
+      clause2: 
+        type=[clause]
+        zone=[0]
+    sent9: 
+      type=[sent]
+      clause1: 
+        type=[clause]
+        zone=[0]
+      clause2: 
+        type=[clause]
+        zone=[0]
+        obj1 = nlp: 
+          type=[obj]
+          text=[nlp]
+          resolver=["concept" "currtext" "objects" "object9 = nlp"]
+      clause3: 
+        type=[clause]
+        zone=[0]
+        obj1 = the conceptual grammar: 
+          type=[obj]
+          text=[the conceptual grammar]
+          sem=[name]
+          resolver=["concept" "currtext" "objects" "object10 = the conceptual grammar"]
+    sent10: 
+      type=[sent]
+      clause1: 
+        type=[clause]
+        zone=[0]
+

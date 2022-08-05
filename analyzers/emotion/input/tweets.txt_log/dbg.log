@@ -1,0 +1,13 @@
+[Pass 1 time: 0.076 sec     tokenize]
+[Pass 2 time: 0.073 sec     time]
+[Pass 3 time: 0.072 sec     alegria]
+[Pass 4 time: 0.079 sec     amor]
+[Pass 5 time: 0.073 sec     raiva]
+[Input file: c:\Users\pepel\.vscode\extensions\dehilster.nlp-1.35.0\nlp-engine\analyzers\emotion\input\tweets.txt]
+[Total passes: 5
+[Total time: 0.373 sec]
+[Time per 1000 chars (0.373/10430): 0.0357622 sec]
+[Time per pass per 1000 chars: 0.00715244]
+infile  passes tottime length tot/1000 tot/pass/1000
+c:\Users\pepel\.vscode\extensions\dehilster.nlp-1.35.0\nlp-engine\analyzers\emotion\input\tweets.txt	5	0.373	10430	0.0357622	0.00715244
+[Clean time: 0.002 sec]

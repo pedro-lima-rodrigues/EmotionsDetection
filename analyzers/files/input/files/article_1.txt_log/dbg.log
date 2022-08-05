@@ -1,0 +1,15 @@
+[Pass 1 time: 0.016 sec     tokenize]
+[Pass 2 time: 0.001 sec     KBFuncs]
+[Pass 3 time: 0.001 sec     funcs]
+[Pass 4 time: 0.006 sec     globals]
+[Pass 5 time: 0.016 sec     Lines]
+[Pass 6 time: 0.018 sec     file]
+[Pass 7 time: 0.002 sec     close]
+[Input file: c:\Users\pepel\.vscode\extensions\dehilster.nlp-1.35.0\nlp-engine\analyzers\files\input\files\article_1.txt]
+[Total passes: 7
+[Total time: 0.06 sec]
+[Time per 1000 chars (0.06/3162): 0.0189753 sec]
+[Time per pass per 1000 chars: 0.00271076]
+infile  passes tottime length tot/1000 tot/pass/1000
+c:\Users\pepel\.vscode\extensions\dehilster.nlp-1.35.0\nlp-engine\analyzers\files\input\files\article_1.txt	7	0.06	3162	0.0189753	0.00271076
+[Clean time: 0.001 sec]

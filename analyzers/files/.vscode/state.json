@@ -1,0 +1,10 @@
+{
+    "visualText": [
+        {
+            "name": "Analyzer",
+            "type": "state",
+            "currentTextFile": "c:\\Users\\pepel\\.vscode\\extensions\\dehilster.nlp-1.35.0\\nlp-engine\\analyzers\\files\\input\\files\\article_1.txt",
+            "currentPassFile": "c:\\Users\\pepel\\.vscode\\extensions\\dehilster.nlp-1.35.0\\nlp-engine\\analyzers\\files\\spec\\close.nlp"
+        }
+    ]
+}

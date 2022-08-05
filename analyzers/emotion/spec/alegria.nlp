@@ -1,0 +1,22 @@
+###############################################
+# FILE: alegria
+# SUBJ: comment
+# AUTH: Pedro Lima Rodrigues
+# CREATED: 2022-8-1 21:41:11
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+				
+@RULES
+_gol <-
+	_xCAP [s one match=(DO)]	### (1)
+	@@
+
+
+				
+@RULES
+_newNode <-
+	GOOOOOOOOOOOOL	### (1)
+	@@

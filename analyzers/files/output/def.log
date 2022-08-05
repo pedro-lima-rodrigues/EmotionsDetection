@@ -1,0 +1,8 @@
+Sequence file is:
+tokenize
+NOHASH rule: _LINE [] [] <- _xWILD [0,0 fails=( 
+)] [] _xWILD [1,1 matches=(
+ _xEND)] [] @@
+
+Passes: (tok,nil) (nlp,KBFuncs) (nlp,funcs) (nlp,globals) (nlp,Lines) (nlp,file) (nlp,close) 
+

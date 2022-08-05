@@ -1,0 +1,40 @@
+###############################################
+# FILE: raiva
+# SUBJ: comment
+# AUTH: Pedro Lima Rodrigues
+# CREATED: 2022-8-1 22:2:50
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+"emocao.txt" << "raiva ";
+single();
+
+@RULES
+_roubo <-
+	_xWILD [s one matches=(roubar roubou roubaram roubando assaltar assaltou assaltaram assaltando)]	### (1)
+	_xWHITE																								### (2)
+	o[s optional]																						### (3)
+	_xWHITE [s optional]																				### (4)
+	meu [s optional]																					### (5)
+	_xWHITE [s optional]																				### (6)
+	_palmeiras [s]																					    ### (7)
+    @@
+
+_arbitro <-
+	_xWILD [s one matches=(arbitragem var juiz juízes árbitro)]	### (1)
+	@@
+
+_contra <-
+	_xWILD [s one matches=(contra)]	### (1)
+	_xWHITE							### (2)
+	o[s optional]					### (3)
+	_xWHITE [s optional]			### (4)
+	meu [s optional]				### (5)
+	_xWHITE [s optional]			### (6)
+	_palmeiras [s]					    ### (7)
+	@@
+
+

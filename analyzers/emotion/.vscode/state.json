@@ -1,0 +1,10 @@
+{
+    "visualText": [
+        {
+            "name": "Analyzer",
+            "type": "state",
+            "currentTextFile": "c:\\Users\\pepel\\GitHub\\EmotionsDetection\\analyzers\\emotion\\input\\text.txt",
+            "currentPassFile": "c:\\Users\\pepel\\GitHub\\EmotionsDetection\\analyzers\\emotion\\spec\\time.nlp"
+        }
+    ]
+}

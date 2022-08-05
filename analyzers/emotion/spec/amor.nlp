@@ -1,0 +1,18 @@
+###############################################
+# FILE: amor
+# SUBJ: comment
+# AUTH: Pedro Lima Rodrigues
+# CREATED: 2022-8-1 22:50:48
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+"emocao.txt" << "amor ";
+single();
+
+@RULES
+_emoji <-
+	💚[s]	### (1)
+	@@

@@ -1,0 +1,6 @@
+tokenize	nil	# Gen:   Convert input to token list
+nlp	artigo	# comment
+nlp	time	# comment
+nlp	alegria	# comment
+nlp	amor	# comment
+nlp	raiva	# comment

@@ -1,0 +1,5 @@
+Sequence file is:
+tokenize
+
+Passes: (tok,nil) (nlp,artigo) (nlp,time) (nlp,alegria) (nlp,amor) (nlp,raiva) 
+
