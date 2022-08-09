@@ -1,0 +1,15 @@
+###############################################
+# FILE: frase_verbal
+# SUBJ: comment
+# AUTH: Your Name
+# CREATED: 2022-8-9 16:51:40
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_fraseVerbal <-
+	_verbo
+	_fraseSubst
+	@@

@@ -1,0 +1,16 @@
+###############################################
+# FILE: longos
+# SUBJ: comment
+# AUTH: Your Name
+# CREATED: 2022-8-9 16:54:10
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_gol <-
+	_xWILD [s match=(g) plus]
+	_xWILD [s match=(o) plus]
+	_xWILD [s match=(l) plus]
+	@@

@@ -1,12 +1,22 @@
 
 ***************
-    PASS 1 (tokenize)
+    PASS 1 (dicttok)
 ***************
-_ROOT [0,23,0,23,0,0,node,un]
-   roubaram [0,7,0,7,0,0,alpha]
+_ROOT [0,55,0,55,0,0,node,un, ("TOT LINES" 1) ("TOT TABS" 0) ("TOT LOWERS" 0) ("TOT CAPS" 0) ("TOT UPPERS" 0) ("TOT NUMS" 0)]
+   roubaram [0,7,0,7,0,0,alpha, ("NOSP" 1)]
    \_ [8,8,8,8,0,0,white]
    o [9,9,9,9,0,0,alpha]
    \_ [10,10,10,10,0,0,white]
-   meu [11,13,11,13,0,0,alpha]
-   \_ [14,14,14,14,0,0,white]
-   palmeiras [15,23,15,23,0,0,alpha]
+   palmeiras [11,19,11,19,0,0,alpha]
+   \n [20,20,20,20,0,0,white]
+   \n [21,21,21,21,0,0,white]
+   assaltaram [22,31,22,31,0,0,alpha]
+   \_ [32,32,32,32,0,0,white]
+   o [33,33,33,33,0,0,alpha]
+   \_ [34,34,34,34,0,0,white]
+   avanti [35,40,35,40,0,0,alpha]
+   \_ [41,41,41,41,0,0,white]
+   palestra [42,49,42,49,0,0,alpha]
+   \n [50,50,50,50,0,0,white]
+   \n [51,51,51,51,0,0,white]
+   onze [52,55,52,55,0,0,alpha]

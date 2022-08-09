@@ -1,0 +1,10 @@
+[Pass 1 time: 0.003 sec     chartok]
+[Pass 2 time: 0.002 sec     longos]
+[Input file: c:\Users\pepel\GitHub\EmotionsDetection\gol\input\text.txt]
+[Total passes: 2
+[Total time: 0.005 sec]
+[Time per 1000 chars (0.005/22): 0.227273 sec]
+[Time per pass per 1000 chars: 0.113636]
+infile  passes tottime length tot/1000 tot/pass/1000
+c:\Users\pepel\GitHub\EmotionsDetection\gol\input\text.txt	2	0.005	22	0.227273	0.113636
+[Clean time: 0.001 sec]

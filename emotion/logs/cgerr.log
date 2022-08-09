@@ -1,4 +1,4 @@
 [Loading interpreted kb.]
 [readKB:]
-[readKB: path=c:\Users\pepel\GitHub\EmotionsDetection\analyzers\emotion\\kb\user]
-[READ KB time=0.003 sec]
+[readKB: path=c:\Users\pepel\GitHub\EmotionsDetection\emotion\\kb\user]
+[READ KB time=0.004 sec]

@@ -17,9 +17,23 @@ _palmeiras <-
     @@
 
 _palmeiras <-
-	time [s]	### (1)
-	_xWHITE		### (2)
-	do [s]		### (3)
-	_xWHITE		### (4)
-	amor [s]	### (5)
+	_o [s optional]		### (1)
+	_meu [s optional]	### (2)
+	time [s]			### (3)
+	_xWHITE				### (4)
+	do [s]				### (5)
+	_xWHITE				### (6)
+	amor [s]			### (7)
+    @@
+
+_palmeiras <-
+	_o [s optional]		### (1)
+	_meu [s optional]	### (2)
+	verdão [s]			### (3)
+    @@
+
+_palmeiras <-
+	_o [s optional]		### (1)
+	_meu [s optional]	### (2)
+	porco [s]			### (3)
     @@

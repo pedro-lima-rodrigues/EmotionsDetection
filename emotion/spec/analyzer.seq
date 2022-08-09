@@ -1,6 +1,14 @@
-tokenize	nil	# Gen:   Convert input to token list
-nlp	artigo	# comment
-nlp	time	# comment
-nlp	alegria	# comment
-nlp	amor	# comment
-nlp	raiva	# comment
+dicttok	nil	# Gen:   Convert input to token list
+nlp	KBFuncs	# comment
+nlp	funcs	# comment
+/nlp	dicionario	# comment
+nlp	longo	# comment
+nlp	frases	# comment
+nlp	pos	# comment
+nlp	RemoveWhiteSpace	# comment
+nlp	frase_subst	# comment
+nlp	frase_verbal	# comment
+/nlp	time	# comment
+/nlp	alegria	# comment
+/nlp	amor	# comment
+/nlp	raiva	# comment

@@ -1,0 +1,16 @@
+###############################################
+# FILE: dicionario
+# SUBJ: comment
+# AUTH: Your Name
+# CREATED: 2022-8-9 16:16:14
+# MODIFIED:
+###############################################
+
+@CODE
+DictionaryClear();
+DictionaryWord("o","pos","artigo","str");
+DictionaryWord("a","pos","artigo","str");
+DictionaryWord("os","pos","artigo","str");
+DictionaryWord("as","pos","artigo","str");
+DictionaryEnd();
+@@CODE

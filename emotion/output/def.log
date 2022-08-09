@@ -1,5 +1,7 @@
 Sequence file is:
-tokenize
+dicttok
+NOHASH rule: _gol [] [] <- _xALPHA [1,1] [] @@
+NOHASH rule: _xNIL [] [] <- _xWHITE [1,1 singlet] [] @@
 
-Passes: (tok,nil) (nlp,artigo) (nlp,time) (nlp,alegria) (nlp,amor) (nlp,raiva) 
+Passes: (dicttok,nil) (nlp,KBFuncs) (nlp,funcs) (,dicionario) (nlp,longo) (nlp,frases) (nlp,pos) (nlp,RemoveWhiteSpace) (nlp,frase_subst) (nlp,frase_verbal) (,time) (,alegria) (,amor) (,raiva) 
 

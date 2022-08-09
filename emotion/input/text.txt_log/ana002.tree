@@ -1,17 +1,4 @@
 
 ***************
-    PASS 2 (artigo)
+    PASS 2 (KBFuncs)
 ***************
-
-PAT OUTPUT TREE:
-
-_ROOT [0,23,0,23,0,0,node,un]
-   roubaram [0,7,0,7,0,0,alpha]
-   \_ [8,8,8,8,0,0,white]
-   _o [9,10,9,10,2,12,node,fired,blt]
-      o [9,9,9,9,0,0,alpha]
-      \_ [10,10,10,10,0,0,white]
-   _meu [11,14,11,14,2,17,node,fired,blt]
-      meu [11,13,11,13,0,0,alpha]
-      \_ [14,14,14,14,0,0,white]
-   palmeiras [15,23,15,23,0,0,alpha]

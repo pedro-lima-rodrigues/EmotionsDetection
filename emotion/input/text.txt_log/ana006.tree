@@ -1,19 +1,26 @@
 
 ***************
-    PASS 6 (raiva)
+    PASS 6 (frases)
 ***************
 
 PAT OUTPUT TREE:
 
-_ROOT [0,23,0,23,0,0,node,un]
-   _roubo [0,23,0,23,6,16,node,fired,blt]
-      roubaram [0,7,0,7,0,0,alpha,fired]
-      \_ [8,8,8,8,0,0,white,fired]
-      _palmeiras [9,23,9,23,3,13,node,fired]
-         _o [9,10,9,10,2,12,node]
-            o [9,9,9,9,0,0,alpha]
-            \_ [10,10,10,10,0,0,white]
-         _meu [11,14,11,14,2,17,node]
-            meu [11,13,11,13,0,0,alpha]
-            \_ [14,14,14,14,0,0,white]
-         palmeiras [15,23,15,23,0,0,alpha]
+_ROOT [0,55,0,55,0,0,node,un, ("TOT LINES" 1) ("TOT TABS" 0) ("TOT LOWERS" 0) ("TOT CAPS" 0) ("TOT UPPERS" 0) ("TOT NUMS" 0)]
+   roubaram [0,7,0,7,0,0,alpha, ("NOSP" 1)]
+   \_ [8,8,8,8,0,0,white]
+   o [9,9,9,9,0,0,alpha]
+   \_ [10,10,10,10,0,0,white]
+   palmeiras [11,19,11,19,0,0,alpha]
+   \n [20,20,20,20,0,0,white]
+   \n [21,21,21,21,0,0,white]
+   assaltaram [22,31,22,31,0,0,alpha]
+   \_ [32,32,32,32,0,0,white]
+   o [33,33,33,33,0,0,alpha]
+   \_ [34,34,34,34,0,0,white]
+   _palmeiras [35,49,35,49,6,12,node,fired,blt]
+      avanti [35,40,35,40,0,0,alpha]
+      \_ [41,41,41,41,0,0,white]
+      palestra [42,49,42,49,0,0,alpha]
+   \n [50,50,50,50,0,0,white]
+   \n [51,51,51,51,0,0,white]
+   onze [52,55,52,55,0,0,alpha]

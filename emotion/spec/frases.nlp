@@ -1,0 +1,16 @@
+###############################################
+# FILE: frases
+# SUBJ: comment
+# AUTH: Your Name
+# CREATED: 2022-8-9 16:43:24
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_palmeiras <-
+	avanti [s]		### (1)
+	_xWHITE [s]		### (2)
+	palestra [s]	### (3)
+	@@

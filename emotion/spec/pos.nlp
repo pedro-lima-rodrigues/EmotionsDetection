@@ -1,0 +1,27 @@
+###############################################
+# FILE: artigo
+# SUBJ: comment
+# AUTH: Your Name
+# CREATED: 2022-8-5 17:51:51
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_artigo <-
+	_xWILD [s one matches=(o os a as)]	### (1)
+	@@
+
+_possessivo <-
+	_xWILD [s one matches=(meu minha)]	### (1)
+	@@
+
+_palmeiras <-
+	_xWILD [s one matches=(palmeiras verdão porco)]	### (1)
+	@@
+
+_verbo <-
+	_xWILD [s one matches=(roubaram assaltaram)]	### (1)
+	@@
+

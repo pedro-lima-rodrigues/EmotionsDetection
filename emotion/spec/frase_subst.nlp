@@ -1,0 +1,30 @@
+###############################################
+# FILE: frase_subst
+# SUBJ: comment
+# AUTH: Your Name
+# CREATED: 2022-8-9 16:47:58
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+#X("palmeiras", 2) = 1;
+N("emocao", 2) = "feliz";
+S("palmeiras") = 1;
+single();
+
+@RULES
+_fraseSubst <-
+	_artigo		### (1)
+	_palmeiras	### (2)
+	@@
+
+@POST
+S("numero") = 11;
+single();
+
+@RULES
+_numero <-
+	onze
+	@@

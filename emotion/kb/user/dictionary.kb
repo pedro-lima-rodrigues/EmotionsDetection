@@ -1,0 +1,39 @@
+add word "o"
+ind attr
+
+0
+
+pst
+artigo
+end ind
+
+add word "a"
+ind attr
+
+0
+
+pst
+artigo
+end ind
+
+add word "os"
+ind attr
+
+0
+
+pst
+artigo
+end ind
+
+add word "as"
+ind attr
+
+0
+
+pst
+artigo
+end ind
+
+
+quit
+
