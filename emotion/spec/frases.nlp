@@ -14,3 +14,17 @@ _palmeiras <-
 	_xWHITE [s]		### (2)
 	palestra [s]	### (3)
 	@@
+
+_palmeiras <-
+	time [s]	### (1)
+	_xWHITE [s]	### (2)
+	do [s]		### (3)
+	_xWHITE [s]	### (4)
+	amor [s]	### (5)
+	@@
+
+_interjeicao <-
+	_xWILD [s one matches=(pra para)]	### (1)
+	_xWHITE [s]							### (2)
+	cima [s]							### (3)
+	@@

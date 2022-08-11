@@ -1,0 +1,59 @@
+###############################################
+# FILE: emojis
+# SUBJ: comment
+# AUTH: Your Name
+# CREATED: 2022-8-10 23:25:56
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+# ENGRACADO
+@POST
+S("emocao") = "engracado";
+single();
+
+@RULES
+_emojiEngracado <-
+	_xWILD [s one matches=(😅 🤣 😂 😹)]
+	@@
+
+# FELICIDADE
+@POST
+S("emocao") = "felicidade";
+single();
+
+@RULES
+_emojiFeliz <-
+	_xWILD [s one matches=(😀 😃 😄 😁 😆)]
+	@@
+
+# TRISTEZA
+@POST
+S("emocao") = "tristeza";
+single();
+
+@RULES
+_emojiTriste <-
+	_xWILD [s one matches=(🥲 😢 😭 😥 😓)]
+	@@
+
+# AMOR
+@POST
+S("emocao") = "amor";
+single();
+
+@RULES
+_emojiAmor <-
+	_xWILD [s one matches=(😍 🥰 😘 😗 😙 😚 ❤️ 🧡 💛 💚 💙 💜 🖤 🤍 🤎 💕)]
+	@@
+
+# RAIVA
+@POST
+S("emocao") = "raiva";
+single();
+
+@RULES
+_emojiRaiva <-
+	_xWILD [s one matches=(😤 😠 😡 🤬)]
+	@@

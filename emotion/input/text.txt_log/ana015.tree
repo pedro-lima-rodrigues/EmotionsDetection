@@ -1,0 +1,13 @@
+
+***************
+    PASS 15 (torcida)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,20,0,20,0,0,node,un, ("TOT LINES" 1) ("TOT TABS" 0) ("TOT LOWERS" 0) ("TOT CAPS" 0) ("TOT UPPERS" 0) ("TOT NUMS" 0)]
+   _fraseInterjeicao [0,20,0,20,15,16,node,fired,blt, ("emocao" "torcida")]
+      _interjeicao [0,10,0,10,8,16,node,fired]
+         vamoooooooo [0,10,0,10,0,0,alpha, ("NOSP" 1)]
+      _palmeiras [12,20,12,20,6,36,node,fired]
+         palmeiras [12,20,12,20,0,0,alpha]

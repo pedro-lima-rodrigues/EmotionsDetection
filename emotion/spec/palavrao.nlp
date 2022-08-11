@@ -1,16 +1,18 @@
 ###############################################
-# FILE: frase_subst
+# FILE: palavrao
 # SUBJ: comment
 # AUTH: Your Name
-# CREATED: 2022-8-9 16:47:58
+# CREATED: 2022-8-10 23:43:21
 # MODIFIED:
 ###############################################
 
 @NODES _ROOT
 
+@POST
+S("emocao") = "raiva";
+single();
+
 @RULES
-_fraseSubst <-
-	_artigo			### (1)
-	_pronomePossessivo [s optional]	### (2)
-	_palmeiras						### (3)
+_palavrao <-
+	_xWILD [s one matches=(fdp pqp vtnc tnc vsf)]
 	@@

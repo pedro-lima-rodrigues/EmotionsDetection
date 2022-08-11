@@ -1,7 +1,9 @@
 Sequence file is:
 dicttok
 NOHASH rule: _gol [] [] <- _xALPHA [1,1] [] @@
+NOHASH rule: _interjeicao [] [] <- _xALPHA [1,1] [] @@
+NOHASH rule: _risada [] [] <- _xALPHA [1,1] [] @@
 NOHASH rule: _xNIL [] [] <- _xWHITE [1,1 singlet] [] @@
 
-Passes: (dicttok,nil) (nlp,KBFuncs) (nlp,funcs) (,dicionario) (nlp,longo) (nlp,frases) (nlp,pos) (nlp,RemoveWhiteSpace) (nlp,frase_subst) (nlp,frase_verbal) (,time) (,alegria) (,amor) (,raiva) 
+Passes: (dicttok,nil) (,KBFuncs) (nlp,funcs) (,dicionario) (nlp,frases) (nlp,pos) (nlp,gol) (nlp,vamo) (nlp,risada) (nlp,emojis) (nlp,palavrao) (nlp,RemoveWhiteSpace) (nlp,frase_subst) (nlp,frase_verbal) (nlp,torcida) (,time) (,alegria) (,amor) (,raiva) 
 

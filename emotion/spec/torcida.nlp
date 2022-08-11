@@ -1,20 +1,19 @@
 ###############################################
-# FILE: longo
+# FILE: torcida
 # SUBJ: comment
 # AUTH: Your Name
-# CREATED: 2022-8-9 17:6:58
+# CREATED: 2022-8-11 0:0:32
 # MODIFIED:
 ###############################################
 
 @NODES _ROOT
 
 @POST
-if(Longo(N("$text",1),"gol"))
-	single();
+S("emocao") = "torcida";
+single();
 
 @RULES
-_gol <-
-	_xALPHA	### (1)
+_fraseInterjeicao <-
+	_interjeicao
+	_palmeiras
 	@@
-
-

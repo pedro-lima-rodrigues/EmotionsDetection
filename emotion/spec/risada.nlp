@@ -1,0 +1,19 @@
+###############################################
+# FILE: risada
+# SUBJ: comment
+# AUTH: Your Name
+# CREATED: 2022-8-10 23:4:0
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+#if(/*Haha(N("$text",1)) || */Kkkj(N("$text",1)) || Ashua(N("$text",1)) || Rsrs(N("$text",1))) 
+if(Ashua(N("$text",1))) 
+	single();
+
+@RULES
+_risada <-
+	_xALPHA	### (1)
+	@@

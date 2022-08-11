@@ -13,8 +13,24 @@ _artigo <-
 	_xWILD [s one matches=(o os a as)]	### (1)
 	@@
 
-_possessivo <-
+_pronomePessoal <-
+	_xWILD [s one matches=(eu você)]	### (1)
+	@@
+
+_pronomePossessivo <-
 	_xWILD [s one matches=(meu minha)]	### (1)
+	@@
+
+_substantivo <-
+	_xWILD [s one matches=(falta nojo burrice sacanagem porcaria VAR arbitragem juiz juízes árbitro)]	### (1)
+	@@
+
+_preposicao <-
+	_xWILD [s one matches=(para)]	### (1)
+	@@
+
+_adjetivo <-
+	_xWILD [s one matches=(horroroso lixo ridículo nojento)]	### (1)
 	@@
 
 _palmeiras <-
@@ -22,6 +38,14 @@ _palmeiras <-
 	@@
 
 _verbo <-
-	_xWILD [s one matches=(roubaram assaltaram)]	### (1)
+	_xWILD [s one matches=(roubar roubou roubaram roubando assaltando odiar odeio)]	### (1)
+	@@
+
+_adverbio <-
+	_xWILD [s one matches=(não contra)]	### (1)
+	@@
+
+_interjeicao <-
+	_xWILD [s one matches=(vamos vamo bora)]	### (1)
 	@@
 

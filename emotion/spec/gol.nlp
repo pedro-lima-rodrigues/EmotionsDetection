@@ -1,16 +1,20 @@
 ###############################################
-# FILE: frase_subst
+# FILE: longo
 # SUBJ: comment
 # AUTH: Your Name
-# CREATED: 2022-8-9 16:47:58
+# CREATED: 2022-8-9 17:6:58
 # MODIFIED:
 ###############################################
 
 @NODES _ROOT
 
+@POST
+if(Gol(N("$text",1)))
+	single();
+
 @RULES
-_fraseSubst <-
-	_artigo			### (1)
-	_pronomePossessivo [s optional]	### (2)
-	_palmeiras						### (3)
+_gol <-
+	_xALPHA	### (1)
 	@@
+
+
