@@ -5,8 +5,8 @@
 
 PAT OUTPUT TREE:
 
-_ROOT [0,20,0,20,0,0,node,un, ("TOT LINES" 1) ("TOT TABS" 0) ("TOT LOWERS" 0) ("TOT CAPS" 0) ("TOT UPPERS" 0) ("TOT NUMS" 0)]
-   vamoooooooo [0,10,0,10,0,0,alpha,fired, ("NOSP" 1)]
-   \_ [11,11,11,11,0,0,white]
-   _palmeiras [12,20,12,20,6,36,node]
-      palmeiras [12,20,12,20,0,0,alpha]
+_ROOT [0,17,0,17,0,0,node,un, ("TOT LINES" 1) ("TOT TABS" 0) ("TOT LOWERS" 0) ("TOT CAPS" 0) ("TOT UPPERS" 0) ("TOT NUMS" 0)]
+   vamooooo [0,7,0,7,0,0,alpha,fired, ("NOSP" 1)]
+   \_ [8,8,8,8,0,0,white]
+   _palmeiras [9,17,9,17,6,36,node]
+      palmeiras [9,17,9,17,0,0,alpha]

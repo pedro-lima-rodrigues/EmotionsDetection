@@ -10,7 +10,7 @@
 # comeca com g o, termina com l, no meio pode ter o ou l, mas se tiver l, nao pode ter mais o
 Gol(L("palavra")){
 	L("comp") = strlength(L("palavra"));
-	if(strequalnocase(strchar(L("palavra"), 0),"g"))
+	if(strequalnocase(strchar(L("palavra"), 0),"g")){
 		if(strequalnocase(strchar(L("palavra"), 1),"o"))
 			L("c") = 2;
 			while(L("c")<L("comp")-1){
@@ -27,6 +27,7 @@ Gol(L("palavra")){
 				return 0;
 			return 1;
 		return 0;
+		}
 	return 0;
 }
 
@@ -53,7 +54,7 @@ Kkkj(L("palavra")){
 	return 1;
 }
 
-# a s h u em ordem
+# a s h u em ordem ashuashuashua
 Ashua(L("palavra")){
 	L("comp") = strlength(L("palavra"));
 	if(strequalnocase(strchar(L("palavra"), 1),"a") && strequalnocase(strchar(L("palavra"), 1),"s") && 

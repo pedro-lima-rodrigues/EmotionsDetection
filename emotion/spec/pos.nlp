@@ -37,7 +37,17 @@ _palmeiras <-
 	_xWILD [s one matches=(palmeiras verdão porco)]	### (1)
 	@@
 
-_verbo <-
+@POST
+S("verbo") = 1;
+S("sentimento") = "negativo";
+single();
+
+@RULES
+_emocao <-
+	_xWILD [s one matches=(roubar roubou roubaram roubando)]	### (1)
+	@@
+
+_odiar <-
 	_xWILD [s one matches=(roubar roubou roubaram roubando assaltando odiar odeio)]	### (1)
 	@@
 

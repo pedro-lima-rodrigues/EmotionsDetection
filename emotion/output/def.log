@@ -1,6 +1,6 @@
 Sequence file is:
 dicttok
-NOHASH rule: _gol [] [] <- _xALPHA [1,1] [] @@
+NOHASH rule: _xNIL [] [] <- _xALPHA [1,1] [] @@
 NOHASH rule: _interjeicao [] [] <- _xALPHA [1,1] [] @@
 NOHASH rule: _risada [] [] <- _xALPHA [1,1] [] @@
 NOHASH rule: _xNIL [] [] <- _xWHITE [1,1 singlet] [] @@

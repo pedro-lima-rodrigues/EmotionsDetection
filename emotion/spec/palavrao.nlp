@@ -13,6 +13,6 @@ S("emocao") = "raiva";
 single();
 
 @RULES
-_palavrao <-
+_emocao <-
 	_xWILD [s one matches=(fdp pqp vtnc tnc vsf)]
 	@@

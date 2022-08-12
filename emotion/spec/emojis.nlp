@@ -11,10 +11,11 @@
 # ENGRACADO
 @POST
 S("emocao") = "engracado";
+S("emoji") = 1;
 single();
 
 @RULES
-_emojiEngracado <-
+_emocao <-
 	_xWILD [s one matches=(😅 🤣 😂 😹)]
 	@@
 

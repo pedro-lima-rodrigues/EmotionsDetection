@@ -10,10 +10,11 @@
 
 @POST
 S("emocao") = "torcida";
+S("tipo") = "interjeicao";
 single();
 
 @RULES
-_fraseInterjeicao <-
+_frase <-
 	_interjeicao
 	_palmeiras
 	@@
