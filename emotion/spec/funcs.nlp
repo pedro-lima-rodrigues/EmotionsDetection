@@ -7,129 +7,145 @@
 ###############################################
 
 @DECL
+
+# comeca com algumas letras e termina com letras repetidas
+FinalRep(L("palavra"),L("inicio"),L("fim")){
+	L("comp_plv") = strlength(L("palavra"));
+	L("comp_in") = strlength(L("inicio"));
+	L("comp_fim") = strlength(L("fim"));
+	L("in_ok") = 1;
+	while(L("i")<L("comp_in") && L("in_ok") == 1){
+		if(strequalnocase(strchar(L("palavra"), L("i")),strchar(L("inicio"), L("i")))){
+			L("in_ok") = 1;
+		}
+		else{
+			L("in_ok") = 0;
+		}
+		L("i")++;
+	}
+	if(L("in_ok") == 1){
+		L("c") = L("comp_in");
+		while(L("c")<L("comp")){
+			while(L("j")<L("comp_fim")-1){
+				if(strequalnocase(strchar(L("palavra"), L("c")-1),strchar(L("fim"), L("j")))){
+					if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("fim"), L("j")))){
+						if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("fim"), L("j")+1))){
+							return 0;
+						}
+					}
+				}
+				L("j")++;
+			}
+			if(strequalnocase(strchar(L("palavra"), L("c")-1),strchar(L("fim"), L("comp_fim")))){
+				if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("fim"), L("comp_fim")))){
+					return 0;
+				}
+			}
+			L("c")++;
+		}
+		return 1;
+	}
+	return 0;
+}
+
 # comeca com g o, termina com l, no meio pode ter o ou l, mas se tiver l, nao pode ter mais o
 Gol(L("palavra")){
 	L("comp") = strlength(L("palavra"));
 	if(strequalnocase(strchar(L("palavra"), 0),"g")){
-		if(strequalnocase(strchar(L("palavra"), 1),"o"))
+		if(strequalnocase(strchar(L("palavra"), 1),"o")){
 			L("c") = 2;
 			while(L("c")<L("comp")-1){
-				if(strequalnocase(strchar(L("palavra"), L("c")-1),"o"))
-					if(strnotequalnocase(strchar(L("palavra"), L("c")),"o"))
-						if(strnotequalnocase(strchar(L("palavra"), L("c")),"l"))
+				if(strequalnocase(strchar(L("palavra"), L("c")-1),"o")){
+					if(strnotequalnocase(strchar(L("palavra"), L("c")),"o")){
+						if(strnotequalnocase(strchar(L("palavra"), L("c")),"l")){
 							return 0;
-				if(strequalnocase(strchar(L("palavra"), L("c")-1),"l"))
-					if(strnotequalnocase(strchar(L("palavra"), L("c")),"l"))
+						}
+					}
+				}
+				if(strequalnocase(strchar(L("palavra"), L("c")-1),"l")){
+					if(strnotequalnocase(strchar(L("palavra"), L("c")),"l")){
 						return 0;
+					}
+				}
 				L("c")++;
 			}
-			if(strnotequalnocase(strchar(L("palavra"), L("c")),"l"))
+			if(strnotequalnocase(strchar(L("palavra"), L("c")),"l")){
 				return 0;
+			}
 			return 1;
-		return 0;
 		}
-	return 0;
-}
-
-#sequencia de k's
-Kkk(L("palavra")){
-	L("comp") = strlength(L("palavra"));
-	while(L("c")<L("comp")){
-		if(strnotequalnocase(strchar(L("palavra"), L("c")),"k"))
-			return 0;
-		L("c")++;
+		return 0;
 	}
-	return 1;
+	return 0;
 }
 
 #ordem aleatoria de k's e j's
 Kkkj(L("palavra")){
 	L("comp") = strlength(L("palavra"));
 	while(L("c")<L("comp")){
-		if(strnotequalnocase(strchar(L("palavra"), L("c")),"k"))
-			if(strnotequalnocase(strchar(L("palavra"), L("c")),"j"))
+		if(strnotequalnocase(strchar(L("palavra"), L("c")),"k")){
+			if(strnotequalnocase(strchar(L("palavra"), L("c")),"j")){
 				return 0;
+			}
+		}
 		L("c")++;
 	}
 	return 1;
 }
 
-# a s h u em ordem ashuashuashua
-Ashua(L("palavra")){
+# 2 letras em ordem repetidas
+OrdRep(L("palavra"),L("trecho")){
 	L("comp") = strlength(L("palavra"));
-	if(strequalnocase(strchar(L("palavra"), 1),"a") && strequalnocase(strchar(L("palavra"), 1),"s") && 
-	strequalnocase(strchar(L("palavra"), 1),"h") && strequalnocase(strchar(L("palavra"), 1),"u"))
+	L("comp2") = strlength(L("trecho"));
+	while(L("i")<L("comp2")){
+		if(strequalnocase(strchar(L("palavra"), 0),strchar(L("trecho"), L("i")))){
+			L("1letra") = 1;
+		}
+		L("i")++;
+	}
+	if(L("1letra") == 1){
 		L("c") = 1;
 		while(L("c")<L("comp")){
-			if(strequalnocase(strchar(L("palavra"), L("c")-1),"a"))
-				if(strnotequalnocase(strchar(L("palavra"), L("c")),"s"))
+			L("i") = 0;
+			while(L("i")<L("comp2")-1){
+				if(strequalnocase(strchar(L("palavra"), L("c")-1),strchar(L("trecho"), L("i")))){
+					if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("trecho"), L("i")+1))){
+						return 0;
+					}
+				}
+				L("i")++;
+			}
+			if(strequalnocase(strchar(L("palavra"), L("c")-1),strchar(L("trecho"), L("comp2")-1))){
+				if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("trecho"), 0))){
 					return 0;
-			if(strequalnocase(strchar(L("palavra"), L("c")-1),"s"))
-				if(strnotequalnocase(strchar(L("palavra"), L("c")),"h"))
-					return 0;
-			if(strequalnocase(strchar(L("palavra"), L("c")-1),"h"))
-				if(strnotequalnocase(strchar(L("palavra"), L("c")),"u"))
-					return 0;
-			if(strequalnocase(strchar(L("palavra"), L("c")-1),"u"))
-				if(strnotequalnocase(strchar(L("palavra"), L("c")),"a"))
-					return 0;
+				}
+			}
 			L("c")++;
 		}
 		return 1;
-	return 0;
-}
-
-# h a em ordem
-Haha(L("palavra")){
-	L("comp") = strlength(L("palavra"));
-	if(strequalnocase(strchar(L("palavra"), 1),"a") && strequalnocase(strchar(L("palavra"), 1),"h"))
-		L("c") = 1;
-		while(L("c")<L("comp")){
-			if(strequalnocase(strchar(L("palavra"), L("c")-1),"a"))
-				if(strnotequalnocase(strchar(L("palavra"), L("c")),"h"))
-					return 0;
-			if(strequalnocase(strchar(L("palavra"), L("c")-1),"h"))
-				if(strnotequalnocase(strchar(L("palavra"), L("c")),"a"))
-					return 0;
-			L("c")++;
-		}
-		return 1;
-	return 0;
-}
-
-# r s em ordem
-Rsrs(L("palavra")){
-	L("comp") = strlength(L("palavra"));
-	if(strequalnocase(strchar(L("palavra"), 1),"r") && strequalnocase(strchar(L("palavra"), 1),"s"))
-		L("c") = 1;
-		while(L("c")<L("comp")){
-			if(strequalnocase(strchar(L("palavra"), L("c")-1),"r"))
-				if(strnotequalnocase(strchar(L("palavra"), L("c")),"s"))
-					return 0;
-			if(strequalnocase(strchar(L("palavra"), L("c")-1),"s"))
-				if(strnotequalnocase(strchar(L("palavra"), L("c")),"r"))
-					return 0;
-			L("c")++;
-		}
-		return 1;
+	}
 	return 0;
 }
 
 # v a m em ordem e depois o
 Vamo(L("palavra")){
 	L("comp") = strlength(L("palavra"));
-	if(strequalnocase(strchar(L("palavra"), 0),"v"))
-		if(strequalnocase(strchar(L("palavra"), 1),"a"))
-			if(strequalnocase(strchar(L("palavra"), 2),"m"))
+	if(strequalnocase(strchar(L("palavra"), 0),"v")){
+		if(strequalnocase(strchar(L("palavra"), 1),"a")){
+			if(strequalnocase(strchar(L("palavra"), 2),"m")){
 				L("c") = 3;
 				while(L("c")<L("comp")){
-					if(strnotequalnocase(strchar(L("palavra"), L("c")),"o"))
+					if(strnotequalnocase(strchar(L("palavra"), L("c")),"o")){
 						return 0;
+					}
 					L("c")++;
 				}
 				return 1;
+			}
 			return 0;
+		}
 		return 0;
+	}
 	return 0;
 }
 

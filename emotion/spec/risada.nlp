@@ -9,7 +9,7 @@
 @NODES _ROOT
 
 @POST
-if(Haha(N("$text",1)) || Kkkj(N("$text",1)) || Ashua(N("$text",1)) || Rsrs(N("$text",1))) 
+if(Rsrs(N("$text",1))) 
 	single();
 
 @RULES
