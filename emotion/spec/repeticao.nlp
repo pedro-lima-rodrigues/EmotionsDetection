@@ -13,7 +13,7 @@ if(FinalRep(N("$text",1),"go","ol")){
 	group(1,1,"_gol");
 	"gol.txt" << N("$text",1) << "\n";
 }
-if(OrdRep(N("$text",1),"rs") || OrdRep(N("$text",1),"ha") || OrdRep(N("$text",1),"ashu") || OrdRep(N("$text",1),"k") || Kkkj(N("$text",1))){
+if(OrdRep(N("$text",1),"rs") || OrdRep(N("$text",1),"ha") || OrdRep(N("$text",1),"ashu") || OrdRep(N("$text",1),"k") || AleRep(N("$text",1),"kj")){
 	group(1,1,"_risada");
 	"risada.txt" << N("$text",1) << "\n";
 }

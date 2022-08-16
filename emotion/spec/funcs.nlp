@@ -48,45 +48,21 @@ FinalRep(L("palavra"),L("inicio"),L("fim")){
 	return 0;
 }
 
-# comeca com g o, termina com l, no meio pode ter o ou l, mas se tiver l, nao pode ter mais o
-Gol(L("palavra")){
+# ordem aleatoria de letras
+AleRep(L("palavra"),L("letras")){
 	L("comp") = strlength(L("palavra"));
-	if(strequalnocase(strchar(L("palavra"), 0),"g")){
-		if(strequalnocase(strchar(L("palavra"), 1),"o")){
-			L("c") = 2;
-			while(L("c")<L("comp")-1){
-				if(strequalnocase(strchar(L("palavra"), L("c")-1),"o")){
-					if(strnotequalnocase(strchar(L("palavra"), L("c")),"o")){
-						if(strnotequalnocase(strchar(L("palavra"), L("c")),"l")){
-							return 0;
-						}
-					}
-				}
-				if(strequalnocase(strchar(L("palavra"), L("c")-1),"l")){
-					if(strnotequalnocase(strchar(L("palavra"), L("c")),"l")){
-						return 0;
-					}
-				}
-				L("c")++;
-			}
-			if(strnotequalnocase(strchar(L("palavra"), L("c")),"l")){
-				return 0;
-			}
-			return 1;
-		}
-		return 0;
-	}
-	return 0;
-}
-
-#ordem aleatoria de k's e j's
-Kkkj(L("palavra")){
-	L("comp") = strlength(L("palavra"));
+	L("comp2") = strlength(L("letras"));
 	while(L("c")<L("comp")){
-		if(strnotequalnocase(strchar(L("palavra"), L("c")),"k")){
-			if(strnotequalnocase(strchar(L("palavra"), L("c")),"j")){
-				return 0;
+		L("check") = 0;
+		L("i") = 0;
+		while(L("i")<L("comp2") && L("check")==0){
+			if(strequalnocase(strchar(L("palavra"), L("c")),strchar(L("letras"), L("i")))){
+				L("check") = 1;
 			}
+			L("i")++;
+		}
+		if(L("check")==0){
+			return 0;
 		}
 		L("c")++;
 	}
