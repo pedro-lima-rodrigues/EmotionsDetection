@@ -103,26 +103,24 @@ OrdRep(L("palavra"),L("trecho")){
 	return 0;
 }
 
-# v a m em ordem e depois o
-Vamo(L("palavra")){
-	L("comp") = strlength(L("palavra"));
-	if(strequalnocase(strchar(L("palavra"), 0),"v")){
-		if(strequalnocase(strchar(L("palavra"), 1),"a")){
-			if(strequalnocase(strchar(L("palavra"), 2),"m")){
-				L("c") = 3;
-				while(L("c")<L("comp")){
-					if(strnotequalnocase(strchar(L("palavra"), L("c")),"o")){
-						return 0;
-					}
-					L("c")++;
-				}
-				return 1;
+# ordem aleatoria de emojis
+NumEmoj(L("sequencia"),L("emojis")){
+	L("comp") = strlength(L("sequencia"))/2;
+	L("comp2") = strlength(L("emojis"))/2;
+	L("num") = 0;
+	while(L("c")<L("comp")){
+		L("check") = 0;
+		L("i") = 0;
+		while(L("i")<L("comp2") && L("check")==0){
+			if(strequalnocase(strchar(L("sequencia"), L("c")),strchar(L("emojis"), L("i")))){
+				L("check") = 1;
+				L("num")++;
 			}
-			return 0;
+			L("i")++;
 		}
-		return 0;
+		L("c")++;
 	}
-	return 0;
+	return L("num");
 }
 
 @@DECL

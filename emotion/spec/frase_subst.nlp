@@ -9,8 +9,8 @@
 @NODES _ROOT
 
 @RULES
-_fraseSubst <-
-	_artigo			### (1)
+_frasePalmeiras <-
+	_artigo	[s optional]		### (1)
 	_pronomePossessivo [s optional]	### (2)
 	_palmeiras						### (3)
 	@@

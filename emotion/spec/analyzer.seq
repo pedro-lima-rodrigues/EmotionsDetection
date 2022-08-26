@@ -9,9 +9,5 @@ nlp	emojis	# comment
 nlp	palavrao	# comment
 nlp	RemoveWhiteSpace	# comment
 nlp	frase_subst	# comment
-nlp	frase_verbal	# comment
-nlp	torcida	# comment
-/nlp	time	# comment
-/nlp	alegria	# comment
-/nlp	amor	# comment
+nlp	frase_verbo	# comment
 /nlp	raiva	# comment

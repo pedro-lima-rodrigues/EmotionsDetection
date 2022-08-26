@@ -1,0 +1,67 @@
+###############################################
+# FILE: torcida
+# SUBJ: comment
+# AUTH: Your Name
+# CREATED: 2022-8-11 0:0:32
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+S("emocao") = "torcida";
+S("tipo") = "interjeicao";
+single();
+
+@RULES
+_emocao <-
+	_interjeicao
+	_frasePalmeiras
+	@@
+
+@POST
+S("emocao") = "raiva";
+single();
+
+@RULES
+_emocao <-
+	_verboRaiva
+	_frasePalmeiras
+	@@
+
+_emocao <-
+	_adverbio
+	_frasePalmeiras
+	@@
+
+@POST
+S("emocao") = "felicidade";
+single();
+
+@RULES
+_emocao <-
+	_gol
+	@@
+
+@POST
+S("emocao") = "engracado";
+single();
+
+@RULES
+_emocao <-
+	_risada
+	@@
+
+_semMundial <-
+	_frasePalmeiras
+	_nao
+	_tem
+	_mundial
+	@@
+
+_semMundial <-
+	_frasePalmeiras
+	_sem
+	_mundial
+	@@
+
