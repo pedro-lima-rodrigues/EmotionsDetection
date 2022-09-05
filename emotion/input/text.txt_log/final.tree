@@ -1,12 +1,6 @@
 
 FINAL OUTPUT TREE:
 
-_ROOT [0,18,0,10,0,0,node,un, ("TOT LINES" 1) ("TOT TABS" 0) ("TOT LOWERS" 0) ("TOT CAPS" 0) ("TOT UPPERS" 0) ("TOT NUMS" 0)]
-   _emocao [0,3,0,0,8,19,node, ("emocao" "engracado") ("emoji" 1) ("intensidade" 1)]
-      😅 [0,3,0,0,0,0,emoji, ("NOSP" 1)]
-   _emocao [5,8,2,2,8,19,node, ("emocao" "engracado") ("emoji" 1) ("intensidade" 1)]
-      🤣 [5,8,2,2,0,0,emoji]
-   _emocao [10,13,4,4,8,19,node, ("emocao" "engracado") ("emoji" 1) ("intensidade" 1)]
-      😂 [10,13,4,4,0,0,emoji]
-   _emocao [15,18,6,6,8,19,node, ("emocao" "engracado") ("emoji" 1) ("intensidade" 1)]
-      😹 [15,18,6,6,0,0,emoji]
+_ROOT [0,11,0,11,0,0,node,un, ("TOT LINES" 1) ("TOT TABS" 0) ("TOT LOWERS" 0) ("TOT CAPS" 0) ("TOT UPPERS" 0) ("TOT NUMS" 0)]
+   _interjeicao [0,11,0,11,8,26,node]
+      vamooooooooo [0,11,0,11,0,0,alpha, ("NOSP" 1)]

@@ -59,12 +59,12 @@ _gol <-
 	_xWILD [s one matches=(golaço golaco)]	### (1)
 	@@
 
-_nao <-
+_neg <-
 	não [s]	### (1)
 	@@
 
 _tem <-
-	tem [s]	### (1)
+	_xWILD [s one matches=(tem possui ganhou)]	### (1)
 	@@
 
 _sem <-

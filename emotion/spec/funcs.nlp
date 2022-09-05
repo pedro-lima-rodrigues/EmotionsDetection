@@ -8,36 +8,25 @@
 
 @DECL
 
-# comeca com algumas letras e termina com letras repetidas
-FinalRep(L("palavra"),L("inicio"),L("fim")){
+# palavra com letras repetidas
+LetrasRep(L("palavra"),L("letras")){
 	L("comp_plv") = strlength(L("palavra"));
-	L("comp_in") = strlength(L("inicio"));
-	L("comp_fim") = strlength(L("fim"));
-	L("in_ok") = 1;
-	while(L("i")<L("comp_in") && L("in_ok") == 1){
-		if(strequalnocase(strchar(L("palavra"), L("i")),strchar(L("inicio"), L("i")))){
-			L("in_ok") = 1;
-		}
-		else{
-			L("in_ok") = 0;
-		}
-		L("i")++;
-	}
-	if(L("in_ok") == 1){
-		L("c") = L("comp_in");
-		while(L("c")<L("comp")){
-			while(L("j")<L("comp_fim")-1){
-				if(strequalnocase(strchar(L("palavra"), L("c")-1),strchar(L("fim"), L("j")))){
-					if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("fim"), L("j")))){
-						if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("fim"), L("j")+1))){
+	L("comp_ltr") = strlength(L("letras"));
+	if(strequalnocase(strchar(L("palavra"), 0),strchar(L("letras"), 0))){
+		L("c") = 1;
+		while(L("c")<L("comp_plv")){
+			while(L("j")<L("comp_ltr")-1){
+				if(strequalnocase(strchar(L("palavra"), L("c")-1),strchar(L("letras"), L("j")))){
+					if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("letras"), L("j")))){
+						if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("letras"), L("j")+1))){
 							return 0;
 						}
 					}
 				}
 				L("j")++;
 			}
-			if(strequalnocase(strchar(L("palavra"), L("c")-1),strchar(L("fim"), L("comp_fim")))){
-				if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("fim"), L("comp_fim")))){
+			if(strequalnocase(strchar(L("palavra"), L("c")-1),strchar(L("letras"), L("comp_ltr")))){
+				if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("letras"), L("comp_ltr")))){
 					return 0;
 				}
 			}
@@ -121,6 +110,12 @@ NumEmoj(L("sequencia"),L("emojis")){
 		L("c")++;
 	}
 	return L("num");
+}
+
+Addemotion(L("node")){
+	L("emocao") = pnvar(L("node"),"emocao");
+	L("con") = AddUniqueCon(G("emocao"),L("emocao"));
+	IncrementCount(L("con"),"contagem");
 }
 
 @@DECL

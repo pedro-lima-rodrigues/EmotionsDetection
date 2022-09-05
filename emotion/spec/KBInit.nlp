@@ -1,0 +1,13 @@
+###############################################
+# FILE: KBInit
+# SUBJ: comment
+# AUTH: Your Name
+# CREATED: 2022-9-2 17:0:38
+# MODIFIED:
+###############################################
+
+@CODE
+G("emocao") = findconcept(findroot(),"emocao");
+if (!G("emocao")) G("emocao") = makeconcept(findroot(),"emocao");
+
+@@CODE

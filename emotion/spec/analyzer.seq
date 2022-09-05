@@ -1,5 +1,6 @@
 dicttok	nil	# Gen:   Convert input to token list
-/nlp	KBFuncs	# comment
+nlp	KBFuncs	# comment
+nlp	KBInit	# comment
 nlp	funcs	# comment
 /nlp	dicionario	# comment
 nlp	frases	# comment
@@ -11,3 +12,5 @@ nlp	RemoveWhiteSpace	# comment
 nlp	frase_subst	# comment
 nlp	frase_verbo	# comment
 /nlp	raiva	# comment
+nlp	emocao	# comment
+nlp	KBMostra	# comment

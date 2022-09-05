@@ -1,0 +1,12 @@
+###############################################
+# FILE: KBMostra
+# SUBJ: comment
+# AUTH: Your Name
+# CREATED: 2022-9-2 17:3:0
+# MODIFIED:
+###############################################
+
+@CODE
+DisplayKB(G("emocao"),1);
+
+@@CODE

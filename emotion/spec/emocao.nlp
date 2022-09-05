@@ -1,0 +1,17 @@
+###############################################
+# FILE: emocao
+# SUBJ: comment
+# AUTH: Your Name
+# CREATED: 2022-9-2 17:5:37
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+Addemotion(N(1));
+
+@RULES
+_xNIL <-
+	_emocao	### (1)
+	@@

@@ -1,15 +1,4 @@
 
 ***************
-    PASS 5 (frases)
+    PASS 5 (dicionario)
 ***************
-
-PAT OUTPUT TREE:
-
-_ROOT [0,18,0,10,0,0,node,un, ("TOT LINES" 1) ("TOT TABS" 0) ("TOT LOWERS" 0) ("TOT CAPS" 0) ("TOT UPPERS" 0) ("TOT NUMS" 0)]
-   😅 [0,3,0,0,0,0,emoji, ("NOSP" 1)]
-   \_ [4,4,1,1,0,0,white]
-   🤣 [5,8,2,2,0,0,emoji]
-   \_ [9,9,3,3,0,0,white]
-   😂 [10,13,4,4,0,0,emoji]
-   \_ [14,14,5,5,0,0,white]
-   😹 [15,18,6,6,0,0,emoji]
