@@ -6,11 +6,12 @@ nlp	funcs	# comment
 nlp	frases	# comment
 nlp	pos	# comment
 nlp	repeticao	# comment
-nlp	emojis	# comment
 nlp	palavrao	# comment
+nlp	emojis	# comment
 nlp	RemoveWhiteSpace	# comment
 nlp	frase_subst	# comment
 nlp	frase_verbo	# comment
 /nlp	raiva	# comment
 nlp	emocao	# comment
 nlp	KBMostra	# comment
+nlp	output	# comment

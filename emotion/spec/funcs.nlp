@@ -92,30 +92,35 @@ OrdRep(L("palavra"),L("trecho")){
 	return 0;
 }
 
-# ordem aleatoria de emojis
-NumEmoj(L("sequencia"),L("emojis")){
-	L("comp") = strlength(L("sequencia"))/2;
-	L("comp2") = strlength(L("emojis"))/2;
-	L("num") = 0;
-	while(L("c")<L("comp")){
-		L("check") = 0;
-		L("i") = 0;
-		while(L("i")<L("comp2") && L("check")==0){
-			if(strequalnocase(strchar(L("sequencia"), L("c")),strchar(L("emojis"), L("i")))){
-				L("check") = 1;
-				L("num")++;
-			}
-			L("i")++;
-		}
-		L("c")++;
-	}
-	return L("num");
-}
-
-Addemotion(L("node")){
+AddEmotion(L("node")){
 	L("emocao") = pnvar(L("node"),"emocao");
 	L("con") = AddUniqueCon(G("emocao"),L("emocao"));
 	IncrementCount(L("con"),"contagem");
 }
+
+#AddEmotionTeste(L("node")){
+#	L("emocao") = pnvar(L("node"),"emocao");
+#	L("intensidade") = pnvar(L("node"),"intensidade");
+#	L("con") = AddUniqueConVal(G("emocao"),L("emocao"),L("intensidade"));
+#	IncrementCount(L("con"),"intensidade");
+#}
+
+ZeroEmotion() {
+	L("con") = down(G("emocao"));
+	while (L("con")) {
+		replaceval(L("con"),"contagem",0);
+		L("con") = next(L("con"));
+	}
+	return 1;
+}
+
+#AddEmotion1(L("node")){
+#	L("engracado") = pnvar(L("node"),"engracado");
+#	L("eng") = AddUniqueCon(G("engracado"),L("engracado"));
+#	IncrementCount(L("eng"),"engracado");
+#	L("felicidade") = pnvar(L("node"),"felicidade");
+#	L("fel") = AddUniqueCon(G("felicidade"),L("felicidade"));
+#	IncrementCount(L("fel"),"felicidade");
+#}
 
 @@DECL

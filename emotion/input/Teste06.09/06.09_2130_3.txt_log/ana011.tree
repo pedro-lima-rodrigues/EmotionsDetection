@@ -1,0 +1,23 @@
+
+***************
+    PASS 11 (RemoveWhiteSpace)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,67,0,65,0,0,node,un, ("TOT LINES" 1) ("TOT TABS" 0) ("TOT LOWERS" 0) ("TOT CAPS" 0) ("TOT UPPERS" 0) ("TOT NUMS" 0)]
+   Que [0,2,0,2,0,0,alpha, ("NOSP" 1)]
+   vergonha [4,11,4,11,0,0,alpha]
+   isso [13,16,13,16,0,0,alpha]
+   que [18,20,18,20,0,0,alpha]
+   _artigo [22,22,22,22,7,12,node]
+      a [22,22,22,22,0,0,alpha]
+   torcida [24,30,24,30,0,0,alpha]
+   do [32,33,32,33,0,0,alpha]
+   _palmeiras [35,43,35,43,7,42,node]
+      palmeiras [35,43,35,43,0,0,alpha]
+   faz [45,47,45,47,0,0,alpha]
+   no [49,50,49,50,0,0,alpha]
+   hino [52,55,52,55,0,0,alpha]
+   nacional [57,64,57,64,0,0,alpha]
+   … [65,67,65,65,0,0,punct, ("NOSP" 1)]

@@ -1,0 +1,23 @@
+
+***************
+    PASS 9 (palavrao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,38,0,37,0,0,node,un, ("TOT LINES" 1) ("TOT TABS" 0) ("TOT LOWERS" 0) ("TOT CAPS" 0) ("TOT UPPERS" 0) ("TOT NUMS" 0)]
+   _interjeicao [0,3,0,3,7,54,node]
+      Vamo [0,3,0,3,0,0,alpha, ("NOSP" 1)]
+   \_ [4,4,4,4,0,0,white]
+   _palmeiras [5,13,5,13,7,42,node]
+      palmeiras [5,13,5,13,0,0,alpha]
+   \_ [14,14,14,14,0,0,white]
+   \n [15,15,15,15,0,0,white]
+   _interjeicao [16,19,16,19,7,54,node]
+      Vamo [16,19,16,19,0,0,alpha]
+   \_ [20,20,20,20,0,0,white]
+   virar [21,25,21,25,0,0,alpha]
+   \_ [26,26,26,26,0,0,white]
+   essa [27,30,27,30,0,0,alpha]
+   \_ [31,31,31,31,0,0,white]
+   bagaça [32,38,32,37,0,0,alpha]

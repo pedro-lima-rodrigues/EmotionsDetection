@@ -35,28 +35,15 @@ _emocao <-
 	@@
 
 @POST
-S("emocao") = "felicidade";
-single();
-
-@RULES
-_emocao <-
-	_gol
-	@@
-
-@POST
 S("emocao") = "engracado";
 single();
 
 @RULES
-_emocao <-
-	_risada
-	@@
-
 _semMundial <-
 	_frasePalmeiras
 	_nao
 	_tem
-	_mundial
+	_xWILD [trig match=(_mundial)]
 	@@
 
 _semMundial <-

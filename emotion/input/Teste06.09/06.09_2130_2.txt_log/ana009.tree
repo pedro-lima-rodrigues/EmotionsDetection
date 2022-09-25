@@ -1,0 +1,36 @@
+
+***************
+    PASS 9 (palavrao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,63,0,62,0,0,node,un, ("TOT LINES" 1) ("TOT TABS" 0) ("TOT LOWERS" 0) ("TOT CAPS" 0) ("TOT UPPERS" 0) ("TOT NUMS" 0)]
+   @ [0,0,0,0,0,0,punct, ("NOSP" 1)]
+   _palmeiras [1,9,1,9,7,42,node]
+      Palmeiras [1,9,1,9,0,0,alpha, ("NOSP" 1)]
+   \_ [10,10,10,10,0,0,white]
+   É [11,12,11,11,0,0,alpha]
+   \_ [13,13,12,12,0,0,white]
+   hoje [14,17,13,16,0,0,alpha]
+   ! [18,18,17,17,0,0,punct, ("NOSP" 1)]
+   \_ [19,19,18,18,0,0,white]
+   _interjeicao [20,23,19,22,7,54,node]
+      Vamo [20,23,19,22,0,0,alpha]
+   \_ [24,24,23,23,0,0,white]
+   _interjeicao [25,32,24,31,6,26,node]
+      pra [25,27,24,26,0,0,alpha]
+      \_ [28,28,27,27,0,0,white]
+      cima [29,32,28,31,0,0,alpha]
+   , [33,33,32,32,0,0,punct, ("NOSP" 1)]
+   \_ [34,34,33,33,0,0,white]
+   @ [35,35,34,34,0,0,punct]
+   _palmeiras [36,44,35,43,7,42,node]
+      Palmeiras [36,44,35,43,0,0,alpha, ("NOSP" 1)]
+   ! [45,45,44,44,0,0,punct, ("NOSP" 1)]
+   \_ [46,46,45,45,0,0,white]
+   Avanti [47,52,46,51,0,0,alpha]
+   , [53,53,52,52,0,0,punct, ("NOSP" 1)]
+   \_ [54,54,53,53,0,0,white]
+   palestra [55,62,54,61,0,0,alpha]
+   ! [63,63,62,62,0,0,punct, ("NOSP" 1)]

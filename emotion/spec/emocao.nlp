@@ -9,7 +9,7 @@
 @NODES _ROOT
 
 @POST
-Addemotion(N(1));
+AddEmotion(N(1));
 
 @RULES
 _xNIL <-

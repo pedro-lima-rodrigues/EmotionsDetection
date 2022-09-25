@@ -1,0 +1,18 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: Your Name
+# CREATED: 2022-9-9 17:18:58
+# MODIFIED:
+###############################################
+
+@CODE
+G("output") << pnvar(pnroot(),"$text") << "\n";
+L("emocao") = down(G("emocao"));
+while (L("emocao")) {
+	G("output") << "\t" << conceptname(L("emocao")) << ": " << numval(L("emocao"),"contagem") << "\n";
+	L("emocao") = next(L("emocao"));
+}
+#ZeroEmotion();
+
+@@CODE

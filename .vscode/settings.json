@@ -47,5 +47,5 @@
     },
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "git.ignoreLimitWarning": true,
-    "analyzer.current": "c:\\Users\\pepel\\.vscode\\extensions\\dehilster.nlp-1.35.0\\nlp-engine\\analyzers\\corporate"
+    "analyzer.current": "c:\\Users\\pepel\\GitHub\\EmotionsDetection\\corporate"
 }

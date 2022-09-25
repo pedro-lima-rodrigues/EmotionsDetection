@@ -12,22 +12,24 @@
 @POST
 S("emocao") = "engracado";
 S("emoji") = 1;
-S("intensidade") = NumEmoj(N("$text",1),"😅🤣😂😹");
 single();
 
 @RULES
 _emocao <-
-	_xWILD [s one matches=(😅🤣😂😹)]	### (1)
+	_xWILD [s one matches=(😅 🤣 😂 😹)]	### (1)
 	@@
 
 # FELICIDADE
 @POST
 S("emocao") = "felicidade";
+S("emoji") = 1;
+#S("felicidade") = strlength(N("$text",1))/2;
 single();
 
 @RULES
 _emocao <-
-	_xWILD [s one matches=(😀 😃 😄 😁 😆)]
+	#_xWILD [min=1 matches=(😀 😃 😄 😁 😆)]
+	_xWILD [s one matches=(😀 😃 😄 😁 😆)]	### (1)
 	@@
 
 # TRISTEZA

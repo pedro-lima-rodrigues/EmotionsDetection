@@ -9,5 +9,15 @@
 @CODE
 G("emocao") = findconcept(findroot(),"emocao");
 if (!G("emocao")) G("emocao") = makeconcept(findroot(),"emocao");
+rmchildren(G("emocao"));
+
+G("output") = openfile(G("$apppath") + "/outputfile/output1.txt","app");
+#G("output") = "output.txt";
+
+#G("engracado") = findconcept(findroot(),"engracado");
+#if (!G("engracado")) G("engracado") = makeconcept(findroot(),"engracado");
+
+#G("felicidade") = findconcept(findroot(),"felicidade");
+#if (!G("felicidade")) G("felicidade") = makeconcept(findroot(),"felicidade");
 
 @@CODE

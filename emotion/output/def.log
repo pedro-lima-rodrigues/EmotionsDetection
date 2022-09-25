@@ -3,5 +3,5 @@ dicttok
 NOHASH rule: _xNIL [] [] <- _xALPHA [1,1] [] @@
 NOHASH rule: _xNIL [] [] <- _xWHITE [1,1 singlet] [] @@
 
-Passes: (dicttok,nil) (nlp,KBFuncs) (nlp,KBInit) (nlp,funcs) (,dicionario) (nlp,frases) (nlp,pos) (nlp,repeticao) (nlp,emojis) (nlp,palavrao) (nlp,RemoveWhiteSpace) (nlp,frase_subst) (nlp,frase_verbo) (,raiva) (nlp,emocao) (nlp,KBMostra) 
+Passes: (dicttok,nil) (nlp,KBFuncs) (nlp,KBInit) (nlp,funcs) (,dicionario) (nlp,frases) (nlp,pos) (nlp,repeticao) (nlp,palavrao) (nlp,emojis) (nlp,RemoveWhiteSpace) (nlp,frase_subst) (nlp,frase_verbo) (,raiva) (nlp,emocao) (nlp,KBMostra) (nlp,output) 
 
