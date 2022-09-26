@@ -12,7 +12,48 @@
 LetrasRep(L("palavra"),L("letras")){
 	L("comp_plv") = strlength(L("palavra"));
 	L("comp_ltr") = strlength(L("letras"));
-	if(strequalnocase(strchar(L("palavra"), 0),strchar(L("letras"), 0))){
+	if(strequalnocase(strchar(L("palavra"), 0),strchar(L("letras"), 0)) && L("comp_plv") != L("comp_ltr")){
+		"passei pelo ponto (1).txt" << L("c") << "   " << L("j") << "   ////   ";
+		L("c") = 1;
+		L("ok") = 1;
+		while(L("c")<L("comp_plv")){
+			"passei pelo ponto (2).txt" << L("c") << "   " << L("j") << "   ////   ";
+			L("j") = 0;
+			while(L("j")<L("comp_ltr")-1){
+				"passei pelo ponto (3).txt" << L("c") << "   " << L("j") << "   ////   ";
+				if(strequalnocase(strchar(L("palavra"), L("c")-1),strchar(L("letras"), L("j")))){
+					"passei pelo ponto (4).txt" << L("c") << "   " << L("j") << "   ////   ";
+					if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("letras"), L("j")))){
+						"passei pelo ponto (5).txt" << L("c") << "   " << L("j") << "   ////   ";
+						if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("letras"), L("j")+1))){
+							"passei pelo ponto (6).txt" << "oi";
+							return 0;
+						}
+					}
+				}
+				L("j")++;
+			}
+			if(L("j")>L("comp_ltr")-2){
+				"passei pelo ponto (7).txt" << "oi";
+				if(strequalnocase(strchar(L("palavra"), L("c")-1),strchar(L("letras"), L("comp_ltr")-1))){
+					"passei pelo ponto (8).txt" << "oi";
+					if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("letras"), L("comp_ltr")-1))){
+						"passei pelo ponto (9).txt" << "oi";
+						return 0;
+					}
+				}
+			}
+			L("c")++;
+		}
+		return 1;
+	}
+	return 0;
+}
+
+LetraRep(L("palavra"),L("letras")){
+	L("comp_plv") = strlength(L("palavra"));
+	L("comp_ltr") = strlength(L("letras"));
+	if(strequalnocase(strchar(L("palavra"), 0),strchar(L("letras"), 0)) && L("comp_plv") != L("comp_ltr")){
 		L("c") = 1;
 		while(L("c")<L("comp_plv")){
 			while(L("j")<L("comp_ltr")-1){
@@ -33,6 +74,73 @@ LetrasRep(L("palavra"),L("letras")){
 			L("c")++;
 		}
 		return 1;
+	}
+	return 0;
+}
+
+# comeca com algumas letras e termina com letras repetidas
+FinalRep(L("palavra"),L("inicio"),L("fim")){
+	L("comp_plv") = strlength(L("palavra"));
+	L("comp_in") = strlength(L("inicio"));
+	L("comp_fim") = strlength(L("fim"));
+	L("in_ok") = 1;
+	while(L("i")<L("comp_in") && L("in_ok") == 1){
+		if(strequalnocase(strchar(L("palavra"), L("i")),strchar(L("inicio"), L("i")))){
+			L("in_ok") = 1;
+		}
+		else{
+			L("in_ok") = 0;
+		}
+		L("i")++;
+	}
+	if(L("in_ok") == 1 && strequalnocase(strchar(L("palavra"), L("comp_in")),strchar(L("fim"), 0))){
+		L("c") = L("comp_in")+1;
+		"passei pelo ponto (4).txt" << L("c") << "    " << L("comp_plv");
+		while(L("c")<L("comp_plv")){
+			"passei pelo ponto (7).txt" << L("c");
+			while(L("j")<L("comp_fim")-1){
+				"passei pelo ponto (8).txt" << L("c");
+				if(strequalnocase(strchar(L("palavra"), L("c")-1),strchar(L("fim"), L("j")))){
+					"passei pelo ponto (9).txt" << L("c");
+					if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("fim"), L("j")))){
+						"passei pelo ponto (10).txt" << L("c");
+						if(strequalnocase(strchar(L("palavra"), L("c")),strchar(L("fim"), L("j")+1))){
+							"passei pelo ponto (11).txt" << L("c");
+							if(strnotequalnocase(strchar(L("palavra"), L("c")+1),strchar(L("fim"), L("j")+1))){
+								return 0;
+							}
+							"passei pelo ponto (1).txt" << L("c");
+							L("c")++;
+						}
+						else{
+							return 0;
+						}
+					}
+					else{
+						L("j")++;
+					}
+					"passei pelo ponto (2).txt" << L("c");
+				}
+				else{
+					L("j")++;
+					"passei pelo ponto (3).txt" << L("c");
+				}
+			}
+			if(L("j")>L("comp_fim")-2){
+				if(strequalnocase(strchar(L("palavra"), L("c")-1),strchar(L("fim"), L("comp_fim")-1))){
+					if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("fim"), L("comp_fim")-1))){
+						return 0;
+					}
+				}
+			}
+			L("c")++;
+		}
+		if(strequalnocase(strchar(L("palavra"), L("comp_plv")-1),strchar(L("fim"), L("comp_fim")-1))){
+			return 1;
+			"passei pelo ponto (5).txt" << L("c");
+		}
+		"passei pelo ponto (6).txt" << L("c");
+		return 0;
 	}
 	return 0;
 }
@@ -105,14 +213,14 @@ AddEmotion(L("node")){
 #	IncrementCount(L("con"),"intensidade");
 #}
 
-ZeroEmotion() {
-	L("con") = down(G("emocao"));
-	while (L("con")) {
-		replaceval(L("con"),"contagem",0);
-		L("con") = next(L("con"));
-	}
-	return 1;
-}
+#ZeroEmotion() {
+#	L("con") = down(G("emocao"));
+#	while (L("con")) {
+#		replaceval(L("con"),"contagem",0);
+#		L("con") = next(L("con"));
+#	}
+#	return 1;
+#}
 
 #AddEmotion1(L("node")){
 #	L("engracado") = pnvar(L("node"),"engracado");

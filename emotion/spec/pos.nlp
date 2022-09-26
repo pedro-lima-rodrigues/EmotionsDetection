@@ -56,7 +56,7 @@ _interjeicao <-
 	@@
 
 _gol <-
-	_xWILD [s one matches=(golaço golaco)]	### (1)
+	_xWILD [s one matches=(golaço golaco gol gols)]	### (1)
 	@@
 
 _neg <-

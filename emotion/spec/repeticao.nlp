@@ -9,6 +9,7 @@
 @NODES _ROOT
 
 @POST
+#if(AleRep(N("$text",1),"gol")){
 if(LetrasRep(N("$text",1),"gol")){
 	L("node") = group(1,1,"_emocao");
 	pnmakevar(L("node"),"emocao","felicidade");
@@ -21,7 +22,7 @@ if(OrdRep(N("$text",1),"rs") || OrdRep(N("$text",1),"ha") || OrdRep(N("$text",1)
 }
 if(LetrasRep(N("$text",1),"vamo")){
 	group(1,1,"_interjeicao");
-	"interjeicao.txt" << N("$text",1) << "\n";
+	"vamo.txt" << N("$text",1) << "\n";
 }
 
 @RULES

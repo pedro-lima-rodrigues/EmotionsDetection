@@ -13,6 +13,5 @@ while (L("emocao")) {
 	G("output") << "\t" << conceptname(L("emocao")) << ": " << numval(L("emocao"),"contagem") << "\n";
 	L("emocao") = next(L("emocao"));
 }
-#ZeroEmotion();
 
 @@CODE
