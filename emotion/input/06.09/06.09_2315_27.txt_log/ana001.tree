@@ -1,0 +1,16 @@
+
+***************
+    PASS 1 (tokenize)
+***************
+_ROOT [0,54,0,54,0,0,node,un]
+   se [0,1,0,1,0,0,alpha]
+   \_ [2,2,2,2,0,0,white]
+   fudeu [3,7,3,7,0,0,alpha]
+   \_ [8,8,8,8,0,0,white]
+   o [9,9,9,9,0,0,alpha]
+   \_ [10,10,10,10,0,0,white]
+   palmeiras [11,19,11,19,0,0,alpha]
+   \_ [20,20,20,20,0,0,white]
+   crlh [21,24,21,24,0,0,alpha]
+   \_ [25,25,25,25,0,0,white]
+   kkkkkkkkkkkkkkkkkkkkkkkkkkkkk [26,54,26,54,0,0,alpha]

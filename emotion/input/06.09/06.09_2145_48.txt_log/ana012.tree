@@ -1,0 +1,43 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,161,0,161,0,0,node,un]
+   _frasePalmeiras [0,10,0,10,12,12,node,fired,blt]
+      _artigo [0,0,0,0,6,12,node]
+         o [0,0,0,0,0,0,alpha]
+      _palmeiras [2,10,2,10,6,48,node]
+         Palmeiras [2,10,2,10,0,0,alpha]
+   _tem [12,14,12,14,6,80,node]
+      tem [12,14,12,14,0,0,alpha]
+   pacto [16,20,16,20,0,0,alpha]
+   na [22,23,22,23,0,0,alpha]
+   libertadores [25,36,25,36,0,0,alpha]
+   ajuda [38,42,38,42,0,0,alpha]
+   das [44,46,44,46,0,0,alpha]
+   bruxas [48,53,48,53,0,0,alpha]
+   doende [55,60,55,60,0,0,alpha]
+   do [62,63,62,63,0,0,alpha]
+   bicho [65,69,65,69,0,0,alpha]
+   do [71,72,71,72,0,0,alpha]
+   mal [74,76,74,76,0,0,alpha]
+   de [78,79,78,79,0,0,alpha]
+   qualquer [81,88,81,88,0,0,alpha]
+   coisa [90,94,90,94,0,0,alpha]
+   esse [97,100,97,100,0,0,alpha]
+   time [102,105,102,105,0,0,alpha]
+   vendeu [107,112,107,112,0,0,alpha]
+   _artigo [114,114,114,114,6,12,node]
+      a [114,114,114,114,0,0,alpha]
+   alma [116,119,116,119,0,0,alpha]
+   pra [121,123,121,123,0,0,alpha]
+   ter [125,127,125,127,0,0,alpha]
+   sucesso [129,135,129,135,0,0,alpha]
+   na [137,138,137,138,0,0,alpha]
+   libertadores [140,151,140,151,0,0,alpha]
+   _pronomePossessivo [154,156,154,156,6,20,node]
+      meu [154,156,154,156,0,0,alpha]
+   Deus [158,161,158,161,0,0,alpha]

@@ -1,0 +1,27 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,71,0,71,0,0,node,un]
+   _artigo [0,0,0,0,6,12,node]
+      A [0,0,0,0,0,0,alpha]
+   internet [2,9,2,9,0,0,alpha]
+   da [11,12,11,12,0,0,alpha]
+   _pronomePossessivo [14,18,14,18,6,20,node]
+      minha [14,18,14,18,0,0,alpha]
+   TV [20,21,20,21,0,0,alpha]
+   toda [23,26,23,26,0,0,alpha]
+   vez [28,30,28,30,0,0,alpha]
+   no [32,33,32,33,0,0,alpha]
+   jogo [35,38,35,38,0,0,alpha]
+   do [40,41,40,41,0,0,alpha]
+   _frasePalmeiras [43,51,43,51,12,12,node,fired,blt]
+      _palmeiras [43,51,43,51,6,48,node]
+         Palmeiras [43,51,43,51,0,0,alpha]
+   fica [53,56,53,56,0,0,alpha]
+   querendo [58,65,58,65,0,0,alpha]
+   zoar [67,70,67,70,0,0,alpha]
+   . [71,71,71,71,0,0,punct]

@@ -1,0 +1,34 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,80,0,79,0,0,node,un]
+   RT [0,1,0,1,0,0,alpha]
+   @ [3,3,3,3,0,0,punct]
+   Alinee [4,9,4,9,0,0,alpha]
+   _ [10,10,10,10,0,0,punct]
+   crf [11,13,11,13,0,0,alpha]
+   : [14,14,14,14,0,0,punct]
+   _verboLigacao [16,17,16,16,6,60,node]
+      É [16,17,16,16,0,0,alpha]
+   _adverbio [19,23,18,22,6,64,node]
+      muito [19,23,18,22,0,0,alpha]
+   bom [25,27,24,26,0,0,alpha]
+   ver [29,31,28,30,0,0,alpha]
+   _frasePalmeiras [33,43,32,42,12,12,node]
+      _artigo [33,33,32,32,6,12,node]
+         o [33,33,32,32,0,0,alpha]
+      _palmeiras [35,43,34,42,6,48,node]
+         palmeiras [35,43,34,42,0,0,alpha]
+   se [45,46,44,45,0,0,alpha]
+   fuder [48,52,47,51,0,0,alpha]
+   , [53,53,52,52,0,0,punct]
+   mas [55,57,54,56,0,0,alpha]
+   _pronomePessoal [59,60,58,59,6,16,node]
+      eu [59,60,58,59,0,0,alpha]
+   queria [62,67,61,66,0,0,alpha]
+   uma [69,71,68,70,0,0,alpha]
+   revanche [73,80,72,79,0,0,alpha]

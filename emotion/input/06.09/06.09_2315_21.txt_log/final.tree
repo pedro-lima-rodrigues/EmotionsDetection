@@ -1,0 +1,11 @@
+
+FINAL OUTPUT TREE:
+
+_ROOT [0,35,0,35,0,0,node,un]
+   _emocao [0,23,0,23,7,39,node, ("emocao" "engracado")]
+      KKKKKKKKKKKKKKKKKKKKKKKK [0,23,0,23,0,0,alpha]
+   _frasePalmeiras [25,35,25,35,12,12,node]
+      _artigo [25,25,25,25,6,12,node]
+         O [25,25,25,25,0,0,alpha]
+      _palmeiras [27,35,27,35,6,48,node]
+         PALMEIRAS [27,35,27,35,0,0,alpha]

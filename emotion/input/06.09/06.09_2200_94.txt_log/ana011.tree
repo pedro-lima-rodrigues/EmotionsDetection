@@ -1,0 +1,18 @@
+
+***************
+    PASS 11 (RemoveWhiteSpace)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,40,0,40,0,0,node,un]
+   _emocao [0,2,0,2,6,30,node, ("emocao" "raiva")]
+      VAR [0,2,0,2,0,0,alpha]
+   dormindo [4,11,4,11,0,0,alpha]
+   de [13,14,13,14,0,0,alpha]
+   novo [16,19,16,19,0,0,alpha]
+   no [21,22,21,22,0,0,alpha]
+   jogo [24,27,24,27,0,0,alpha]
+   do [29,30,29,30,0,0,alpha]
+   _palmeiras [32,40,32,40,6,48,node]
+      Palmeiras [32,40,32,40,0,0,alpha]

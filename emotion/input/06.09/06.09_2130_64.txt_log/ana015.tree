@@ -1,0 +1,33 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,80,0,79,0,0,node,un]
+   RT [0,1,0,1,0,0,alpha]
+   @ [3,3,3,3,0,0,punct]
+   sepmemes [4,11,4,11,0,0,alpha]
+   _ [12,12,12,12,0,0,punct]
+   : [13,13,13,13,0,0,punct]
+   Miguel [15,20,15,20,0,0,alpha]
+   _frasePalmeiras [22,30,22,30,12,12,node]
+      _palmeiras [22,30,22,30,6,48,node]
+         Palmeiras [22,30,22,30,0,0,alpha]
+   _verboLigacao [32,33,32,32,6,60,node]
+      é [32,33,32,32,0,0,alpha]
+   foda [35,38,34,37,0,0,alpha]
+   _emocao [40,56,39,55,7,39,node,fired, ("emocao" "engracado")]
+      kkkkkkkkkkkkkkkkk [40,56,39,55,0,0,alpha]
+   https [58,62,57,61,0,0,alpha]
+   : [63,63,62,62,0,0,punct]
+   / [64,64,63,63,0,0,punct]
+   / [65,65,64,64,0,0,punct]
+   t [66,66,65,65,0,0,alpha]
+   . [67,67,66,66,0,0,punct]
+   co [68,69,67,68,0,0,alpha]
+   / [70,70,69,69,0,0,punct]
+   ufMw [71,74,70,73,0,0,alpha]
+   0 [75,75,74,74,0,0,num]
+   RlNFa [76,80,75,79,0,0,alpha]

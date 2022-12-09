@@ -1,0 +1,30 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,100,0,93,0,0,node,un]
+   espero [0,5,0,5,0,0,alpha]
+   que [7,9,7,9,0,0,alpha]
+   _frasePalmeiras [11,19,11,19,12,12,node]
+      _palmeiras [11,19,11,19,6,48,node]
+         Palmeiras [11,19,11,19,0,0,alpha]
+   _neg [21,24,21,23,6,76,node]
+      não [21,24,21,23,0,0,alpha]
+   passe [26,30,25,29,0,0,alpha]
+   pra [32,34,31,33,0,0,alpha]
+   final [36,40,35,39,0,0,alpha]
+   sim [42,44,41,43,0,0,alpha]
+   _neg [46,49,45,47,6,76,node]
+      não [46,49,45,47,0,0,alpha]
+   _vamos [51,53,49,51,6,92,node]
+      vai [51,53,49,51,0,0,alpha]
+   ser [55,57,53,55,0,0,alpha]
+   um [59,60,57,58,0,0,alpha]
+   adversário [62,72,60,69,0,0,alpha]
+   difícil [74,81,71,77,0,0,alpha]
+   pro [83,85,79,81,0,0,alpha]
+   Flamengo [87,94,83,90,0,0,alpha]
+   😣 [97,100,93,93,0,0,emoji]

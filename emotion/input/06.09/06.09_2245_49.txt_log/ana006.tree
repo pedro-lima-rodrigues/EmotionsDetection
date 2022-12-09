@@ -1,0 +1,17 @@
+
+***************
+    PASS 6 (pos)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,23,0,23,0,0,node,un]
+   mano [0,3,0,3,0,0,alpha]
+   \_ [4,4,4,4,0,0,white]
+   kkk [5,7,5,7,0,0,alpha]
+   \_ [8,8,8,8,0,0,white]
+   _verboRaiva [9,13,9,13,6,52,node,fired,blt]
+      odeio [9,13,9,13,0,0,alpha]
+   \_ [14,14,14,14,0,0,white]
+   _palmeiras [15,23,15,23,6,48,node,fired,blt]
+      palmeiras [15,23,15,23,0,0,alpha]

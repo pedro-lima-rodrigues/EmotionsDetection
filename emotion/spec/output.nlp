@@ -7,11 +7,11 @@
 ###############################################
 
 @CODE
-G("output") << pnvar(pnroot(),"$text") << "\n";
-L("emocao") = down(G("emocao"));
-while (L("emocao")) {
-	G("output") << "\t" << conceptname(L("emocao")) << ": " << numval(L("emocao"),"contagem") << "\n";
-	L("emocao") = next(L("emocao"));
-}
+G("output") << G("$inputhead") << ": " << pnvar(pnroot(),"$text") << "\n";
+#L("emocao") = down(G("emocao"));
+#while (L("emocao")) {
+#	G("output") << "\t" << conceptname(L("emocao")) << ": " << numval(L("emocao"),"contagem") << "\n";
+#	L("emocao") = next(L("emocao"));
+#}
 
 @@CODE

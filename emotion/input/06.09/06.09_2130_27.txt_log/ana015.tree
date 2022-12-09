@@ -1,0 +1,14 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,20,0,20,0,0,node,un]
+   _emocao [0,20,0,20,13,16,node,fired, ("emocao" "torcida")]
+      _vamos [0,10,0,10,7,39,node]
+         VAMOSSSSSSS [0,10,0,10,0,0,alpha]
+      _frasePalmeiras [12,20,12,20,12,12,node]
+         _palmeiras [12,20,12,20,6,48,node]
+            PALMEIRAS [12,20,12,20,0,0,alpha]

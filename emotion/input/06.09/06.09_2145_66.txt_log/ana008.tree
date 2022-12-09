@@ -1,0 +1,30 @@
+
+***************
+    PASS 8 (frases)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,54,0,53,0,0,node,un]
+   Timezinho [0,8,0,8,0,0,alpha]
+   \_ [9,9,9,9,0,0,white]
+   do [10,11,10,11,0,0,alpha]
+   \_ [12,12,12,12,0,0,white]
+   _palmeiras [13,21,13,21,6,48,node]
+      palmeiras [13,21,13,21,0,0,alpha]
+   \_ [22,22,22,22,0,0,white]
+   _verboLigacao [23,24,23,23,6,60,node]
+      é [23,24,23,23,0,0,alpha]
+   \_ [25,25,24,24,0,0,white]
+   tinhoso [26,32,25,31,0,0,alpha]
+   \_ [33,33,32,32,0,0,white]
+   demais [34,39,33,38,0,0,alpha]
+   \_ [40,40,39,39,0,0,white]
+   em [41,42,40,41,0,0,alpha]
+   \_ [43,43,42,42,0,0,white]
+   casa [44,47,43,46,0,0,alpha]
+   \_ [48,48,47,47,0,0,white]
+   pqp [49,51,48,50,0,0,alpha]
+   \_ [52,52,51,51,0,0,white]
+   _emocao [53,54,52,53,7,39,node, ("emocao" "engracado")]
+      kk [53,54,52,53,0,0,alpha]

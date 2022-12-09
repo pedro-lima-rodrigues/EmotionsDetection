@@ -1,0 +1,12 @@
+
+***************
+    PASS 10 (emojis)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,14,0,14,0,0,node,un]
+   _palmeiras [0,8,0,8,6,48,node]
+      palmeiras [0,8,0,8,0,0,alpha]
+   \_ [9,9,9,9,0,0,white]
+   passa [10,14,10,14,0,0,alpha]

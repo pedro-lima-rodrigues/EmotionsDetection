@@ -1,0 +1,9 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,29,0,29,0,0,node,un]
+   oiAvantiPalestraAvantiPalestra [0,29,0,29,0,0,alpha]

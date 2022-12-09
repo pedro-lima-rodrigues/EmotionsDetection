@@ -1,0 +1,13 @@
+
+***************
+    PASS 9 (palavrao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,27,0,27,0,0,node,un]
+   _emocao [0,17,0,17,7,39,node, ("emocao" "engracado")]
+      KKKKKKKKKKKKKKKKKK [0,17,0,17,0,0,alpha]
+   \_ [18,18,18,18,0,0,white]
+   _palmeiras [19,27,19,27,6,48,node]
+      PALMEIRAS [19,27,19,27,0,0,alpha]

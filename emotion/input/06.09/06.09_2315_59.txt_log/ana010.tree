@@ -1,0 +1,20 @@
+
+***************
+    PASS 10 (emojis)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,39,0,39,0,0,node,un]
+   QUE [0,2,0,2,0,0,alpha]
+   \_ [3,3,3,3,0,0,white]
+   SE [4,5,4,5,0,0,alpha]
+   \_ [6,6,6,6,0,0,white]
+   ELIMINE [7,13,7,13,0,0,alpha]
+   \_ [14,14,14,14,0,0,white]
+   _palmeiras [15,23,15,23,6,48,node]
+      PALMEIRAS [15,23,15,23,0,0,alpha]
+   \_ [24,24,24,24,0,0,white]
+   POR [25,27,25,27,0,0,alpha]
+   \_ [28,28,28,28,0,0,white]
+   FAVORRRRRRR [29,39,29,39,0,0,alpha]

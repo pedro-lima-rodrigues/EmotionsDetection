@@ -1,0 +1,19 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,40,0,39,0,0,node,un]
+   Final [0,4,0,4,0,0,alpha]
+   da [6,7,6,7,0,0,alpha]
+   liberta [9,15,9,15,0,0,alpha]
+   _verboLigacao [17,18,17,17,6,60,node]
+      é [17,18,17,17,0,0,alpha]
+   , [19,19,18,18,0,0,punct]
+   _frasePalmeiras [21,29,20,28,12,12,node]
+      _palmeiras [21,29,20,28,6,48,node]
+         palmeiras [21,29,20,28,0,0,alpha]
+   e [31,31,30,30,0,0,alpha]
+   Flamengo [33,40,32,39,0,0,alpha]

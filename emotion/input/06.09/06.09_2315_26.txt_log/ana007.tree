@@ -1,0 +1,24 @@
+
+***************
+    PASS 7 (repeticao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,51,0,50,0,0,node,un]
+   _emocao [0,15,0,15,7,39,node,fired,blt, ("emocao" "engracado")]
+      KKKKKKKKKKKKKKKK [0,15,0,15,0,0,alpha,fired]
+   \_ [16,16,16,16,0,0,white]
+   impossível [17,27,17,26,0,0,alpha,fired]
+   \_ [28,28,27,27,0,0,white]
+   https [29,33,28,32,0,0,alpha,fired]
+   : [34,34,33,33,0,0,punct]
+   / [35,35,34,34,0,0,punct]
+   / [36,36,35,35,0,0,punct]
+   t [37,37,36,36,0,0,alpha,fired]
+   . [38,38,37,37,0,0,punct]
+   co [39,40,38,39,0,0,alpha,fired]
+   / [41,41,40,40,0,0,punct]
+   F [42,42,41,41,0,0,alpha,fired]
+   8 [43,43,42,42,0,0,num]
+   mujhwILB [44,51,43,50,0,0,alpha,fired]

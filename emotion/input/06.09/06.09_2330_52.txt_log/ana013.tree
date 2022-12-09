@@ -1,0 +1,29 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,82,0,81,0,0,node,un]
+   _semMundial [0,25,0,24,13,86,node,fired,blt, ("emocao" "engracado")]
+      _frasePalmeiras [0,8,0,8,12,12,node,fired]
+         _palmeiras [0,8,0,8,6,48,node]
+            Palmeiras [0,8,0,8,0,0,alpha]
+      _neg [10,13,10,12,6,76,node,fired]
+         não [10,13,10,12,0,0,alpha]
+      _tem [15,17,14,16,6,80,node,fired]
+         tem [15,17,14,16,0,0,alpha]
+      _mundial [19,25,18,24,6,88,node,fired]
+         Mundial [19,25,18,24,0,0,alpha]
+   . [26,26,25,25,0,0,punct]
+   # [28,28,27,27,0,0,punct]
+   LIBERTADORESnaSPORTV [29,48,28,47,0,0,alpha]
+   # [50,50,49,49,0,0,punct]
+   Libertadores [51,62,50,61,0,0,alpha]
+   # [64,64,63,63,0,0,punct]
+   PALxCAP [65,71,64,70,0,0,alpha]
+   # [73,73,72,72,0,0,punct]
+   _frasePalmeiras [74,82,73,81,12,12,node]
+      _palmeiras [74,82,73,81,6,48,node]
+         Palmeiras [74,82,73,81,0,0,alpha]

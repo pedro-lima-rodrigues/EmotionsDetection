@@ -1,0 +1,21 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,31,0,29,0,0,node,un]
+   _frasePalmeiras [0,10,0,10,12,12,node,fired,blt]
+      _artigo [0,0,0,0,6,12,node]
+         O [0,0,0,0,0,0,alpha]
+      _palmeiras [2,10,2,10,6,48,node]
+         Palmeiras [2,10,2,10,0,0,alpha]
+   _verboLigacao [12,13,12,12,6,60,node]
+      é [12,13,12,12,0,0,alpha]
+   gigante [15,21,14,20,0,0,alpha]
+   . [22,22,21,21,0,0,punct]
+   _verboLigacao [24,25,23,23,6,60,node]
+      É [24,25,23,23,0,0,alpha]
+   isso [27,30,25,28,0,0,alpha]
+   . [31,31,29,29,0,0,punct]

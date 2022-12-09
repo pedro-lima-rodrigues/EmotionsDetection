@@ -1,0 +1,28 @@
+
+***************
+    PASS 7 (repeticao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,60,0,58,0,0,node,un]
+   Satanás [0,7,0,6,0,0,alpha,fired]
+   \_ [8,8,7,7,0,0,white]
+   dominou [9,15,8,14,0,0,alpha,fired]
+   \_ [16,16,15,15,0,0,white]
+   _artigo [17,17,16,16,6,12,node]
+      o [17,17,16,16,0,0,alpha]
+   \_ [18,18,17,17,0,0,white]
+   futebol [19,25,18,24,0,0,alpha,fired]
+   \_ [26,26,25,25,0,0,white]
+   brasileiro [27,36,26,35,0,0,alpha,fired]
+   \_ [37,37,36,36,0,0,white]
+   e [38,38,37,37,0,0,alpha,fired]
+   \_ [39,39,38,38,0,0,white]
+   abençoou [40,48,39,46,0,0,alpha,fired]
+   \_ [49,49,47,47,0,0,white]
+   _artigo [50,50,48,48,6,12,node]
+      o [50,50,48,48,0,0,alpha]
+   \_ [51,51,49,49,0,0,white]
+   _palmeiras [52,60,50,58,6,48,node]
+      palmeiras [52,60,50,58,0,0,alpha]

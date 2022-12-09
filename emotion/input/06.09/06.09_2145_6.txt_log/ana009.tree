@@ -1,0 +1,17 @@
+
+***************
+    PASS 9 (palavrao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,30,0,30,0,0,node,un]
+   caralho [0,6,0,6,0,0,alpha]
+   \_ [7,7,7,7,0,0,white]
+   _palmeiras [8,16,8,16,6,48,node]
+      palmeiras [8,16,8,16,0,0,alpha]
+   \_ [17,17,17,17,0,0,white]
+   jogando [18,24,18,24,0,0,alpha]
+   \_ [25,25,25,25,0,0,white]
+   _adverbio [26,30,26,30,6,64,node]
+      muito [26,30,26,30,0,0,alpha]

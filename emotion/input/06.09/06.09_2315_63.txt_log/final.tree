@@ -1,0 +1,23 @@
+
+FINAL OUTPUT TREE:
+
+_ROOT [0,48,0,47,0,0,node,un]
+   quando [0,5,0,5,0,0,alpha]
+   _pronomePessoal [7,8,7,8,6,16,node]
+      eu [7,8,7,8,0,0,alpha]
+   acho [10,13,10,13,0,0,alpha]
+   q [15,15,15,15,0,0,alpha]
+   _emocao [17,31,17,31,13,29,node, ("emocao" "torcida")]
+      _frasePalmeiras [17,27,17,27,12,12,node]
+         _artigo [17,17,17,17,6,12,node]
+            o [17,17,17,17,0,0,alpha]
+         _palmeiras [19,27,19,27,6,48,node]
+            Palmeiras [19,27,19,27,0,0,alpha]
+      _vamos [29,31,29,31,6,92,node]
+         vai [29,31,29,31,0,0,alpha]
+   ele [36,38,36,38,0,0,alpha]
+   _neg [40,43,40,42,6,76,node]
+      não [40,43,40,42,0,0,alpha]
+   _vamos [45,47,44,46,6,92,node]
+      vai [45,47,44,46,0,0,alpha]
+   . [48,48,47,47,0,0,punct]

@@ -1,0 +1,41 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,120,0,119,0,0,node,un]
+   @ [0,0,0,0,0,0,punct]
+   obaraonews [1,10,1,10,0,0,alpha]
+   _artigo [12,12,12,12,6,12,node]
+      O [12,12,12,12,0,0,alpha]
+   jogo [14,17,14,17,0,0,alpha]
+   tava [19,22,19,22,0,0,alpha]
+   tranquilo [24,32,24,32,0,0,alpha]
+   e [34,34,34,34,0,0,alpha]
+   com [36,38,36,38,0,0,alpha]
+   chances [40,46,40,46,0,0,alpha]
+   de [48,49,48,49,0,0,alpha]
+   sair [51,54,51,54,0,0,alpha]
+   mais [56,59,56,59,0,0,alpha]
+   _gol [61,64,61,64,6,72,node]
+      gols [61,64,61,64,0,0,alpha]
+   pra [66,68,66,68,0,0,alpha]
+   _frasePalmeiras [70,80,70,80,12,12,node,fired,blt]
+      _artigo [70,70,70,70,6,12,node]
+         o [70,70,70,70,0,0,alpha]
+      _palmeiras [72,80,72,80,6,48,node]
+         Palmeiras [72,80,72,80,0,0,alpha]
+   , [81,81,81,81,0,0,punct]
+   aí [83,85,83,84,0,0,alpha]
+   _artigo [87,87,86,86,6,12,node]
+      o [87,87,86,86,0,0,alpha]
+   cara [89,92,88,91,0,0,alpha]
+   vem [94,96,93,95,0,0,alpha]
+   e [98,98,97,97,0,0,alpha]
+   faz [100,102,99,101,0,0,alpha]
+   uma [104,106,103,105,0,0,alpha]
+   _emocao [108,114,107,113,6,30,node, ("emocao" "raiva")]
+      burrice [108,114,107,113,0,0,alpha]
+   dessa [116,120,115,119,0,0,alpha]

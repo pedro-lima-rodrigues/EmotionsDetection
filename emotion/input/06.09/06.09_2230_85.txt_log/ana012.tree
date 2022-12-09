@@ -1,0 +1,25 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,56,0,55,0,0,node,un]
+   @ [0,0,0,0,0,0,punct]
+   mvicca [1,6,1,6,0,0,alpha]
+   Tamo [8,11,8,11,0,0,alpha]
+   pagando [13,19,13,19,0,0,alpha]
+   _artigo [21,21,21,21,6,12,node]
+      o [21,21,21,21,0,0,alpha]
+   preço [23,28,23,27,0,0,alpha]
+   por [30,32,29,31,0,0,alpha]
+   _frasePalmeiras [34,42,33,41,12,12,node,fired,blt]
+      _palmeiras [34,42,33,41,6,48,node]
+         Palmeiras [34,42,33,41,0,0,alpha]
+   0 [44,44,43,43,0,0,num]
+   x [45,45,44,44,0,0,alpha]
+   2 [46,46,45,45,0,0,num]
+   River [48,52,47,51,0,0,alpha]
+   _emocao [54,56,53,55,7,39,node, ("emocao" "engracado")]
+      kkk [54,56,53,55,0,0,alpha]

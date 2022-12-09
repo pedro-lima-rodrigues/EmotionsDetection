@@ -1,0 +1,16 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,28,0,22,0,0,node,un]
+   _emocao [0,12,0,12,13,29,node,fired,blt, ("emocao" "torcida")]
+      _frasePalmeiras [0,8,0,8,12,12,node,fired]
+         _palmeiras [0,8,0,8,6,48,node]
+            Palmeiras [0,8,0,8,0,0,alpha]
+      _vamos [10,12,10,12,6,92,node,fired]
+         vai [10,12,10,12,0,0,alpha]
+   ganhar [14,19,14,19,0,0,alpha]
+   👍🏻 [21,28,21,22,0,0,emoji]

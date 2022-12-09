@@ -1,0 +1,28 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,71,0,70,0,0,node,un]
+   @ [0,0,0,0,0,0,punct]
+   Infos [1,5,1,5,0,0,alpha]
+   _ [6,6,6,6,0,0,punct]
+   palestra [7,14,7,14,0,0,alpha]
+   _frasePalmeiras [16,26,16,26,12,12,node]
+      _artigo [16,16,16,16,6,12,node]
+         O [16,16,16,16,0,0,alpha]
+      _palmeiras [18,26,18,26,6,48,node]
+         Palmeiras [18,26,18,26,0,0,alpha]
+   estava [28,33,28,33,0,0,alpha]
+   bem [35,37,35,37,0,0,alpha]
+   no [39,40,39,40,0,0,alpha]
+   jogo [42,45,42,45,0,0,alpha]
+   , [46,46,46,46,0,0,punct]
+   esse [48,51,48,51,0,0,alpha]
+   Murilo [53,58,53,58,0,0,alpha]
+   _verboLigacao [60,61,60,60,6,60,node]
+      é [60,61,60,60,0,0,alpha]
+   um [63,64,62,63,0,0,alpha]
+   cavalo [66,71,65,70,0,0,alpha]

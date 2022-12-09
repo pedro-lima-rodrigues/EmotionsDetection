@@ -1,0 +1,23 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,55,0,50,0,0,node,un]
+   Torcida [0,6,0,6,0,0,alpha]
+   do [8,9,8,9,0,0,alpha]
+   _frasePalmeiras [11,19,11,19,12,12,node,fired,blt]
+      _palmeiras [11,19,11,19,6,48,node]
+         Palmeiras [11,19,11,19,0,0,alpha]
+   só [21,23,21,22,0,0,alpha]
+   _tem [25,27,24,26,6,80,node]
+      tem [25,27,24,26,0,0,alpha]
+   uma [29,31,28,30,0,0,alpha]
+   música [33,39,32,37,0,0,alpha]
+   , [40,40,38,38,0,0,punct]
+   trem [42,45,40,43,0,0,alpha]
+   feio [47,50,45,48,0,0,alpha]
+   _emocao [52,55,50,50,10,18,node, ("emocao" "engracado") ("emoji" 1)]
+      🤣 [52,55,50,50,0,0,emoji]

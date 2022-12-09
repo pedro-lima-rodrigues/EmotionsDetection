@@ -1,0 +1,33 @@
+
+***************
+    PASS 6 (pos)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,80,0,80,0,0,node,un]
+   IHUUUUUUUUUUU [0,12,0,12,0,0,alpha]
+   \n [13,13,13,13,0,0,white]
+   SOU [14,16,14,16,0,0,alpha]
+   \_ [17,17,17,17,0,0,white]
+   SANTISTA [18,25,18,25,0,0,alpha]
+   \n [26,26,26,26,0,0,white]
+   MAS [27,29,27,29,0,0,alpha]
+   \_ [30,30,30,30,0,0,white]
+   HJ [31,32,31,32,0,0,alpha]
+   \_ [33,33,33,33,0,0,white]
+   SOU [34,36,34,36,0,0,alpha]
+   \_ [37,37,37,37,0,0,white]
+   _palmeiras [38,46,38,46,6,48,node,fired,blt]
+      PALMEIRAS [38,46,38,46,0,0,alpha]
+   \n [47,47,47,47,0,0,white]
+   torcida [48,54,48,54,0,0,alpha]
+   \_ [55,55,55,55,0,0,white]
+   do [56,57,56,57,0,0,alpha]
+   \_ [58,58,58,58,0,0,white]
+   athletico [59,67,59,67,0,0,alpha]
+   \_ [68,68,68,68,0,0,white]
+   _emocao [69,73,69,73,6,34,node,fired,blt, ("emocao" "raiva")]
+      chata [69,73,69,73,0,0,alpha,fired]
+   \_ [74,74,74,74,0,0,white]
+   demais [75,80,75,80,0,0,alpha]

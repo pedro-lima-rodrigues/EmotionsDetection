@@ -1,28 +1,16 @@
 emocao
   torcida: 
-    contagem=[0]
-  felicidade: 
     contagem=[1]
 
 emocao
   torcida: 
     contagem=[1]
-  felicidade: 
+
+emocao
+  torcida: 
     contagem=[1]
 
 emocao
-  felicidade: 
-    contagem=[1]
-
-emocao
-  felicidade: 
-    contagem=[1]
-
-emocao
-  felicidade: 
-    contagem=[1]
-
-emocao
-  felicidade: 
+  torcida: 
     contagem=[1]
 

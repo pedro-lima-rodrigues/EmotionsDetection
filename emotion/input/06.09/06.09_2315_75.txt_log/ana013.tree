@@ -1,0 +1,14 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,15,0,15,0,0,node,un]
+   _frasePalmeiras [0,10,0,10,12,12,node]
+      _artigo [0,0,0,0,6,12,node]
+         o [0,0,0,0,0,0,alpha]
+      _palmeiras [2,10,2,10,6,48,node]
+         palmeiras [2,10,2,10,0,0,alpha]
+   poxa [12,15,12,15,0,0,alpha]

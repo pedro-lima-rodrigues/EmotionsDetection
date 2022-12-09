@@ -1,0 +1,31 @@
+
+***************
+    PASS 7 (repeticao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,76,0,64,0,0,node,un]
+   @ [0,0,0,0,0,0,punct]
+   ouniconico [1,10,1,10,0,0,alpha,fired]
+   \_ [11,11,11,11,0,0,white]
+   @ [12,12,12,12,0,0,punct]
+   rviniciuscrf [13,24,13,24,0,0,alpha,fired]
+   \_ [25,25,25,25,0,0,white]
+   _palmeiras [26,35,26,35,6,43,node]
+      @ [26,26,26,26,0,0,punct]
+      Palmeiras [27,35,27,35,0,0,alpha]
+   \_ [36,36,36,36,0,0,white]
+   Mais [37,40,37,40,0,0,alpha,fired]
+   \_ [41,41,41,41,0,0,white]
+   um [42,43,42,43,0,0,alpha,fired]
+   \_ [44,44,44,44,0,0,white]
+   cheirinho [45,53,45,53,0,0,alpha,fired]
+   \_ [54,54,54,54,0,0,white]
+   no [55,56,55,56,0,0,alpha,fired]
+   \_ [57,57,57,57,0,0,white]
+   ano [58,60,58,60,0,0,alpha,fired]
+   👃 [61,64,61,61,0,0,emoji,fired]
+   👃 [65,68,62,62,0,0,emoji,fired]
+   👃 [69,72,63,63,0,0,emoji,fired]
+   👃 [73,76,64,64,0,0,emoji,fired]

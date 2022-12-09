@@ -1,0 +1,19 @@
+
+***************
+    PASS 7 (repeticao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,36,0,36,0,0,node,un]
+   _palmeiras [0,8,0,8,6,48,node]
+      palmeiras [0,8,0,8,0,0,alpha]
+   \_ [9,9,9,9,0,0,white]
+   _verboLigacao [10,14,10,14,6,60,node]
+      sendo [10,14,10,14,0,0,alpha]
+   \_ [15,15,15,15,0,0,white]
+   eliminado [16,24,16,24,0,0,alpha,fired]
+   \_ [25,25,25,25,0,0,white]
+   em [26,27,26,27,0,0,alpha,fired]
+   \_ [28,28,28,28,0,0,white]
+   casaaaaa [29,36,29,36,0,0,alpha,fired]

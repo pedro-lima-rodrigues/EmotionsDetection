@@ -7,6 +7,9 @@
 ###############################################
 
 @CODE
+
 DisplayKB(G("emocao"),1);
+
+#DisplayKB(findroot(),0);
 
 @@CODE

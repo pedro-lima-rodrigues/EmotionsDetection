@@ -7,10 +7,14 @@
 ###############################################
 
 @CODE
-DictionaryClear();
-DictionaryWord("o","pos","artigo","str");
-DictionaryWord("a","pos","artigo","str");
-DictionaryWord("os","pos","artigo","str");
-DictionaryWord("as","pos","artigo","str");
+
+DictionaryStart();
+
+DictionaryWord("he","gender","male","str");
+DictionaryWord("she","gender","female","str");
+DictionaryWord("january","date","month","str");
+DictionaryWord("january","number","1","num");
+
 DictionaryEnd();
+
 @@CODE

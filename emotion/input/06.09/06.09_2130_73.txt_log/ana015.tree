@@ -1,0 +1,29 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,72,0,70,0,0,node,un]
+   _emocao [0,16,0,16,6,136,node,fired, ("emocao" "torcida")]
+      PELO [0,3,0,3,0,0,alpha]
+      \_ [4,4,4,4,0,0,white]
+      AMOR [5,8,5,8,0,0,alpha]
+      \_ [9,9,9,9,0,0,white]
+      DE [10,11,10,11,0,0,alpha]
+      \_ [12,12,12,12,0,0,white]
+      DEUS [13,16,13,16,0,0,alpha]
+   _frasePalmeiras [18,26,18,26,12,12,node]
+      _palmeiras [18,26,18,26,6,48,node]
+         PALMEIRAS [18,26,18,26,0,0,alpha]
+   ME [28,29,28,29,0,0,alpha]
+   FAÇA [31,35,31,34,0,0,alpha]
+   CHORAR [37,42,36,41,0,0,alpha]
+   DE [44,45,43,44,0,0,alpha]
+   ALEGRIA [47,53,46,52,0,0,alpha]
+   E [55,55,54,54,0,0,alpha]
+   _neg [57,60,56,58,6,76,node]
+      NÃO [57,60,56,58,0,0,alpha]
+   DE [62,63,60,61,0,0,alpha]
+   TRISTEZA [65,72,63,70,0,0,alpha]

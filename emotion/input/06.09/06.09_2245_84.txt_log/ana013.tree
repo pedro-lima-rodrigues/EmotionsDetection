@@ -1,0 +1,18 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,45,0,44,0,0,node,un]
+   ESTA [0,3,0,3,0,0,alpha]
+   ES [5,6,5,6,0,0,alpha]
+   LA [8,9,8,9,0,0,alpha]
+   MÍSTICA [11,18,11,17,0,0,alpha]
+   DE [20,21,19,20,0,0,alpha]
+   _frasePalmeiras [23,31,22,30,12,12,node]
+      _palmeiras [23,31,22,30,6,48,node]
+         PALMEIRAS [23,31,22,30,0,0,alpha]
+   # [33,33,32,32,0,0,punct]
+   Libertadores [34,45,33,44,0,0,alpha]

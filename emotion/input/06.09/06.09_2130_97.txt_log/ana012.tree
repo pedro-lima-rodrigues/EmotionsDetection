@@ -1,0 +1,33 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,147,0,147,0,0,node,un]
+   Ostojich [0,7,0,7,0,0,alpha]
+   dirigiendo [9,18,9,18,0,0,alpha]
+   el [20,21,20,21,0,0,alpha]
+   duelo [23,27,23,27,0,0,alpha]
+   entre [29,33,29,33,0,0,alpha]
+   _frasePalmeiras [35,43,35,43,12,12,node,fired,blt]
+      _palmeiras [35,43,35,43,6,48,node]
+         Palmeiras [35,43,35,43,0,0,alpha]
+   y [45,45,45,45,0,0,alpha]
+   Paranaense [47,56,47,56,0,0,alpha]
+   , [57,57,57,57,0,0,punct]
+   seguramente [59,69,59,69,0,0,alpha]
+   es [71,72,71,72,0,0,alpha]
+   un [74,75,74,75,0,0,alpha]
+   premio [77,82,77,82,0,0,alpha]
+   por [84,86,84,86,0,0,alpha]
+   sus [88,90,88,90,0,0,alpha]
+   buenas [92,97,92,97,0,0,alpha]
+   actuaciones [99,109,99,109,0,0,alpha]
+   dirigiendo [111,120,111,120,0,0,alpha]
+   en [122,123,122,123,0,0,alpha]
+   el [125,126,125,126,0,0,alpha]
+   Campeonato [128,137,128,137,0,0,alpha]
+   Uruguayo [139,146,139,146,0,0,alpha]
+   . [147,147,147,147,0,0,punct]

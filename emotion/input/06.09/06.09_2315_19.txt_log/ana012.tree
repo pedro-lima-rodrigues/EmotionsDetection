@@ -1,0 +1,17 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,30,0,29,0,0,node,un]
+   Desvío [0,6,0,5,0,0,alpha]
+   y [8,8,7,7,0,0,alpha]
+   Knock [10,14,9,13,0,0,alpha]
+   Out [16,18,15,17,0,0,alpha]
+   _frasePalmeiras [20,30,19,29,12,12,node,fired,blt]
+      _artigo [20,20,19,19,6,12,node]
+         a [20,20,19,19,0,0,alpha]
+      _palmeiras [22,30,21,29,6,48,node]
+         Palmeiras [22,30,21,29,0,0,alpha]

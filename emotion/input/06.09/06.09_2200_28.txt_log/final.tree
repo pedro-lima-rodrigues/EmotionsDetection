@@ -1,0 +1,10 @@
+
+FINAL OUTPUT TREE:
+
+_ROOT [0,18,0,18,0,0,node,un]
+   _emocao [0,18,0,18,13,16,node, ("emocao" "torcida")]
+      _vamos [0,8,0,8,7,39,node]
+         boraaaaaa [0,8,0,8,0,0,alpha]
+      _frasePalmeiras [10,18,10,18,12,12,node]
+         _palmeiras [10,18,10,18,6,48,node]
+            palmeiras [10,18,10,18,0,0,alpha]

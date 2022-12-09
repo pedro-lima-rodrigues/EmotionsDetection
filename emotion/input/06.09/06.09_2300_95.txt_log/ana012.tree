@@ -1,0 +1,20 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,38,0,36,0,0,node,un]
+   juíz [0,4,0,3,0,0,alpha]
+   _neg [6,9,5,7,6,76,node]
+      não [6,9,5,7,0,0,alpha]
+   da [11,12,9,10,0,0,alpha]
+   nada [14,17,12,15,0,0,alpha]
+   _artigo [19,19,17,17,6,12,node]
+      a [19,19,17,17,0,0,alpha]
+   favor [21,25,19,23,0,0,alpha]
+   do [27,28,25,26,0,0,alpha]
+   _frasePalmeiras [30,38,28,36,12,12,node,fired,blt]
+      _palmeiras [30,38,28,36,6,48,node]
+         palmeiras [30,38,28,36,0,0,alpha]

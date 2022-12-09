@@ -1,0 +1,15 @@
+
+***************
+    PASS 10 (emojis)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,21,0,21,0,0,node,un]
+   _palmeiras [0,9,0,9,6,43,node]
+      @ [0,0,0,0,0,0,punct]
+      Palmeiras [1,9,1,9,0,0,alpha]
+   \_ [10,10,10,10,0,0,white]
+   perdemo [11,17,11,17,0,0,alpha]
+   \_ [18,18,18,18,0,0,white]
+   fml [19,21,19,21,0,0,alpha]

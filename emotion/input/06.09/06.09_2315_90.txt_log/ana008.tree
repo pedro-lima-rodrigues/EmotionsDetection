@@ -1,0 +1,15 @@
+
+***************
+    PASS 8 (frases)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,20,0,20,0,0,node,un]
+   NEM [0,2,0,2,0,0,alpha]
+   \_ [3,3,3,3,0,0,white]
+   _verboRaiva [4,10,4,10,6,52,node]
+      FODENDO [4,10,4,10,0,0,alpha]
+   \_ [11,11,11,11,0,0,white]
+   _palmeiras [12,20,12,20,6,48,node]
+      PALMEIRAS [12,20,12,20,0,0,alpha]

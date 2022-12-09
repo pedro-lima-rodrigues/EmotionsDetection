@@ -1,0 +1,34 @@
+
+***************
+    PASS 7 (repeticao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,58,0,53,0,0,node,un]
+   _palmeiras [0,8,0,8,6,48,node]
+      palmeiras [0,8,0,8,0,0,alpha]
+   \_ [9,9,9,9,0,0,white]
+   tá [10,12,10,11,0,0,alpha,fired]
+   \_ [13,13,12,12,0,0,white]
+   com [14,16,13,15,0,0,alpha,fired]
+   \_ [17,17,16,16,0,0,white]
+   pacto [18,22,17,21,0,0,alpha,fired]
+   \_ [23,23,22,22,0,0,white]
+   com [24,26,23,25,0,0,alpha,fired]
+   \_ [27,27,26,26,0,0,white]
+   _artigo [28,28,27,27,6,12,node]
+      o [28,28,27,27,0,0,alpha]
+   \_ [29,29,28,28,0,0,white]
+   troço [30,35,29,33,0,0,alpha,fired]
+   \_ [36,36,34,34,0,0,white]
+   _emocao [37,40,35,38,6,34,node, ("emocao" "raiva")]
+      ruim [37,40,35,38,0,0,alpha]
+   \_ [41,41,39,39,0,0,white]
+   _neg [42,45,40,42,6,76,node]
+      não [42,45,40,42,0,0,alpha]
+   \_ [46,46,43,43,0,0,white]
+   _verboLigacao [47,48,44,44,6,60,node]
+      é [47,48,44,44,0,0,alpha]
+   \_ [49,49,45,45,0,0,white]
+   possível [50,58,46,53,0,0,alpha,fired]

@@ -1,0 +1,24 @@
+
+***************
+    PASS 11 (RemoveWhiteSpace)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,60,0,60,0,0,node,un]
+   _adverbio [0,4,0,4,6,64,node]
+      Muito [0,4,0,4,0,0,alpha]
+   bom [6,8,6,8,0,0,alpha]
+   ver [10,12,10,12,0,0,alpha]
+   _artigo [14,14,14,14,6,12,node]
+      o [14,14,14,14,0,0,alpha]
+   _palmeiras [16,24,16,24,6,48,node]
+      Palmeiras [16,24,16,24,0,0,alpha]
+   se [26,27,26,27,0,0,alpha]
+   fudendo [29,35,29,35,0,0,alpha]
+   _xingamento [37,39,37,39,9,16,node]
+      pqp [37,39,37,39,0,0,alpha]
+   que [41,43,41,43,0,0,alpha]
+   coisa [45,49,45,49,0,0,alpha]
+   mais [51,54,51,54,0,0,alpha]
+   linda [56,60,56,60,0,0,alpha]

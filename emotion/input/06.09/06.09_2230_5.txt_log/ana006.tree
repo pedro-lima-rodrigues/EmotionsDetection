@@ -1,0 +1,42 @@
+
+***************
+    PASS 6 (pos)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,86,0,86,0,0,node,un]
+   @ [0,0,0,0,0,0,punct]
+   TNTSportsBR [1,11,1,11,0,0,alpha]
+   \_ [12,12,12,12,0,0,white]
+   _artigo [13,13,13,13,6,12,node,fired,blt]
+      A [13,13,13,13,0,0,alpha]
+   \_ [14,14,14,14,0,0,white]
+   cotovelada [15,24,15,24,0,0,alpha]
+   \_ [25,25,25,25,0,0,white]
+   nem [26,28,26,28,0,0,alpha]
+   \_ [29,29,29,29,0,0,white]
+   pegou [30,34,30,34,0,0,alpha]
+   , [35,35,35,35,0,0,punct]
+   \_ [36,36,36,36,0,0,white]
+   _artigo [37,37,37,37,6,12,node,fired,blt]
+      a [37,37,37,37,0,0,alpha]
+   \_ [38,38,38,38,0,0,white]
+   entrada [39,45,39,45,0,0,alpha]
+   \_ [46,46,46,46,0,0,white]
+   do [47,48,47,48,0,0,alpha]
+   \_ [49,49,49,49,0,0,white]
+   jogador [50,56,50,56,0,0,alpha]
+   \_ [57,57,57,57,0,0,white]
+   do [58,59,58,59,0,0,alpha]
+   \_ [60,60,60,60,0,0,white]
+   _palmeiras [61,69,61,69,6,48,node,fired,blt]
+      Palmeiras [61,69,61,69,0,0,alpha]
+   \_ [70,70,70,70,0,0,white]
+   _verboLigacao [71,73,71,73,6,60,node,fired,blt]
+      foi [71,73,71,73,0,0,alpha]
+   \_ [74,74,74,74,0,0,white]
+   criminosa [75,83,75,83,0,0,alpha]
+   \_ [84,84,84,84,0,0,white]
+   l [85,85,85,85,0,0,alpha]
+   . [86,86,86,86,0,0,punct]

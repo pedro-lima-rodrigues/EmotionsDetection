@@ -1,0 +1,26 @@
+
+***************
+    PASS 9 (palavrao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,39,0,39,0,0,node,un]
+   _emocao [0,16,0,16,6,136,node, ("emocao" "torcida")]
+      pelo [0,3,0,3,0,0,alpha]
+      \_ [4,4,4,4,0,0,white]
+      amor [5,8,5,8,0,0,alpha]
+      \_ [9,9,9,9,0,0,white]
+      de [10,11,10,11,0,0,alpha]
+      \_ [12,12,12,12,0,0,white]
+      Deus [13,16,13,16,0,0,alpha]
+   \_ [17,17,17,17,0,0,white]
+   _palmeiras [18,26,18,26,6,48,node]
+      palmeiras [18,26,18,26,0,0,alpha]
+   \_ [27,27,27,27,0,0,white]
+   faz [28,30,28,30,0,0,alpha]
+   \_ [31,31,31,31,0,0,white]
+   mais [32,35,32,35,0,0,alpha]
+   \_ [36,36,36,36,0,0,white]
+   _gol [37,39,37,39,6,72,node]
+      gol [37,39,37,39,0,0,alpha]

@@ -11,12 +11,19 @@ G("emocao") = findconcept(findroot(),"emocao");
 if (!G("emocao")) G("emocao") = makeconcept(findroot(),"emocao");
 rmchildren(G("emocao"));
 
-if(G("$inputhead")=="00"){
+if(G("$isfirstfile")==1){
     G("output") = openfile(G("$apppath") + "/outputfile/output.txt");
 }
 else{
     G("output") = openfile(G("$apppath") + "/outputfile/output.txt","app");
 }
+
+#if(G("$inputhead")=="00"){
+#    G("output") = openfile(G("$apppath") + "/outputfile/output.txt");
+#}
+#else{
+#    G("output") = openfile(G("$apppath") + "/outputfile/output.txt","app");
+#}
 
 #G("output") = "output.txt";
 

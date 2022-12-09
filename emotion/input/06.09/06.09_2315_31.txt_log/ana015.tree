@@ -1,0 +1,32 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,86,0,82,0,0,node,un]
+   eh [0,1,0,1,0,0,alpha]
+   _vamos [3,6,3,6,6,92,node]
+      vamo [3,6,3,6,0,0,alpha]
+   comer [8,12,8,12,0,0,alpha]
+   _artigo [14,14,14,14,6,12,node]
+      o [14,14,14,14,0,0,alpha]
+   cu [16,17,16,17,0,0,alpha]
+   do [19,20,19,20,0,0,alpha]
+   athlethichoh [22,33,22,33,0,0,alpha]
+   dnv [35,37,35,37,0,0,alpha]
+   já [39,41,39,40,0,0,alpha]
+   tá [43,45,42,43,0,0,alpha]
+   bom [47,49,45,47,0,0,alpha]
+   de [51,52,49,50,0,0,alpha]
+   _frasePalmeiras [54,62,52,60,12,12,node]
+      _palmeiras [54,62,52,60,6,48,node]
+         palmeiras [54,62,52,60,0,0,alpha]
+   em [64,65,62,63,0,0,alpha]
+   final [67,71,65,69,0,0,alpha]
+   já [73,75,71,72,0,0,alpha]
+   , [76,76,73,73,0,0,punct]
+   tá [78,80,75,76,0,0,alpha]
+   _emocao [82,86,78,82,6,34,node,fired, ("emocao" "raiva")]
+      chato [82,86,78,82,0,0,alpha]

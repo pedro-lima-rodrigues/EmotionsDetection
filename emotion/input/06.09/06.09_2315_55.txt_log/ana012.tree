@@ -1,0 +1,20 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,39,0,33,0,0,node,un]
+   Dia [0,2,0,2,0,0,alpha]
+   dificil [4,10,4,10,0,0,alpha]
+   pro [12,14,12,14,0,0,alpha]
+   _frasePalmeiras [16,30,16,30,12,12,node,fired,blt]
+      _pronomePossessivo [16,20,16,20,6,20,node]
+         nosso [16,20,16,20,0,0,alpha]
+      _palmeiras [22,30,22,30,6,48,node]
+         Palmeiras [22,30,22,30,0,0,alpha]
+   _emocao [32,35,32,32,10,41,node, ("emocao" "tristeza")]
+      🥲 [32,35,32,32,0,0,emoji]
+   _emocao [36,39,33,33,10,51,node, ("emocao" "torcida")]
+      💚 [36,39,33,33,0,0,emoji]

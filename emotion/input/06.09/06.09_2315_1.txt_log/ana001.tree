@@ -1,0 +1,11 @@
+
+***************
+    PASS 1 (tokenize)
+***************
+_ROOT [0,43,0,42,0,0,node,un]
+   @ [0,0,0,0,0,0,punct]
+   Palmeiras [1,9,1,9,0,0,alpha]
+   \_ [10,10,10,10,0,0,white]
+   KKKKKKKKKKKKKKKKKKKKK [11,31,11,31,0,0,alpha]
+   \_ [32,32,32,32,0,0,white]
+   minúsculos [33,43,33,42,0,0,alpha]

@@ -1,0 +1,15 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,20,0,20,0,0,node,un]
+   NEM [0,2,0,2,0,0,alpha]
+   _emocao [4,20,4,20,13,64,node,fired,blt, ("emocao" "raiva")]
+      _verboRaiva [4,10,4,10,6,52,node,fired]
+         FODENDO [4,10,4,10,0,0,alpha]
+      _frasePalmeiras [12,20,12,20,12,12,node,fired]
+         _palmeiras [12,20,12,20,6,48,node]
+            PALMEIRAS [12,20,12,20,0,0,alpha]

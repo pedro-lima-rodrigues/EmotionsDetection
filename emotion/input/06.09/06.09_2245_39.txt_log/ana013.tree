@@ -1,0 +1,20 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,28,0,28,0,0,node,un]
+   _xingamento [0,2,0,2,9,16,node]
+      Pqp [0,2,0,2,0,0,alpha]
+   , [3,3,3,3,0,0,punct]
+   _pronomePessoal [5,6,5,6,6,16,node]
+      eu [5,6,5,6,0,0,alpha]
+   amo [8,10,8,10,0,0,alpha]
+   _frasePalmeiras [12,22,12,22,12,12,node]
+      _artigo [12,12,12,12,6,12,node]
+         o [12,12,12,12,0,0,alpha]
+      _palmeiras [14,22,14,22,6,48,node]
+         palmeiras [14,22,14,22,0,0,alpha]
+   porra [24,28,24,28,0,0,alpha]

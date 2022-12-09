@@ -29,7 +29,7 @@ single();
 @RULES
 _emocao <-
 	#_xWILD [min=1 matches=(😀 😃 😄 😁 😆)]
-	_xWILD [s one matches=(😀 😃 😄 😁 😆)]	### (1)
+	_xWILD [s one matches=(😀 😃 😄 😁 😆 🏆)]	### (1)
 	@@
 
 # TRISTEZA
@@ -42,14 +42,14 @@ _emocao <-
 	_xWILD [s one matches=(🥲 😢 😭 😥 😓)]
 	@@
 
-# AMOR
+# TORCIDA
 @POST
-S("emocao") = "amor";
+S("emocao") = "torcida";
 single();
 
 @RULES
 _emocao <-
-	_xWILD [s one matches=(😍 🥰 😘 😗 😙 😚 ❤️ 🧡 💛 💚 💙 💜 🖤 🤍 🤎 💕)]
+	_xWILD [s one matches=(💚 🐷)]
 	@@
 
 # RAIVA

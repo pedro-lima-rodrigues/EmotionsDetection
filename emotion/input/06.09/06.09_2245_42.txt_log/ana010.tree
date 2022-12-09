@@ -1,0 +1,39 @@
+
+***************
+    PASS 10 (emojis)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,96,0,95,0,0,node,un]
+   RT [0,1,0,1,0,0,alpha]
+   \_ [2,2,2,2,0,0,white]
+   @ [3,3,3,3,0,0,punct]
+   suellyar [4,11,4,11,0,0,alpha]
+   : [12,12,12,12,0,0,punct]
+   \_ [13,13,13,13,0,0,white]
+   _emocao [14,33,14,33,7,39,node, ("emocao" "felicidade")]
+      GOOOOOOOOOOOOOOLLLLL [14,33,14,33,0,0,alpha]
+   \_ [34,34,34,34,0,0,white]
+   DO [35,36,35,36,0,0,alpha]
+   \_ [37,37,37,37,0,0,white]
+   _pronomePossessivo [38,40,38,40,6,20,node]
+      MEU [38,40,38,40,0,0,alpha]
+   \_ [41,41,41,41,0,0,white]
+   CAPITÃO [42,49,42,48,0,0,alpha]
+   \_ [50,50,49,49,0,0,white]
+   PORRA [51,55,50,54,0,0,alpha]
+   \_ [56,56,55,55,0,0,white]
+   _vamos [57,59,56,58,6,92,node]
+      VAI [57,59,56,58,0,0,alpha]
+   \_ [60,60,59,59,0,0,white]
+   _palmeiras [61,69,60,68,6,48,node]
+      PALMEIRAS [61,69,60,68,0,0,alpha]
+   \_ [70,70,69,69,0,0,white]
+   CARALHO [71,77,70,76,0,0,alpha]
+   \_ [78,78,77,77,0,0,white]
+   TE [79,80,78,79,0,0,alpha]
+   \_ [81,81,80,80,0,0,white]
+   AMO [82,84,81,83,0,0,alpha]
+   \_ [85,85,84,84,0,0,white]
+   MEUDEUSSSSS [86,96,85,95,0,0,alpha]

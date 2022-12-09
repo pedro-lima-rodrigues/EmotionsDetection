@@ -1,0 +1,25 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,63,0,63,0,0,node,un]
+   Se [0,1,0,1,0,0,alpha]
+   _frasePalmeiras [3,13,3,13,12,12,node,fired,blt]
+      _artigo [3,3,3,3,6,12,node]
+         o [3,3,3,3,0,0,alpha]
+      _palmeiras [5,13,5,13,6,48,node]
+         Palmeiras [5,13,5,13,0,0,alpha]
+   passar [15,20,15,20,0,0,alpha]
+   _vamos [22,24,22,24,6,92,node]
+      vai [22,24,22,24,0,0,alpha]
+   chegar [26,31,26,31,0,0,alpha]
+   na [33,34,33,34,0,0,alpha]
+   final [36,40,36,40,0,0,alpha]
+   com [42,44,42,44,0,0,alpha]
+   muita [46,50,46,50,0,0,alpha]
+   moral [52,56,52,56,0,0,alpha]
+   mesmo [58,62,58,62,0,0,alpha]
+   . [63,63,63,63,0,0,punct]

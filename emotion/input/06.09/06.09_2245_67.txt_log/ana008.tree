@@ -1,0 +1,26 @@
+
+***************
+    PASS 8 (frases)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,90,0,90,0,0,node,un]
+   RT [0,1,0,1,0,0,alpha]
+   \_ [2,2,2,2,0,0,white]
+   @ [3,3,3,3,0,0,punct]
+   Oledobrasil [4,14,4,14,0,0,alpha]
+   : [15,15,15,15,0,0,punct]
+   \_ [16,16,16,16,0,0,white]
+   _emocao [17,67,17,67,7,39,node, ("emocao" "felicidade")]
+      GOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOL [17,67,17,67,0,0,alpha]
+   \_ [68,68,68,68,0,0,white]
+   DO [69,70,69,70,0,0,alpha]
+   \_ [71,71,71,71,0,0,white]
+   _palmeiras [72,80,72,80,6,48,node]
+      PALMEIRAS [72,80,72,80,0,0,alpha]
+   ! [81,81,81,81,0,0,punct]
+   ! [82,82,82,82,0,0,punct]
+   ! [83,83,83,83,0,0,punct]
+   \_ [84,84,84,84,0,0,white]
+   GOLMEZ [85,90,85,90,0,0,alpha]

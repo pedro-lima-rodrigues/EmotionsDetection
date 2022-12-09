@@ -1,0 +1,25 @@
+
+***************
+    PASS 6 (pos)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,40,0,40,0,0,node,un]
+   _palmeiras [0,9,0,9,6,43,node,fired,blt]
+      @ [0,0,0,0,0,0,punct]
+      Palmeiras [1,9,1,9,0,0,alpha]
+   \_ [10,10,10,10,0,0,white]
+   corta [11,15,11,15,0,0,alpha]
+   \_ [16,16,16,16,0,0,white]
+   _artigo [17,18,17,18,6,12,node,fired,blt]
+      os [17,18,17,18,0,0,alpha]
+   \_ [19,19,19,19,0,0,white]
+   pulso [20,24,20,24,0,0,alpha]
+   \_ [25,25,25,25,0,0,white]
+   na [26,27,26,27,0,0,alpha]
+   \_ [28,28,28,28,0,0,white]
+   _pronomePossessivo [29,33,29,33,6,20,node,fired,blt]
+      minha [29,33,29,33,0,0,alpha]
+   \_ [34,34,34,34,0,0,white]
+   frente [35,40,35,40,0,0,alpha]

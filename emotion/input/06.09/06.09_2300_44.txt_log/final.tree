@@ -1,0 +1,19 @@
+
+FINAL OUTPUT TREE:
+
+_ROOT [0,61,0,60,0,0,node,un]
+   RT [0,1,0,1,0,0,alpha]
+   @ [3,3,3,3,0,0,punct]
+   reinaluanjo [4,14,4,14,0,0,alpha]
+   : [15,15,15,15,0,0,punct]
+   _verboLigacao [17,18,17,17,6,60,node]
+      É [17,18,17,17,0,0,alpha]
+   demais [20,25,19,24,0,0,alpha]
+   pedir [27,31,26,30,0,0,alpha]
+   mais [33,36,32,35,0,0,alpha]
+   um [38,39,37,38,0,0,alpha]
+   golzinho [41,48,40,47,0,0,alpha]
+   do [50,51,49,50,0,0,alpha]
+   _frasePalmeiras [53,61,52,60,12,12,node]
+      _palmeiras [53,61,52,60,6,48,node]
+         Palmeiras [53,61,52,60,0,0,alpha]

@@ -10,13 +10,39 @@
 
 @POST
 S("emocao") = "torcida";
-S("tipo") = "interjeicao";
 single();
 
 @RULES
 _emocao <-
-	_interjeicao
-	_frasePalmeiras
+	_vamos														### (1)
+	_xWILD [s optional one matches=(ganhar ganha virar vira)]	### (2)
+	\, [s optional]												### (3)
+	_frasePalmeiras												### (4)
+	@@
+
+_emocao <-
+	_vamos			### (1)
+	dar				### (2)
+	_frasePalmeiras	### (3)
+	@@
+
+_emocao <-
+	_frasePalmeiras	### (1)
+	_vamos			### (2)
+	@@
+
+_emocao <-
+	que											### (1)
+	deus										### (2)
+	_xWILD [s one matches=(abençoe abencoe)]	### (3)
+	_frasePalmeiras								### (4)
+	@@
+
+_emocao <-
+	que											### (1)
+	deus										### (2)
+	nos											### (3)
+	_xWILD [s one matches=(abençoe abencoe)]	### (4)
 	@@
 
 @POST
@@ -25,13 +51,31 @@ single();
 
 @RULES
 _emocao <-
-	_verboRaiva
-	_frasePalmeiras
+	_xingamento		### (1)
+	\, [optional]	### (2)
+	_frasePalmeiras	### (3)
 	@@
 
 _emocao <-
-	_adverbio
-	_frasePalmeiras
+	_frasePalmeiras	### (1)
+	_xingamento		### (2)
+	@@
+
+_emocao <-
+	_verboRaiva				### (1)
+	_adverbio [optional]	### (2)
+	_frasePalmeiras			### (3)
+	@@
+
+_emocao <-
+	_frasePalmeiras				### (1)
+	_verboLigacao [optional]	### (2)
+	_adjetivoRaiva				### (3)
+	@@
+
+_emocao <-
+	_contra			### (1)
+	_frasePalmeiras	### (2)
 	@@
 
 @POST
@@ -40,15 +84,14 @@ single();
 
 @RULES
 _semMundial <-
-	_frasePalmeiras
-	_nao
-	_tem
-	_xWILD [trig match=(_mundial)]
+	_frasePalmeiras					### (1)
+	_neg							### (2)
+	_tem							### (3)
+	_xWILD [trig match=(_mundial)]	### (4)
 	@@
 
 _semMundial <-
-	_frasePalmeiras
-	_sem
-	_mundial
+	_sem			### (2)
+	_mundial		### (3)
 	@@
 

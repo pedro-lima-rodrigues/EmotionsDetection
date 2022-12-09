@@ -1,0 +1,24 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,44,0,44,0,0,node,un]
+   _pronomePessoal [0,1,0,1,6,16,node]
+      Eu [0,1,0,1,0,0,alpha]
+   devia [3,7,3,7,0,0,alpha]
+   ter [9,11,9,11,0,0,alpha]
+   apostado [13,20,13,20,0,0,alpha]
+   https [22,26,22,26,0,0,alpha]
+   : [27,27,27,27,0,0,punct]
+   / [28,28,28,28,0,0,punct]
+   / [29,29,29,29,0,0,punct]
+   t [30,30,30,30,0,0,alpha]
+   . [31,31,31,31,0,0,punct]
+   co [32,33,32,33,0,0,alpha]
+   / [34,34,34,34,0,0,punct]
+   PC [35,36,35,36,0,0,alpha]
+   6 [37,37,37,37,0,0,num]
+   POhKUvu [38,44,38,44,0,0,alpha]

@@ -1,0 +1,29 @@
+
+***************
+    PASS 6 (pos)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,73,0,73,0,0,node,un]
+   Esta [0,3,0,3,0,0,alpha]
+   \_ [4,4,4,4,0,0,white]
+   conmadre [5,12,5,12,0,0,alpha]
+   \_ [13,13,13,13,0,0,white]
+   el [14,15,14,15,0,0,alpha]
+   \_ [16,16,16,16,0,0,white]
+   _palmeiras [17,25,17,25,6,48,node,fired,blt]
+      Palmeiras [17,25,17,25,0,0,alpha]
+   - [26,26,26,26,0,0,punct]
+   Paranaense [27,36,27,36,0,0,alpha]
+   \_ [37,37,37,37,0,0,white]
+   pero [38,41,38,41,0,0,alpha]
+   \_ [42,42,42,42,0,0,white]
+   prefiero [43,50,43,50,0,0,alpha]
+   \_ [51,51,51,51,0,0,white]
+   hacer [52,56,52,56,0,0,alpha]
+   \_ [57,57,57,57,0,0,white]
+   corajes [58,64,58,64,0,0,alpha]
+   \_ [65,65,65,65,0,0,white]
+   @ [66,66,66,66,0,0,punct]
+   Rayados [67,73,67,73,0,0,alpha]

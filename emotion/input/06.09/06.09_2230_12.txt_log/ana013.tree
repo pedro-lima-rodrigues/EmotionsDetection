@@ -1,0 +1,34 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,99,0,97,0,0,node,un]
+   se [0,1,0,1,0,0,alpha]
+   _frasePalmeiras [3,13,3,13,12,12,node]
+      _artigo [3,3,3,3,6,12,node]
+         o [3,3,3,3,0,0,alpha]
+      _palmeiras [5,13,5,13,6,48,node]
+         palmeiras [5,13,5,13,0,0,alpha]
+   perder [15,20,15,20,0,0,alpha]
+   , [21,21,21,21,0,0,punct]
+   vão [23,26,23,25,0,0,alpha]
+   colocar [28,34,27,33,0,0,alpha]
+   _artigo [36,36,35,35,6,12,node]
+      a [36,36,35,35,0,0,alpha]
+   culpa [38,42,37,41,0,0,alpha]
+   na [44,45,43,44,0,0,alpha]
+   _emocao [47,55,46,53,6,30,node, ("emocao" "raiva")]
+      expulsão [47,55,46,53,0,0,alpha]
+   . [56,56,54,54,0,0,punct]
+   se [58,59,56,57,0,0,alpha]
+   ganhar [61,66,59,64,0,0,alpha]
+   , [67,67,65,65,0,0,punct]
+   nada [69,72,67,70,0,0,alpha]
+   aconteceu [74,82,72,80,0,0,alpha]
+   e [84,84,82,82,0,0,alpha]
+   vida [86,89,84,87,0,0,alpha]
+   que [91,93,89,91,0,0,alpha]
+   segue [95,99,93,97,0,0,alpha]

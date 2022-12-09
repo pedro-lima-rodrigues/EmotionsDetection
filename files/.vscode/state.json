@@ -3,8 +3,8 @@
         {
             "name": "Analyzer",
             "type": "state",
-            "currentTextFile": "c:\\Users\\pepel\\GitHub\\EmotionsDetection\\files\\input\\c:\\Users\\pepel\\GitHub\\EmotionsDetection\\files\\input\\c:\\Users\\pepel\\.vscode\\extensions\\dehilster.nlp-1.35.0\\nlp-engine\\analyzers\\files\\input\\files\\article_1.txt",
-            "currentPassFile": "c:\\Users\\pepel\\GitHub\\EmotionsDetection\\files\\spec\\funcs.nlp"
+            "currentTextFile": "c:\\Users\\pepel\\GitHub\\EmotionsDetection\\files\\input\\c:\\Users\\pepel\\GitHub\\EmotionsDetection\\files\\input\\c:\\Users\\pepel\\GitHub\\EmotionsDetection\\files\\input\\c:\\Users\\pepel\\.vscode\\extensions\\dehilster.nlp-1.35.0\\nlp-engine\\analyzers\\files\\input\\files\\article_1.txt",
+            "currentPassFile": "c:\\Users\\pepel\\GitHub\\EmotionsDetection\\files\\spec\\close.nlp"
         }
     ]
 }

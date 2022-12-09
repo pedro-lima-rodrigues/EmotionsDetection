@@ -1,0 +1,18 @@
+
+***************
+    PASS 6 (pos)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,28,0,27,0,0,node,un]
+   estão [0,5,0,4,0,0,alpha]
+   \_ [6,6,5,5,0,0,white]
+   _verboRaiva [7,14,6,13,6,52,node,fired,blt]
+      roubando [7,14,6,13,0,0,alpha]
+   \_ [15,15,14,14,0,0,white]
+   _pronomePossessivo [16,18,15,17,6,20,node,fired,blt]
+      meu [16,18,15,17,0,0,alpha]
+   \_ [19,19,18,18,0,0,white]
+   _palmeiras [20,28,19,27,6,48,node,fired,blt]
+      palmeiras [20,28,19,27,0,0,alpha]

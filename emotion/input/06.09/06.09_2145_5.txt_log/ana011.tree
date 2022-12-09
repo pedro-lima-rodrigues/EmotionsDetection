@@ -1,0 +1,24 @@
+
+***************
+    PASS 11 (RemoveWhiteSpace)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,60,0,59,0,0,node,un]
+   pq [0,1,0,1,0,0,alpha]
+   _artigo [3,3,3,3,6,12,node]
+      o [3,3,3,3,0,0,alpha]
+   _palmeiras [5,13,5,13,6,48,node]
+      palmeiras [5,13,5,13,0,0,alpha]
+   quer [15,18,15,18,0,0,alpha]
+   tanto [20,24,20,24,0,0,alpha]
+   me [26,27,26,27,0,0,alpha]
+   matar [29,33,29,33,0,0,alpha]
+   de [35,36,35,36,0,0,alpha]
+   infarto [38,44,38,44,0,0,alpha]
+   _pronomePessoal [46,47,46,47,6,16,node]
+      eu [46,47,46,47,0,0,alpha]
+   _neg [49,52,49,51,6,76,node]
+      não [49,52,49,51,0,0,alpha]
+   entendo [54,60,53,59,0,0,alpha]

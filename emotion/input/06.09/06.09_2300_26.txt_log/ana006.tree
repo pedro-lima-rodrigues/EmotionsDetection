@@ -1,0 +1,28 @@
+
+***************
+    PASS 6 (pos)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,61,0,59,0,0,node,un]
+   _palmeiras [0,8,0,8,6,48,node,fired,blt]
+      Palmeiras [0,8,0,8,0,0,alpha]
+   \_ [9,9,9,9,0,0,white]
+   _pronomePessoal [10,14,10,13,6,16,node,fired,blt]
+      você [10,14,10,13,0,0,alpha]
+   \_ [15,15,14,14,0,0,white]
+   poderia [16,22,15,21,0,0,alpha]
+   \_ [23,23,22,22,0,0,white]
+   colaborar [24,32,23,31,0,0,alpha]
+   \_ [33,33,32,32,0,0,white]
+   mais [34,37,33,36,0,0,alpha]
+   \_ [38,38,37,37,0,0,white]
+   com [39,41,38,40,0,0,alpha]
+   \_ [42,42,41,41,0,0,white]
+   _pronomePossessivo [43,47,42,46,6,20,node,fired,blt]
+      minha [43,47,42,46,0,0,alpha]
+   \_ [48,48,47,47,0,0,white]
+   saúde [49,54,48,52,0,0,alpha]
+   \_ [55,55,53,53,0,0,white]
+   mental [56,61,54,59,0,0,alpha]

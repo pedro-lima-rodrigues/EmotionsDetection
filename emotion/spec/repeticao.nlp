@@ -10,19 +10,29 @@
 
 @POST
 #if(AleRep(N("$text",1),"gol")){
-if(LetrasRep(N("$text",1),"gol")){
+if(LetrasRep(N("$text",1),"gol") || LetrasRep(N("$text",1),"go")){
 	L("node") = group(1,1,"_emocao");
 	pnmakevar(L("node"),"emocao","felicidade");
 	"gol.txt" << N("$text",1) << "\n";
 }
-if(OrdRep(N("$text",1),"rs") || OrdRep(N("$text",1),"ha") || OrdRep(N("$text",1),"ashu") || OrdRep(N("$text",1),"k") || AleRep(N("$text",1),"kj")){
-	L("node") = group(1,1,"_risada");
+if(OrdRep(N("$text",1),"rs") || AleRep(N("$text",1),"ha") || OrdRep(N("$text",1),"ashu") || OrdRep(N("$text",1),"k") || AleRep(N("$text",1),"kj") || AleRep(N("$text",1),"ks") || AleRep(N("$text",1),"ka")){
+	L("node") = group(1,1,"_emocao");
 	pnmakevar(L("node"),"emocao","engracado");
 	"risada.txt" << N("$text",1) << "\n";
 }
-if(LetrasRep(N("$text",1),"vamo")){
-	group(1,1,"_interjeicao");
+if(LetrasRep(N("$text",1),"vamo") || LetrasRep(N("$text",1),"vamos") || LetrasRep(N("$text",1),"vai") || LetrasRep(N("$text",1),"bora")){
+	L("node") = group(1,1,"_vamos");
+	#pnmakevar(L("node"),"emocao","torcida");
 	"vamo.txt" << N("$text",1) << "\n";
+}
+if(LetrasRep(N("$text",1),"avanti")){
+	L("node") = group(1,1,"_emocao");
+	pnmakevar(L("node"),"emocao","torcida");
+	"avanti.txt" << N("$text",1) << "\n";
+}
+if(LetrasRep(N("$text",1),"amor") || LetrasRep(N("$text",1),"virada")){
+	L("node") = group(1,1,"_torcida");
+	"amor/virada.txt" << N("$text",1) << "\n";
 }
 
 @RULES

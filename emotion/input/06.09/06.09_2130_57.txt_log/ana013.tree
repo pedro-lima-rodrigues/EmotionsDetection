@@ -1,0 +1,22 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,50,0,48,0,0,node,un]
+   _artigo [0,0,0,0,6,12,node]
+      O [0,0,0,0,0,0,alpha]
+   que [2,4,2,4,0,0,alpha]
+   _frasePalmeiras [6,16,6,16,12,12,node]
+      _artigo [6,6,6,6,6,12,node]
+         o [6,6,6,6,0,0,alpha]
+      _palmeiras [8,16,8,16,6,48,node]
+         Palmeiras [8,16,8,16,0,0,alpha]
+   será [18,22,18,21,0,0,alpha]
+   surrado [24,30,23,29,0,0,alpha]
+   hoje [32,35,31,34,0,0,alpha]
+   _verboLigacao [37,38,36,36,6,60,node]
+      é [37,38,36,36,0,0,alpha]
+   brincadeira [40,50,38,48,0,0,alpha]

@@ -1,0 +1,18 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,33,0,27,0,0,node,un]
+   🌪️ [0,6,0,1,0,0,emoji]
+   _frasePalmeiras [8,16,3,11,12,12,node,fired,blt]
+      _palmeiras [8,16,3,11,6,48,node]
+         palmeiras [8,16,3,11,0,0,alpha]
+   _neg [18,21,13,15,6,76,node]
+      não [18,21,13,15,0,0,alpha]
+   _tem [23,25,17,19,6,80,node]
+      tem [23,25,17,19,0,0,alpha]
+   _mundial [27,33,21,27,6,88,node]
+      mundial [27,33,21,27,0,0,alpha]

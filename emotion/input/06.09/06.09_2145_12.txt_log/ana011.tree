@@ -1,0 +1,31 @@
+
+***************
+    PASS 11 (RemoveWhiteSpace)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,74,0,74,0,0,node,un]
+   @ [0,0,0,0,0,0,punct]
+   leifx [1,5,1,5,0,0,alpha]
+   _ [6,6,6,6,0,0,punct]
+   _artigo [8,8,8,8,6,12,node]
+      O [8,8,8,8,0,0,alpha]
+   pior [10,13,10,13,0,0,alpha]
+   que [15,17,15,17,0,0,alpha]
+   _artigo [19,20,19,20,6,12,node]
+      os [19,20,19,20,0,0,alpha]
+   doiis [22,26,22,26,0,0,alpha]
+   _pronomePessoal [28,29,28,29,6,16,node]
+      eu [28,29,28,29,0,0,alpha]
+   n [31,31,31,31,0,0,alpha]
+   gosto [33,37,33,37,0,0,alpha]
+   , [38,38,38,38,0,0,punct]
+   mais [40,43,40,43,0,0,alpha]
+   acredito [45,52,45,52,0,0,alpha]
+   que [54,56,54,56,0,0,alpha]
+   _vamos [58,60,58,60,6,92,node]
+      vai [58,60,58,60,0,0,alpha]
+   dar [62,64,62,64,0,0,alpha]
+   _palmeiras [66,74,66,74,6,48,node]
+      palmeiras [66,74,66,74,0,0,alpha]

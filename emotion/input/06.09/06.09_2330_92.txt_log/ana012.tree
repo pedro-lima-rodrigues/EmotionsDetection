@@ -1,0 +1,20 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,49,0,48,0,0,node,un]
+   @ [0,0,0,0,0,0,punct]
+   geglobo [1,7,1,7,0,0,alpha]
+   _frasePalmeiras [9,17,9,17,12,12,node,fired,blt]
+      _palmeiras [9,17,9,17,6,48,node]
+         Palmeiras [9,17,9,17,0,0,alpha]
+   campeão [19,26,19,25,0,0,alpha]
+   _mundial [28,34,27,33,6,88,node]
+      Mundial [28,34,27,33,0,0,alpha]
+   ? [35,35,34,34,0,0,punct]
+   Nunca [37,41,36,40,0,0,alpha]
+   Terans [43,48,42,47,0,0,alpha]
+   ! [49,49,48,48,0,0,punct]

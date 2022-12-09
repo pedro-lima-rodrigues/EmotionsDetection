@@ -1,0 +1,9 @@
+
+***************
+    PASS 11 (RemoveWhiteSpace)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,49,0,49,0,0,node,un]
+   oioioioioioioioioioioioioioioioioioioioioioioioioi [0,49,0,49,0,0,alpha]

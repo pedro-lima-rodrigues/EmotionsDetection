@@ -1,0 +1,41 @@
+
+***************
+    PASS 7 (repeticao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,69,0,69,0,0,node,un]
+   _pronomePossessivo [0,2,0,2,6,20,node]
+      Meu [0,2,0,2,0,0,alpha]
+   \_ [3,3,3,3,0,0,white]
+   _vamos [4,6,4,6,6,92,node]
+      vai [4,6,4,6,0,0,alpha]
+   \_ [7,7,7,7,0,0,white]
+   se [8,9,8,9,0,0,alpha,fired]
+   \_ [10,10,10,10,0,0,white]
+   fude [11,14,11,14,0,0,alpha,fired]
+   \_ [15,15,15,15,0,0,white]
+   _artigo [16,16,16,16,6,12,node]
+      o [16,16,16,16,0,0,alpha]
+   \_ [17,17,17,17,0,0,white]
+   _palmeiras [18,26,18,26,6,48,node]
+      palmeiras [18,26,18,26,0,0,alpha]
+   \_ [27,27,27,27,0,0,white]
+   _vamos [28,30,28,30,6,92,node]
+      vai [28,30,28,30,0,0,alpha]
+   \_ [31,31,31,31,0,0,white]
+   conseguir [32,40,32,40,0,0,alpha,fired]
+   \_ [41,41,41,41,0,0,white]
+   se [42,43,42,43,0,0,alpha,fired]
+   \_ [44,44,44,44,0,0,white]
+   classificar [45,55,45,55,0,0,alpha,fired]
+   \_ [56,56,56,56,0,0,white]
+   com [57,59,57,59,0,0,alpha,fired]
+   \_ [60,60,60,60,0,0,white]
+   1 [61,61,61,61,0,0,num]
+   \_ [62,62,62,62,0,0,white]
+   _artigo [63,63,63,63,6,12,node]
+      a [63,63,63,63,0,0,alpha]
+   \_ [64,64,64,64,0,0,white]
+   menos [65,69,65,69,0,0,alpha,fired]

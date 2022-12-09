@@ -1,0 +1,23 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,41,0,40,0,0,node,un]
+   _artigo [0,0,0,0,6,12,node]
+      o [0,0,0,0,0,0,alpha]
+   que [2,4,2,4,0,0,alpha]
+   esse [6,9,6,9,0,0,alpha]
+   tabata [11,16,11,16,0,0,alpha]
+   do [18,19,18,19,0,0,alpha]
+   _frasePalmeiras [21,29,21,29,12,12,node]
+      _palmeiras [21,29,21,29,6,48,node]
+         palmeiras [21,29,21,29,0,0,alpha]
+   _verboLigacao [31,32,31,31,6,60,node]
+      é [31,32,31,31,0,0,alpha]
+   _emocao [34,37,33,36,6,34,node, ("emocao" "raiva")]
+      ruim [34,37,33,36,0,0,alpha]
+   _xingamento [39,41,38,40,9,16,node]
+      pqp [39,41,38,40,0,0,alpha]

@@ -1,0 +1,32 @@
+
+***************
+    PASS 9 (palavrao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,68,0,68,0,0,node,un]
+   _pronomePessoal [0,1,0,1,6,16,node]
+      Eu [0,1,0,1,0,0,alpha]
+   \_ [2,2,2,2,0,0,white]
+   fico [3,6,3,6,0,0,alpha]
+   \_ [7,7,7,7,0,0,white]
+   _adverbio [8,9,8,9,6,64,node]
+      MT [8,9,8,9,0,0,alpha]
+   \_ [10,10,10,10,0,0,white]
+   triste [11,16,11,16,0,0,alpha]
+   \_ [17,17,17,17,0,0,white]
+   vendo [18,22,18,22,0,0,alpha]
+   \_ [23,23,23,23,0,0,white]
+   _artigo [24,24,24,24,6,12,node]
+      o [24,24,24,24,0,0,alpha]
+   \_ [25,25,25,25,0,0,white]
+   _palmeiras [26,34,26,34,6,48,node]
+      palmeiras [26,34,26,34,0,0,alpha]
+   \_ [35,35,35,35,0,0,white]
+   ser [36,38,36,38,0,0,alpha]
+   \_ [39,39,39,39,0,0,white]
+   eliminado [40,48,40,48,0,0,alpha]
+   \_ [49,49,49,49,0,0,white]
+   _emocao [50,68,50,68,7,39,node, ("emocao" "engracado")]
+      KAKAKAKAKAKAKAKAKKA [50,68,50,68,0,0,alpha]

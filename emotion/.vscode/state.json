@@ -3,8 +3,8 @@
         {
             "name": "Analyzer",
             "type": "state",
-            "currentTextFile": "c:\\Users\\pepel\\GitHub\\EmotionsDetection\\emotion\\input\\teste\\text.txt",
-            "currentPassFile": "c:\\Users\\pepel\\GitHub\\EmotionsDetection\\emotion\\spec\\repeticao.nlp"
+            "currentTextFile": "c:\\Users\\pepel\\GitHub\\EmotionsDetection\\emotion\\input\\16.10",
+            "currentPassFile": "c:\\Users\\pepel\\GitHub\\EmotionsDetection\\emotion\\spec\\output.nlp"
         }
     ]
 }

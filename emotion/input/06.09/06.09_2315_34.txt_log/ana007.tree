@@ -1,0 +1,22 @@
+
+***************
+    PASS 7 (repeticao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,32,0,32,0,0,node,un]
+   E [0,0,0,0,0,0,alpha,fired]
+   \_ [1,1,1,1,0,0,white]
+   _artigo [2,2,2,2,6,12,node]
+      o [2,2,2,2,0,0,alpha]
+   \_ [3,3,3,3,0,0,white]
+   _palmeiras [4,12,4,12,6,48,node]
+      Palmeiras [4,12,4,12,0,0,alpha]
+   \_ [13,13,13,13,0,0,white]
+   hein [14,17,14,17,0,0,alpha,fired]
+   \_ [18,18,18,18,0,0,white]
+   galera [19,24,19,24,0,0,alpha,fired]
+   \_ [25,25,25,25,0,0,white]
+   _emocao [26,32,26,32,7,39,node,fired,blt, ("emocao" "engracado")]
+      kkkkkkk [26,32,26,32,0,0,alpha,fired]

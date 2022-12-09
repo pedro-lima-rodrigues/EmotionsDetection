@@ -1,0 +1,23 @@
+
+***************
+    PASS 11 (RemoveWhiteSpace)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,86,0,86,0,0,node,un]
+   La [0,1,0,1,0,0,alpha]
+   torcida [3,9,3,9,0,0,alpha]
+   de [11,12,11,12,0,0,alpha]
+   _palmeiras [14,22,14,22,6,48,node]
+      Palmeiras [14,22,14,22,0,0,alpha]
+   cantando [24,31,24,31,0,0,alpha]
+   canciones [33,41,33,41,0,0,alpha]
+   con [43,45,43,45,0,0,alpha]
+   las [47,49,47,49,0,0,alpha]
+   tonadas [51,57,51,57,0,0,alpha]
+   de [59,60,59,60,0,0,alpha]
+   las [62,64,62,64,0,0,alpha]
+   hinchadas [66,74,66,74,0,0,alpha]
+   argentinas [76,85,76,85,0,0,alpha]
+   . [86,86,86,86,0,0,punct]

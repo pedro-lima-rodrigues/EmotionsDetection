@@ -1,20 +1,16 @@
 emocao
   torcida: 
-    contagem=[0]
+    contagem=[2]
 
 emocao
   torcida: 
-    contagem=[0]
+    contagem=[2]
 
 emocao
   torcida: 
-    contagem=[1]
+    contagem=[2]
 
 emocao
-
-emocao
-
-emocao
-
-emocao
+  torcida: 
+    contagem=[2]
 

@@ -1,0 +1,17 @@
+
+FINAL OUTPUT TREE:
+
+_ROOT [0,24,0,24,0,0,node,un]
+   _vamos [0,2,0,2,6,92,node]
+      vai [0,2,0,2,0,0,alpha]
+   _emocao [3,24,3,24,13,53,node, ("emocao" "raiva")]
+      _xingamento [3,14,3,14,9,21,node]
+         \_ [3,3,3,3,0,0,white]
+         tomar [4,8,4,8,0,0,alpha]
+         \_ [9,9,9,9,0,0,white]
+         no [10,11,10,11,0,0,alpha]
+         \_ [12,12,12,12,0,0,white]
+         cu [13,14,13,14,0,0,alpha]
+      _frasePalmeiras [16,24,16,24,12,12,node]
+         _palmeiras [16,24,16,24,6,48,node]
+            palmeiras [16,24,16,24,0,0,alpha]

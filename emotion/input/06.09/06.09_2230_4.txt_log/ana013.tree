@@ -1,0 +1,34 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,99,0,98,0,0,node,un]
+   _artigo [0,0,0,0,6,12,node]
+      O [0,0,0,0,0,0,alpha]
+   time [2,5,2,5,0,0,alpha]
+   que [7,9,7,9,0,0,alpha]
+   mais [11,14,11,14,0,0,alpha]
+   se [16,17,16,17,0,0,alpha]
+   ferra [19,23,19,23,0,0,alpha]
+   com [25,27,25,27,0,0,alpha]
+   _emocao [29,38,29,38,6,30,node, ("emocao" "raiva")]
+      arbitragem [29,38,29,38,0,0,alpha]
+   _verboLigacao [40,41,40,40,6,60,node]
+      é [40,41,40,40,0,0,alpha]
+   _artigo [43,43,42,42,6,12,node]
+      a [43,43,42,42,0,0,alpha]
+   Sociedade [45,53,44,52,0,0,alpha]
+   Esportiva [55,63,54,62,0,0,alpha]
+   _frasePalmeiras [65,73,64,72,12,12,node]
+      _palmeiras [65,73,64,72,6,48,node]
+         Palmeiras [65,73,64,72,0,0,alpha]
+   . [74,74,73,73,0,0,punct]
+   Seja [76,79,75,78,0,0,alpha]
+   na [81,82,80,81,0,0,alpha]
+   CBF [84,86,83,85,0,0,alpha]
+   ou [88,89,87,88,0,0,alpha]
+   CONMEBOL [91,98,90,97,0,0,alpha]
+   . [99,99,98,98,0,0,punct]

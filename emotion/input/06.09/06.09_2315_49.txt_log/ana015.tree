@@ -1,0 +1,14 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,24,0,24,0,0,node,un]
+   TA [0,1,0,1,0,0,alpha]
+   DE [3,4,3,4,0,0,alpha]
+   SACANAGEM [6,14,6,14,0,0,alpha]
+   _frasePalmeiras [16,24,16,24,12,12,node]
+      _palmeiras [16,24,16,24,6,48,node]
+         PALMEIRAS [16,24,16,24,0,0,alpha]

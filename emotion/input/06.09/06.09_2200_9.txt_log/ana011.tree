@@ -1,0 +1,33 @@
+
+***************
+    PASS 11 (RemoveWhiteSpace)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,89,0,87,0,0,node,un]
+   Esse [0,3,0,3,0,0,alpha]
+   Luan [5,8,5,8,0,0,alpha]
+   do [10,11,10,11,0,0,alpha]
+   _palmeiras [13,21,13,21,6,48,node]
+      Palmeiras [13,21,13,21,0,0,alpha]
+   _verboLigacao [23,24,23,23,6,60,node]
+      é [23,24,23,23,0,0,alpha]
+   um [26,27,25,26,0,0,alpha]
+   paçoca [29,35,28,33,0,0,alpha]
+   Cara [37,40,35,38,0,0,alpha]
+   de [42,43,40,41,0,0,alpha]
+   quem [45,48,43,46,0,0,alpha]
+   _vamos [50,52,48,50,6,92,node]
+      vai [50,52,48,50,0,0,alpha]
+   entregar [54,61,52,59,0,0,alpha]
+   no [63,64,61,62,0,0,alpha]
+   final [66,70,64,68,0,0,alpha]
+   e [72,72,70,70,0,0,alpha]
+   _vamos [74,76,72,74,6,92,node]
+      vai [74,76,72,74,0,0,alpha]
+   terminar [78,85,76,83,0,0,alpha]
+   1 [87,87,85,85,0,0,num]
+   _artigo [88,88,86,86,6,12,node]
+      a [88,88,86,86,0,0,alpha]
+   1 [89,89,87,87,0,0,num]

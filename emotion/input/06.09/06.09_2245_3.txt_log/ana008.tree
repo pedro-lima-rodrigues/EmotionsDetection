@@ -1,0 +1,18 @@
+
+***************
+    PASS 8 (frases)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,25,0,24,0,0,node,un]
+   _palmeiras [0,8,0,8,6,48,node]
+      Palmeiras [0,8,0,8,0,0,alpha]
+   \_ [9,9,9,9,0,0,white]
+   _verboLigacao [10,11,10,10,6,60,node]
+      é [10,11,10,10,0,0,alpha]
+   \_ [12,12,11,11,0,0,white]
+   _adverbio [13,17,12,16,6,64,node]
+      muito [13,17,12,16,0,0,alpha]
+   \_ [18,18,17,17,0,0,white]
+   copeiro [19,25,18,24,0,0,alpha]

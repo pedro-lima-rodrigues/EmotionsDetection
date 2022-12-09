@@ -1,0 +1,19 @@
+
+***************
+    PASS 9 (palavrao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,33,0,33,0,0,node,un]
+   _tem [0,2,0,2,6,80,node]
+      Tem [0,2,0,2,0,0,alpha]
+   \_ [3,3,3,3,0,0,white]
+   torcedor [4,11,4,11,0,0,alpha]
+   \_ [12,12,12,12,0,0,white]
+   do [13,14,13,14,0,0,alpha]
+   \_ [15,15,15,15,0,0,white]
+   _palmeiras [16,24,16,24,6,48,node]
+      Palmeiras [16,24,16,24,0,0,alpha]
+   \_ [25,25,25,25,0,0,white]
+   chorando [26,33,26,33,0,0,alpha]

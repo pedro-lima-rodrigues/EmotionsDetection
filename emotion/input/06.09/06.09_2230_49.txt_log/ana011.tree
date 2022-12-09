@@ -1,0 +1,21 @@
+
+***************
+    PASS 11 (RemoveWhiteSpace)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,40,0,40,0,0,node,un]
+   @ [0,0,0,0,0,0,punct]
+   _ [1,1,1,1,0,0,punct]
+   Thalle [2,7,2,7,0,0,alpha]
+   _ [8,8,8,8,0,0,punct]
+   s [9,9,9,9,0,0,alpha]
+   _palmeiras [11,20,11,20,6,43,node]
+      @ [11,11,11,11,0,0,punct]
+      Palmeiras [12,20,12,20,0,0,alpha]
+   _tem [22,24,22,24,6,80,node]
+      tem [22,24,22,24,0,0,alpha]
+   luan [26,29,26,29,0,0,alpha]
+   e [31,31,31,31,0,0,alpha]
+   kuscevic [33,40,33,40,0,0,alpha]

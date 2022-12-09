@@ -1,0 +1,16 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,39,0,39,0,0,node,un]
+   QUE [0,2,0,2,0,0,alpha]
+   SE [4,5,4,5,0,0,alpha]
+   ELIMINE [7,13,7,13,0,0,alpha]
+   _frasePalmeiras [15,23,15,23,12,12,node]
+      _palmeiras [15,23,15,23,6,48,node]
+         PALMEIRAS [15,23,15,23,0,0,alpha]
+   POR [25,27,25,27,0,0,alpha]
+   FAVORRRRRRR [29,39,29,39,0,0,alpha]

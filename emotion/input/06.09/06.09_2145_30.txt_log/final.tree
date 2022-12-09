@@ -1,0 +1,12 @@
+
+FINAL OUTPUT TREE:
+
+_ROOT [0,26,0,26,0,0,node,un]
+   RT [0,1,0,1,0,0,alpha]
+   @ [3,3,3,3,0,0,punct]
+   _ [4,4,4,4,0,0,punct]
+   stellalonde [5,15,5,15,0,0,alpha]
+   : [16,16,16,16,0,0,punct]
+   _frasePalmeiras [18,26,18,26,12,12,node]
+      _palmeiras [18,26,18,26,6,48,node]
+         PALMEIRAS [18,26,18,26,0,0,alpha]

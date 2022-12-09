@@ -1,0 +1,20 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,57,0,57,0,0,node,un]
+   filmaram [0,7,0,7,0,0,alpha]
+   _artigo [9,9,9,9,6,12,node]
+      o [9,9,9,9,0,0,alpha]
+   carlos [11,16,11,16,0,0,alpha]
+   pilotto [18,24,18,24,0,0,alpha]
+   chorando [26,33,26,33,0,0,alpha]
+   na [35,36,35,36,0,0,alpha]
+   torcida [38,44,38,44,0,0,alpha]
+   do [46,47,46,47,0,0,alpha]
+   _frasePalmeiras [49,57,49,57,12,12,node]
+      _palmeiras [49,57,49,57,6,48,node]
+         palmeiras [49,57,49,57,0,0,alpha]

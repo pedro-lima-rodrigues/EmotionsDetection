@@ -1,0 +1,20 @@
+
+***************
+    PASS 10 (emojis)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,22,0,22,0,0,node,un]
+   _pronomePessoal [0,1,0,1,6,16,node]
+      EU [0,1,0,1,0,0,alpha]
+   \_ [2,2,2,2,0,0,white]
+   TE [3,4,3,4,0,0,alpha]
+   \_ [5,5,5,5,0,0,white]
+   AMO [6,8,6,8,0,0,alpha]
+   \_ [9,9,9,9,0,0,white]
+   _pronomePossessivo [10,12,10,12,6,20,node]
+      MEU [10,12,10,12,0,0,alpha]
+   \_ [13,13,13,13,0,0,white]
+   _palmeiras [14,22,14,22,6,48,node]
+      PALMEIRAS [14,22,14,22,0,0,alpha]

@@ -1,0 +1,9 @@
+
+***************
+    PASS 8 (frases)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,11,0,11,0,0,node,un]
+   avanteavante [0,11,0,11,0,0,alpha]

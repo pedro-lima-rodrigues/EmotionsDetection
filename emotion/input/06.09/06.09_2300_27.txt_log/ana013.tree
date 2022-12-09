@@ -1,0 +1,32 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,96,0,96,0,0,node,un]
+   RT [0,1,0,1,0,0,alpha]
+   @ [3,3,3,3,0,0,punct]
+   luis [4,7,4,7,0,0,alpha]
+   _ [8,8,8,8,0,0,punct]
+   delpi [9,13,9,13,0,0,alpha]
+   : [14,14,14,14,0,0,punct]
+   Si [16,17,16,17,0,0,alpha]
+   _frasePalmeiras [19,27,19,27,12,12,node]
+      _palmeiras [19,27,19,27,6,48,node]
+         Palmeiras [19,27,19,27,0,0,alpha]
+   se [29,30,29,30,0,0,alpha]
+   queda [32,36,32,36,0,0,alpha]
+   afuera [38,43,38,43,0,0,alpha]
+   sorteo [45,50,45,50,0,0,alpha]
+   un [52,53,52,53,0,0,alpha]
+   album [55,59,55,59,0,0,alpha]
+   tapa [61,64,61,64,0,0,alpha]
+   dura [66,69,66,69,0,0,alpha]
+   entre [71,75,71,75,0,0,alpha]
+   todos [77,81,77,81,0,0,alpha]
+   los [83,85,83,85,0,0,alpha]
+   que [87,89,87,89,0,0,alpha]
+   den [91,93,91,93,0,0,alpha]
+   RT [95,96,95,96,0,0,alpha]

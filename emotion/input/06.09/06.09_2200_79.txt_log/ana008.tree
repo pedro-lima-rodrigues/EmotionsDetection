@@ -1,0 +1,19 @@
+
+***************
+    PASS 8 (frases)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,27,0,26,0,0,node,un]
+   _palmeiras [0,9,0,9,6,43,node]
+      @ [0,0,0,0,0,0,punct]
+      Palmeiras [1,9,1,9,0,0,alpha]
+   \_ [10,10,10,10,0,0,white]
+   Rony [11,14,11,14,0,0,alpha]
+   \_ [15,15,15,15,0,0,white]
+   _verboLigacao [16,17,16,16,6,60,node]
+      é [16,17,16,16,0,0,alpha]
+   \_ [18,18,17,17,0,0,white]
+   agredido [19,26,18,25,0,0,alpha]
+   * [27,27,26,26,0,0,punct]

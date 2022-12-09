@@ -1,0 +1,15 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,30,0,30,0,0,node,un]
+   _frasePalmeiras [0,9,0,9,12,12,node]
+      _palmeiras [0,9,0,9,6,43,node]
+         @ [0,0,0,0,0,0,punct]
+         Palmeiras [1,9,1,9,0,0,alpha]
+   CHORA [11,15,11,15,0,0,alpha]
+   CARLOS [17,22,17,22,0,0,alpha]
+   PILOTTO [24,30,24,30,0,0,alpha]

@@ -1,0 +1,25 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,65,0,65,0,0,node,un]
+   _artigo [0,0,0,0,6,12,node]
+      A [0,0,0,0,0,0,alpha]
+   bueno [2,6,2,6,0,0,alpha]
+   . [7,7,7,7,0,0,punct]
+   . [8,8,8,8,0,0,punct]
+   . [9,9,9,9,0,0,punct]
+   los [10,12,10,12,0,0,alpha]
+   de [14,15,14,15,0,0,alpha]
+   _frasePalmeiras [17,25,17,25,12,12,node,fired,blt]
+      _palmeiras [17,25,17,25,6,48,node]
+         Palmeiras [17,25,17,25,0,0,alpha]
+   cantan [27,32,27,32,0,0,alpha]
+   canciones [34,42,34,42,0,0,alpha]
+   de [44,45,44,45,0,0,alpha]
+   cancha [47,52,47,52,0,0,alpha]
+   de [54,55,54,55,0,0,alpha]
+   Argentina [57,65,57,65,0,0,alpha]

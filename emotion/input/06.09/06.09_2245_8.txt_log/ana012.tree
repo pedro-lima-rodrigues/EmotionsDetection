@@ -1,0 +1,27 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,73,0,28,0,0,node,un]
+   _frasePalmeiras [0,9,0,9,12,12,node,fired,blt]
+      _palmeiras [0,9,0,9,6,43,node]
+         @ [0,0,0,0,0,0,punct]
+         Palmeiras [1,9,1,9,0,0,alpha]
+   _emocao [11,14,11,11,10,41,node, ("emocao" "tristeza")]
+      😭 [11,14,11,11,0,0,emoji]
+   _emocao [15,18,12,12,10,41,node, ("emocao" "tristeza")]
+      😭 [15,18,12,12,0,0,emoji]
+   _emocao [19,22,13,13,10,41,node, ("emocao" "tristeza")]
+      😭 [19,22,13,13,0,0,emoji]
+   _emocao [23,26,14,14,10,41,node, ("emocao" "tristeza")]
+      😭 [23,26,14,14,0,0,emoji]
+   _emocao [27,30,15,15,10,41,node, ("emocao" "tristeza")]
+      😭 [27,30,15,15,0,0,emoji]
+   _emocao [31,34,16,16,10,41,node, ("emocao" "tristeza")]
+      😭 [31,34,16,16,0,0,emoji]
+   ❤️‍🔥 [35,47,17,20,0,0,emoji]
+   ❤️‍🔥 [48,60,21,24,0,0,emoji]
+   ❤️‍🔥 [61,73,25,28,0,0,emoji]

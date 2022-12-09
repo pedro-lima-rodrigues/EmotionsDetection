@@ -1,0 +1,25 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,72,0,70,0,0,node,un]
+   esse [0,3,0,3,0,0,alpha]
+   Tabata [5,10,5,10,0,0,alpha]
+   tá [12,14,12,13,0,0,alpha]
+   matando [16,22,15,21,0,0,alpha]
+   _artigo [24,24,23,23,6,12,node]
+      o [24,24,23,23,0,0,alpha]
+   time [26,29,25,28,0,0,alpha]
+   do [31,32,30,31,0,0,alpha]
+   _frasePalmeiras [34,42,33,41,12,12,node]
+      _palmeiras [34,42,33,41,6,48,node]
+         Palmeiras [34,42,33,41,0,0,alpha]
+   . [43,43,42,42,0,0,punct]
+   putaqueopariu [45,57,44,56,0,0,alpha]
+   que [59,61,58,60,0,0,alpha]
+   _emocao [63,71,62,69,6,34,node,fired, ("emocao" "raiva")]
+      horrível [63,71,62,69,0,0,alpha]
+   . [72,72,70,70,0,0,punct]

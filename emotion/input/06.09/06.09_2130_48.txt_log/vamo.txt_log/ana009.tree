@@ -1,0 +1,41 @@
+
+***************
+    PASS 9 (palavrao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,76,0,76,0,0,node,un]
+   _vamos [0,5,0,5,7,39,node]
+      VAMOOO [0,5,0,5,0,0,alpha]
+   \n [6,6,6,6,0,0,white]
+   _vamos [7,12,7,12,7,39,node]
+      VAMOOO [7,12,7,12,0,0,alpha]
+   \n [13,13,13,13,0,0,white]
+   _vamos [14,19,14,19,7,39,node]
+      VAMOOO [14,19,14,19,0,0,alpha]
+   \n [20,20,20,20,0,0,white]
+   _vamos [21,26,21,26,7,39,node]
+      VAMOOO [21,26,21,26,0,0,alpha]
+   \n [27,27,27,27,0,0,white]
+   _vamos [28,33,28,33,7,39,node]
+      VAMOOO [28,33,28,33,0,0,alpha]
+   \n [34,34,34,34,0,0,white]
+   _vamos [35,40,35,40,7,39,node]
+      VAMOOO [35,40,35,40,0,0,alpha]
+   \n [41,41,41,41,0,0,white]
+   _vamos [42,47,42,47,7,39,node]
+      VAMOOO [42,47,42,47,0,0,alpha]
+   \n [48,48,48,48,0,0,white]
+   _vamos [49,54,49,54,7,39,node]
+      VAMOOO [49,54,49,54,0,0,alpha]
+   \n [55,55,55,55,0,0,white]
+   _vamos [56,61,56,61,7,39,node]
+      VAMOOO [56,61,56,61,0,0,alpha]
+   \n [62,62,62,62,0,0,white]
+   _vamos [63,68,63,68,7,39,node]
+      VAMOOO [63,68,63,68,0,0,alpha]
+   \n [69,69,69,69,0,0,white]
+   _vamos [70,75,70,75,7,39,node]
+      VAMOOO [70,75,70,75,0,0,alpha]
+   \n [76,76,76,76,0,0,white]

@@ -1,0 +1,32 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,107,0,96,0,0,node,un]
+   Urgente [0,6,0,6,0,0,alpha]
+   ! [7,7,7,7,0,0,punct]
+   _frasePalmeiras [9,17,9,17,12,12,node]
+      _palmeiras [9,17,9,17,6,48,node]
+         Palmeiras [9,17,9,17,0,0,alpha]
+   segue [19,23,19,23,0,0,alpha]
+   mais [25,28,25,28,0,0,alpha]
+   uma [30,32,30,32,0,0,alpha]
+   temporada [34,42,34,42,0,0,alpha]
+   _semMundial [44,54,44,54,13,93,node, ("emocao" "engracado")]
+      _sem [44,46,44,46,6,84,node]
+         SEM [44,46,44,46,0,0,alpha]
+      _mundial [48,54,48,54,6,88,node]
+         MUNDIAL [48,54,48,54,0,0,alpha]
+   ! [55,55,55,55,0,0,punct]
+   🙂 [57,60,57,57,0,0,emoji]
+   👍🏻 [61,68,58,59,0,0,emoji]
+   Voltamos [71,78,62,69,0,0,alpha]
+   _artigo [80,80,71,71,6,12,node]
+      a [80,80,71,71,0,0,alpha]
+   _pronomePossessivo [82,86,73,77,6,20,node]
+      nossa [82,86,73,77,0,0,alpha]
+   programação [88,100,79,89,0,0,alpha]
+   normal [102,107,91,96,0,0,alpha]

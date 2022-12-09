@@ -1,0 +1,12 @@
+
+***************
+    PASS 6 (pos)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,18,0,18,0,0,node,un]
+   boraaaaaa [0,8,0,8,0,0,alpha]
+   \_ [9,9,9,9,0,0,white]
+   _palmeiras [10,18,10,18,6,48,node,fired,blt]
+      palmeiras [10,18,10,18,0,0,alpha]

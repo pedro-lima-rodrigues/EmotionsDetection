@@ -1,0 +1,41 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,127,0,124,0,0,node,un]
+   @ [0,0,0,0,0,0,punct]
+   Tulmag [1,6,1,6,0,0,alpha]
+   Exato [8,12,8,12,0,0,alpha]
+   , [13,13,13,13,0,0,punct]
+   tinha [15,19,15,19,0,0,alpha]
+   que [21,23,21,23,0,0,alpha]
+   correr [25,30,25,30,0,0,alpha]
+   _emocao [32,39,32,39,8,16,node, ("emocao" "torcida")]
+      pra [32,34,32,34,0,0,alpha]
+      \_ [35,35,35,35,0,0,white]
+      cima [36,39,36,39,0,0,alpha]
+   do [41,42,41,42,0,0,alpha]
+   jogador [44,50,44,50,0,0,alpha]
+   , [51,51,51,51,0,0,punct]
+   _artigo [54,54,54,54,6,12,node]
+      o [54,54,54,54,0,0,alpha]
+   Rony [56,59,56,59,0,0,alpha]
+   ficar [61,65,61,65,0,0,alpha]
+   caído [67,72,67,71,0,0,alpha]
+   no [74,75,73,74,0,0,alpha]
+   chão [77,81,76,79,0,0,alpha]
+   . [82,82,80,80,0,0,punct]
+   Jogadores [84,92,82,90,0,0,alpha]
+   do [94,95,92,93,0,0,alpha]
+   _frasePalmeiras [97,105,95,103,12,12,node]
+      _palmeiras [97,105,95,103,6,48,node]
+         Palmeiras [97,105,95,103,0,0,alpha]
+   _verboLigacao [107,110,105,107,6,60,node]
+      são [107,110,105,107,0,0,alpha]
+   _adverbio [112,116,109,113,6,64,node]
+      muito [112,116,109,113,0,0,alpha]
+   bonzinhos [118,126,115,123,0,0,alpha]
+   . [127,127,124,124,0,0,punct]

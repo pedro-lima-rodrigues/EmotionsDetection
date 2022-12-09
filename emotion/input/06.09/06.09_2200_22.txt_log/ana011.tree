@@ -1,0 +1,36 @@
+
+***************
+    PASS 11 (RemoveWhiteSpace)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,125,0,118,0,0,node,un]
+   Aí [0,2,0,1,0,0,alpha]
+   gente [4,8,3,7,0,0,alpha]
+   _pronomePessoal [10,11,9,10,6,16,node]
+      eu [10,11,9,10,0,0,alpha]
+   _neg [13,16,12,14,6,76,node]
+      não [13,16,12,14,0,0,alpha]
+   comprooo [18,25,16,23,0,0,alpha]
+   , [26,26,24,24,0,0,punct]
+   pra [28,30,26,28,0,0,alpha]
+   qualquer [32,39,30,37,0,0,alpha]
+   coisa [41,45,39,43,0,0,alpha]
+   expulsam [47,54,45,52,0,0,alpha]
+   jogador [56,62,54,60,0,0,alpha]
+   do [64,65,62,63,0,0,alpha]
+   _palmeiras [67,75,65,73,6,48,node]
+      palmeiras [67,75,65,73,0,0,alpha]
+   … [76,78,74,74,0,0,punct]
+   acabou [80,85,76,81,0,0,alpha]
+   de [87,88,83,84,0,0,alpha]
+   agredir [90,96,86,92,0,0,alpha]
+   _artigo [98,98,94,94,6,12,node]
+      o [98,98,94,94,0,0,alpha]
+   rony [100,103,96,99,0,0,alpha]
+   e [105,105,101,101,0,0,alpha]
+   me [107,108,103,104,0,0,alpha]
+   deu [110,112,106,108,0,0,alpha]
+   amarelo [114,120,110,116,0,0,alpha]
+   🤡 [122,125,118,118,0,0,emoji]

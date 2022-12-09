@@ -1,0 +1,21 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,31,0,31,0,0,node,un]
+   mas [0,2,0,2,0,0,alpha]
+   _artigo [4,5,4,5,6,12,node]
+      os [4,5,4,5,0,0,alpha]
+   cara [7,10,7,10,0,0,alpha]
+   _emocao [12,28,12,28,13,64,node,fired, ("emocao" "raiva")]
+      _verboRaiva [12,16,12,16,6,52,node]
+         rouba [12,16,12,16,0,0,alpha]
+      _frasePalmeiras [18,28,18,28,12,12,node]
+         _artigo [18,18,18,18,6,12,node]
+            o [18,18,18,18,0,0,alpha]
+         _palmeiras [20,28,20,28,6,48,node]
+            palmeiras [20,28,20,28,0,0,alpha]
+   em [30,31,30,31,0,0,alpha]

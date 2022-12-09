@@ -1,0 +1,21 @@
+
+FINAL OUTPUT TREE:
+
+_ROOT [0,51,0,41,0,0,node,un]
+   _emocao [0,13,0,13,13,16,node, ("emocao" "torcida")]
+      _vamos [0,3,0,3,6,92,node]
+         Vamo [0,3,0,3,0,0,alpha]
+      _frasePalmeiras [5,13,5,13,12,12,node]
+         _palmeiras [5,13,5,13,6,48,node]
+            palmeiras [5,13,5,13,0,0,alpha]
+   _vamos [16,19,16,19,6,92,node]
+      Vamo [16,19,16,19,0,0,alpha]
+   virar [21,25,21,25,0,0,alpha]
+   essa [27,30,27,30,0,0,alpha]
+   bagaça [32,38,32,37,0,0,alpha]
+   _emocao [40,43,39,39,10,51,node, ("emocao" "torcida")]
+      💚 [40,43,39,39,0,0,emoji]
+   _emocao [44,47,40,40,10,51,node, ("emocao" "torcida")]
+      💚 [44,47,40,40,0,0,emoji]
+   _emocao [48,51,41,41,10,51,node, ("emocao" "torcida")]
+      💚 [48,51,41,41,0,0,emoji]

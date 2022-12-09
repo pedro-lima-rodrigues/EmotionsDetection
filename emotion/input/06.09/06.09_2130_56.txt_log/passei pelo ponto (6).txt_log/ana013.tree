@@ -1,0 +1,9 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,11,0,11,0,0,node,un]
+   avanteavante [0,11,0,11,0,0,alpha]

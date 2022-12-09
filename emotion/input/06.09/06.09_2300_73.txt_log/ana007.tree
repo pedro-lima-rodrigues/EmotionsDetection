@@ -1,0 +1,41 @@
+
+***************
+    PASS 7 (repeticao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,75,0,75,0,0,node,un]
+   Torcendo [0,7,0,7,0,0,alpha,fired]
+   \_ [8,8,8,8,0,0,white]
+   _preposicao [9,12,9,12,6,39,node]
+      para [9,12,9,12,0,0,alpha]
+   \_ [13,13,13,13,0,0,white]
+   _artigo [14,14,14,14,6,12,node]
+      o [14,14,14,14,0,0,alpha]
+   \_ [15,15,15,15,0,0,white]
+   _palmeiras [16,24,16,24,6,48,node]
+      palmeiras [16,24,16,24,0,0,alpha]
+   \_ [25,25,25,25,0,0,white]
+   ir [26,27,26,27,0,0,alpha,fired]
+   \_ [28,28,28,28,0,0,white]
+   na [29,30,29,30,0,0,alpha,fired]
+   \_ [31,31,31,31,0,0,white]
+   final [32,36,32,36,0,0,alpha,fired]
+   \_ [37,37,37,37,0,0,white]
+   _preposicao [38,41,38,41,6,39,node]
+      para [38,41,38,41,0,0,alpha]
+   \_ [42,42,42,42,0,0,white]
+   _artigo [43,43,43,43,6,12,node]
+      o [43,43,43,43,0,0,alpha]
+   \_ [44,44,44,44,0,0,white]
+   Flamengo [45,52,45,52,0,0,alpha,fired]
+   \_ [53,53,53,53,0,0,white]
+   amassar [54,60,54,60,0,0,alpha,fired]
+   \_ [61,61,61,61,0,0,white]
+   eles [62,65,62,65,0,0,alpha,fired]
+   \_ [66,66,66,66,0,0,white]
+   na [67,68,67,68,0,0,alpha,fired]
+   \_ [69,69,69,69,0,0,white]
+   final [70,74,70,74,0,0,alpha,fired]
+   . [75,75,75,75,0,0,punct]

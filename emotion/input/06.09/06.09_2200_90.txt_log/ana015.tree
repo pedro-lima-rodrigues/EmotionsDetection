@@ -1,0 +1,22 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,69,0,69,0,0,node,un]
+   Se [0,1,0,1,0,0,alpha]
+   fosse [3,7,3,7,0,0,alpha]
+   um [9,10,9,10,0,0,alpha]
+   jogador [12,18,12,18,0,0,alpha]
+   do [20,21,20,21,0,0,alpha]
+   _frasePalmeiras [23,31,23,31,12,12,node]
+      _palmeiras [23,31,23,31,6,48,node]
+         Palmeiras [23,31,23,31,0,0,alpha]
+   dando [33,37,33,37,0,0,alpha]
+   essa [39,42,39,42,0,0,alpha]
+   cotovelada [44,53,44,53,0,0,alpha]
+   ja [55,56,55,56,0,0,alpha]
+   tava [58,61,58,61,0,0,alpha]
+   expulso [63,69,63,69,0,0,alpha]

@@ -1,0 +1,14 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,19,0,19,0,0,node,un]
+   _vamos [0,3,0,3,6,92,node]
+      vamo [0,3,0,3,0,0,alpha]
+   virar [5,9,5,9,0,0,alpha]
+   _frasePalmeiras [11,19,11,19,12,12,node,fired,blt]
+      _palmeiras [11,19,11,19,6,48,node]
+         palmeiras [11,19,11,19,0,0,alpha]

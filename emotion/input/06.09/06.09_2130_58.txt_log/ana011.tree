@@ -1,0 +1,17 @@
+
+***************
+    PASS 11 (RemoveWhiteSpace)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,49,0,49,0,0,node,un]
+   _vamos [0,3,0,3,6,92,node]
+      Bora [0,3,0,3,0,0,alpha]
+   _palmeiras [5,14,5,14,6,43,node]
+      @ [5,5,5,5,0,0,punct]
+      Palmeiras [6,14,6,14,0,0,alpha]
+   # [16,16,16,16,0,0,punct]
+   AvantiPalestra [17,30,17,30,0,0,alpha]
+   # [32,32,32,32,0,0,punct]
+   LibertadoresNoSBT [33,49,33,49,0,0,alpha]

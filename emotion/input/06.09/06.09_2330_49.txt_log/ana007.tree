@@ -1,0 +1,18 @@
+
+***************
+    PASS 7 (repeticao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,27,0,27,0,0,node,un]
+   _palmeiras [0,9,0,9,6,43,node]
+      @ [0,0,0,0,0,0,punct]
+      Palmeiras [1,9,1,9,0,0,alpha]
+   \_ [10,10,10,10,0,0,white]
+   garfados [11,18,11,18,0,0,alpha,fired]
+   \_ [19,19,19,19,0,0,white]
+   em [20,21,20,21,0,0,alpha,fired]
+   \_ [22,22,22,22,0,0,white]
+   casa [23,26,23,26,0,0,alpha,fired]
+   . [27,27,27,27,0,0,punct]

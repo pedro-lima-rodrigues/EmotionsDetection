@@ -1,0 +1,14 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,50,0,50,0,0,node,un]
+   ABELBOOOOOOOOOOLLLLL [0,19,0,19,0,0,alpha]
+   ! [20,20,20,20,0,0,punct]
+   # [22,22,22,22,0,0,punct]
+   AvantiPalestra [23,36,23,36,0,0,alpha]
+   # [38,38,38,38,0,0,punct]
+   Libertadores [39,50,39,50,0,0,alpha]

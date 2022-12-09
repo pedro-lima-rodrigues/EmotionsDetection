@@ -1,0 +1,14 @@
+
+***************
+    PASS 8 (frases)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,16,0,16,0,0,node,un]
+   Bye [0,2,0,2,0,0,alpha]
+   \_ [3,3,3,3,0,0,white]
+   bye [4,6,4,6,0,0,alpha]
+   \_ [7,7,7,7,0,0,white]
+   _palmeiras [8,16,8,16,6,48,node]
+      Palmeiras [8,16,8,16,0,0,alpha]

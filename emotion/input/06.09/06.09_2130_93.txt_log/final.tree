@@ -1,0 +1,12 @@
+
+FINAL OUTPUT TREE:
+
+_ROOT [0,28,0,27,0,0,node,un]
+   _frasePalmeiras [0,8,0,8,12,12,node]
+      _palmeiras [0,8,0,8,6,48,node]
+         palmeiras [0,8,0,8,0,0,alpha]
+   _neg [10,13,10,12,6,76,node]
+      NÃO [10,13,10,12,0,0,alpha]
+   pode [15,18,14,17,0,0,alpha]
+   passar [20,25,19,24,0,0,alpha]
+   hj [27,28,26,27,0,0,alpha]

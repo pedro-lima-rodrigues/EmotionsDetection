@@ -1,0 +1,23 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,61,0,58,0,0,node,un]
+   _pronomePessoal [0,1,0,1,6,16,node]
+      eu [0,1,0,1,0,0,alpha]
+   toda [3,6,3,6,0,0,alpha]
+   rouca [8,12,8,12,0,0,alpha]
+   e [14,14,14,14,0,0,alpha]
+   gritando [16,23,16,23,0,0,alpha]
+   ainda [25,29,25,29,0,0,alpha]
+   mais [31,34,31,34,0,0,alpha]
+   por [36,38,36,38,0,0,alpha]
+   causa [40,44,40,44,0,0,alpha]
+   do [46,47,46,47,0,0,alpha]
+   _frasePalmeiras [49,57,49,57,12,12,node]
+      _palmeiras [49,57,49,57,6,48,node]
+         palmeiras [49,57,49,57,0,0,alpha]
+   🤡 [58,61,58,58,0,0,emoji]

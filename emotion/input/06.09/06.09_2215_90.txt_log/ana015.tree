@@ -1,0 +1,36 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,106,0,105,0,0,node,un]
+   _contra [0,5,0,5,6,68,node]
+      Contra [0,5,0,5,0,0,alpha]
+   _artigo [7,7,7,7,6,12,node]
+      o [7,7,7,7,0,0,alpha]
+   Flamengo [9,16,9,16,0,0,alpha]
+   esses [18,22,18,22,0,0,alpha]
+   fdps [24,27,24,27,0,0,alpha]
+   jogam [29,33,29,33,0,0,alpha]
+   ligado [35,40,35,40,0,0,alpha]
+   _artigo [42,42,42,42,6,12,node]
+      a [42,42,42,42,0,0,alpha]
+   mil [44,46,44,46,0,0,alpha]
+   , [47,47,47,47,0,0,punct]
+   ja [49,50,49,50,0,0,alpha]
+   ia [52,53,52,53,0,0,alpha]
+   outro [55,59,55,59,0,0,alpha]
+   entregar [61,68,61,68,0,0,alpha]
+   _artigo [70,70,70,70,6,12,node]
+      a [70,70,70,70,0,0,alpha]
+   bola [72,75,72,75,0,0,alpha]
+   no [77,78,77,78,0,0,alpha]
+   pé [80,82,80,81,0,0,alpha]
+   do [84,85,83,84,0,0,alpha]
+   jogador [87,93,86,92,0,0,alpha]
+   do [95,96,94,95,0,0,alpha]
+   _frasePalmeiras [98,106,97,105,12,12,node]
+      _palmeiras [98,106,97,105,6,48,node]
+         palmeiras [98,106,97,105,0,0,alpha]

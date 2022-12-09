@@ -1,0 +1,21 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,69,0,69,0,0,node,un]
+   _emocao [0,45,0,45,7,39,node, ("emocao" "engracado")]
+      KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK [0,45,0,45,0,0,alpha]
+   https [47,51,47,51,0,0,alpha]
+   : [52,52,52,52,0,0,punct]
+   / [53,53,53,53,0,0,punct]
+   / [54,54,54,54,0,0,punct]
+   t [55,55,55,55,0,0,alpha]
+   . [56,56,56,56,0,0,punct]
+   co [57,58,57,58,0,0,alpha]
+   / [59,59,59,59,0,0,punct]
+   gGnvZH [60,65,60,65,0,0,alpha]
+   5 [66,66,66,66,0,0,num]
+   EGN [67,69,67,69,0,0,alpha]

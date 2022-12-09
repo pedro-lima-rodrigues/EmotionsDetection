@@ -1,0 +1,22 @@
+
+***************
+    PASS 11 (RemoveWhiteSpace)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,73,0,71,0,0,node,un]
+   RT [0,1,0,1,0,0,alpha]
+   @ [3,3,3,3,0,0,punct]
+   Migsreis [4,11,4,11,0,0,alpha]
+   _ [12,12,12,12,0,0,punct]
+   CRF [13,15,13,15,0,0,alpha]
+   : [16,16,16,16,0,0,punct]
+   F [18,18,18,18,0,0,alpha]
+   pro [20,22,20,22,0,0,alpha]
+   _palmeiras [24,32,24,32,6,48,node]
+      Palmeiras [24,32,24,32,0,0,alpha]
+   … [33,35,33,33,0,0,punct]
+   F [37,37,35,35,0,0,alpha]
+   DE [39,40,37,38,0,0,alpha]
+   FODASEEEEEEEEEEEEEEEEEEEEEESSSWE [42,73,40,71,0,0,alpha]

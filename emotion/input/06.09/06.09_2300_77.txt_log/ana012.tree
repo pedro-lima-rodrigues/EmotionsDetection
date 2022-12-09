@@ -1,0 +1,20 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,31,0,31,0,0,node,un]
+   reage [0,4,0,4,0,0,alpha]
+   _frasePalmeiras [6,14,6,14,12,12,node,fired,blt]
+      _palmeiras [6,14,6,14,6,48,node]
+         palmeiras [6,14,6,14,0,0,alpha]
+   _emocao [16,31,16,31,6,136,node, ("emocao" "torcida")]
+      pelo [16,19,16,19,0,0,alpha]
+      \_ [20,20,20,20,0,0,white]
+      amor [21,24,21,24,0,0,alpha]
+      \_ [25,25,25,25,0,0,white]
+      d [26,26,26,26,0,0,alpha]
+      \_ [27,27,27,27,0,0,white]
+      deus [28,31,28,31,0,0,alpha]

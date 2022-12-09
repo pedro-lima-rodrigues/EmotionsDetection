@@ -1,0 +1,32 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,68,0,66,0,0,node,un]
+   @ [0,0,0,0,0,0,punct]
+   MaestroNeyJr [1,12,1,12,0,0,alpha]
+   tô [14,16,14,15,0,0,alpha]
+   assim [18,22,17,21,0,0,alpha]
+   tbm [24,26,23,25,0,0,alpha]
+   ouvindo [28,34,27,33,0,0,alpha]
+   " [36,36,35,35,0,0,punct]
+   _frasePalmeiras [37,47,36,46,12,12,node]
+      _artigo [37,37,36,36,6,12,node]
+         o [37,37,36,36,0,0,alpha]
+      _palmeiras [39,47,38,46,6,48,node]
+         palmeiras [39,47,38,46,0,0,alpha]
+   _verboLigacao [49,50,48,48,6,60,node]
+      é [49,50,48,48,0,0,alpha]
+   _artigo [52,52,50,50,6,12,node]
+      o [52,52,50,50,0,0,alpha]
+   _emocao [54,67,52,65,8,60,node, ("emocao" "torcida")]
+      time [54,57,52,55,0,0,alpha]
+      \_ [58,58,56,56,0,0,white]
+      da [59,60,57,58,0,0,alpha]
+      \_ [61,61,59,59,0,0,white]
+      _torcida [62,67,60,65,6,96,node]
+         virada [62,67,60,65,0,0,alpha]
+   " [68,68,66,66,0,0,punct]

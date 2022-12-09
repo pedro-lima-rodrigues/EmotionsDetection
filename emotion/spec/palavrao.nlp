@@ -8,11 +8,34 @@
 
 @NODES _ROOT
 
-@POST
-S("emocao") = "raiva";
-single();
+#@POST
+#S("emocao") = "raiva";
+#single();
 
 @RULES
-_emocao <-
-	_xWILD [s one matches=(fdp pqp vtnc tnc vsf)]
+_xingamento <-
+	_xWILD [s one matches=(fdp pqp vtnc tnc vtc vsf vsfd droga tmnc)]
+	#_xWILD [s one matches=(fdp pqp vtnc tnc vtc vsf cu droga krl crlh crl caralho tmnc)]
+	@@
+
+_xingamento <-
+	vai [optional]
+	_xWHITE [optional]
+	_xWILD [s one matches=(tomar toma)]
+	_xWHITE
+	no
+	_xWHITE
+	cu
+	@@
+
+_xingamento <-
+	_vamos [optional]
+	_xWHITE [optional]
+	_xWILD [s optional one matches=(pra para)]
+	_xWHITE [optional]
+	puta
+	_xWHITE
+	_xWILD [s one matches=(que q)]
+	_xWHITE
+	pariu
 	@@

@@ -8,23 +8,59 @@
 
 @NODES _ROOT
 
+@POST
+S("emocao") = "torcida";
+single();
+
 @RULES
-_palmeiras <-
+_emocao <-
+	_xWILD [s one matches=(pra para)]		### (3)
+	_xWHITE [s]	### (4)
+	_xWILD [s one matches=(cima)]	### (5)
+	@@
+
+_emocao <-
+	faz		### (1)
+	_xWHITE	### (2)
+	mais	### (3)
+	_xWHITE	### (4)
+	um		### (5)
+	@@
+
+_emocao <-
 	avanti [s]		### (1)
 	_xWHITE [s]		### (2)
 	palestra [s]	### (3)
 	@@
 
-_palmeiras <-
-	time [s]	### (1)
-	_xWHITE [s]	### (2)
-	do [s]		### (3)
-	_xWHITE [s]	### (4)
-	amor [s]	### (5)
+_emocao <-
+	avanti [s]		### (1)
+	_xWHITE [s]		### (2)
+	\,
+	palestra [s]	### (3)
 	@@
 
-_interjeicao <-
-	_xWILD [s one matches=(pra para)]	### (1)
-	_xWHITE [s]							### (2)
-	cima [s]							### (3)
+_emocao <-
+	_contra		### (1)
+	_xWHITE		### (2)
+	tudo	### (3)
+	_xWHITE		### (2)
+	e	### (3)
+	_xWHITE		### (2)
+	_contra	### (3)
+	_xWHITE		### (2)
+	todos	### (3)
+	@@
+
+#_emocao <-
+#	\#
+#	avantipalestra [s]	### (3)
+#	@@
+
+_emocao <-
+	time [s]	### (1)
+	_xWHITE [s]	### (2)
+	_xWILD [s one matches=(do da)]		### (3)
+	_xWHITE [s]	### (4)
+	_torcida	### (5)
 	@@

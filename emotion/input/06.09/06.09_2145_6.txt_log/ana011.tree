@@ -1,0 +1,14 @@
+
+***************
+    PASS 11 (RemoveWhiteSpace)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,30,0,30,0,0,node,un]
+   caralho [0,6,0,6,0,0,alpha]
+   _palmeiras [8,16,8,16,6,48,node]
+      palmeiras [8,16,8,16,0,0,alpha]
+   jogando [18,24,18,24,0,0,alpha]
+   _adverbio [26,30,26,30,6,64,node]
+      muito [26,30,26,30,0,0,alpha]

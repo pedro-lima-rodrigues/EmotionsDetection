@@ -1,0 +1,33 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,95,0,90,0,0,node,un]
+   se [0,1,0,1,0,0,alpha]
+   vc [3,4,3,4,0,0,alpha]
+   _tem [6,8,6,8,6,80,node]
+      tem [6,8,6,8,0,0,alpha]
+   algo [10,13,10,13,0,0,alpha]
+   pra [15,17,15,17,0,0,alpha]
+   mim [19,21,19,21,0,0,alpha]
+   falar [23,27,23,27,0,0,alpha]
+   , [28,28,28,28,0,0,punct]
+   fale [30,33,30,33,0,0,alpha]
+   agr [36,38,36,38,0,0,alpha]
+   pq [40,41,40,41,0,0,alpha]
+   daqui [43,47,43,47,0,0,alpha]
+   1 [49,49,49,49,0,0,num]
+   minuto [51,56,51,56,0,0,alpha]
+   _frasePalmeiras [58,68,58,68,12,12,node]
+      _artigo [58,58,58,58,6,12,node]
+         o [58,58,58,58,0,0,alpha]
+      _palmeiras [60,68,60,68,6,48,node]
+         palmeiras [60,68,60,68,0,0,alpha]
+   me [71,72,71,72,0,0,alpha]
+   matar [74,78,74,78,0,0,alpha]
+   do [80,81,80,81,0,0,alpha]
+   coração [83,91,83,89,0,0,alpha]
+   👍 [92,95,90,90,0,0,emoji]

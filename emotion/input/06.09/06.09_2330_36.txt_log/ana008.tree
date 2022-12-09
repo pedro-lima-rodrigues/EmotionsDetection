@@ -1,0 +1,26 @@
+
+***************
+    PASS 8 (frases)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,56,0,56,0,0,node,un]
+   @ [0,0,0,0,0,0,punct]
+   _ [1,1,1,1,0,0,punct]
+   FlaDaDepressao [2,15,2,15,0,0,alpha]
+   \_ [16,16,16,16,0,0,white]
+   _palmeiras [17,26,17,26,6,43,node]
+      @ [17,17,17,17,0,0,punct]
+      Palmeiras [18,26,18,26,0,0,alpha]
+   \_ [27,27,27,27,0,0,white]
+   _preposicao [28,31,28,31,6,39,node]
+      Para [28,31,28,31,0,0,alpha]
+   \_ [32,32,32,32,0,0,white]
+   com [33,35,33,35,0,0,alpha]
+   \_ [36,36,36,36,0,0,white]
+   essa [37,40,37,40,0,0,alpha]
+   \_ [41,41,41,41,0,0,white]
+   merda [42,46,42,46,0,0,alpha]
+   \_ [47,47,47,47,0,0,white]
+   retardado [48,56,48,56,0,0,alpha]

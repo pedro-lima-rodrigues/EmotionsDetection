@@ -1,0 +1,12 @@
+
+FINAL OUTPUT TREE:
+
+_ROOT [0,33,0,33,0,0,node,un]
+   _tem [0,2,0,2,6,80,node]
+      Tem [0,2,0,2,0,0,alpha]
+   torcedor [4,11,4,11,0,0,alpha]
+   do [13,14,13,14,0,0,alpha]
+   _frasePalmeiras [16,24,16,24,12,12,node]
+      _palmeiras [16,24,16,24,6,48,node]
+         Palmeiras [16,24,16,24,0,0,alpha]
+   chorando [26,33,26,33,0,0,alpha]

@@ -1,0 +1,31 @@
+
+***************
+    PASS 11 (RemoveWhiteSpace)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,101,0,100,0,0,node,un]
+   ¿ [0,1,0,0,0,0,punct]
+   Quien [2,6,1,5,0,0,alpha]
+   pasa [8,11,7,10,0,0,alpha]
+   _artigo [13,13,12,12,6,12,node]
+      a [13,13,12,12,0,0,alpha]
+   la [15,16,14,15,0,0,alpha]
+   final [18,22,17,21,0,0,alpha]
+   ? [23,23,22,22,0,0,punct]
+   Fav [26,28,25,27,0,0,alpha]
+   : [29,29,28,28,0,0,punct]
+   _palmeiras [31,39,30,38,6,48,node]
+      Palmeiras [31,39,30,38,0,0,alpha]
+   Rt [42,43,41,42,0,0,alpha]
+   : [44,44,43,43,0,0,punct]
+   Atletico [46,53,45,52,0,0,alpha]
+   Paranaense [55,64,54,63,0,0,alpha]
+   Comenta [67,73,66,72,0,0,alpha]
+   : [74,74,73,73,0,0,punct]
+   quiero [76,81,75,80,0,0,alpha]
+   un [83,84,82,83,0,0,alpha]
+   traba [86,90,85,89,0,0,alpha]
+   de [92,93,91,92,0,0,alpha]
+   Facundo [95,101,94,100,0,0,alpha]

@@ -1,0 +1,24 @@
+
+***************
+    PASS 7 (repeticao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,36,0,35,0,0,node,un]
+   @ [0,0,0,0,0,0,punct]
+   PolloCamis [1,10,1,10,0,0,alpha,fired]
+   \_ [11,11,11,11,0,0,white]
+   TU [12,13,12,13,0,0,alpha,fired]
+   \_ [14,14,14,14,0,0,white]
+   _verboLigacao [15,16,15,15,6,60,node]
+      É [15,16,15,15,0,0,alpha]
+   \_ [17,17,16,16,0,0,white]
+   _palmeiras [18,26,17,25,6,48,node]
+      PALMEIRAS [18,26,17,25,0,0,alpha]
+   , [27,27,26,26,0,0,punct]
+   \_ [28,28,27,27,0,0,white]
+   _pronomePessoal [29,30,28,29,6,16,node]
+      EU [29,30,28,29,0,0,alpha]
+   \_ [31,31,30,30,0,0,white]
+   SABIA [32,36,31,35,0,0,alpha,fired]

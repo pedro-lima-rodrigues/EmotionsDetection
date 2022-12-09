@@ -1,0 +1,20 @@
+
+***************
+    PASS 11 (RemoveWhiteSpace)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,34,0,25,0,0,node,un]
+   _artigo [0,0,0,0,6,12,node]
+      o [0,0,0,0,0,0,alpha]
+   _palmeiras [2,10,2,10,6,48,node]
+      palmeiras [2,10,2,10,0,0,alpha]
+   ja [12,13,12,13,0,0,alpha]
+   empatou [15,21,15,21,0,0,alpha]
+   _emocao [23,26,23,23,10,41,node, ("emocao" "tristeza")]
+      😭 [23,26,23,23,0,0,emoji]
+   _emocao [27,30,24,24,10,41,node, ("emocao" "tristeza")]
+      😭 [27,30,24,24,0,0,emoji]
+   _emocao [31,34,25,25,10,41,node, ("emocao" "tristeza")]
+      😭 [31,34,25,25,0,0,emoji]

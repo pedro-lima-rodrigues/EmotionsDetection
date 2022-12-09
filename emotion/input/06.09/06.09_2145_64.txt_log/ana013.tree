@@ -1,0 +1,31 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,71,0,70,0,0,node,un]
+   @ [0,0,0,0,0,0,punct]
+   olurgas [1,7,1,7,0,0,alpha]
+   se [9,10,9,10,0,0,alpha]
+   _frasePalmeiras [12,22,12,22,12,12,node]
+      _artigo [12,12,12,12,6,12,node]
+         o [12,12,12,12,0,0,alpha]
+      _palmeiras [14,22,14,22,6,48,node]
+         palmeiras [14,22,14,22,0,0,alpha]
+   ganhar [24,29,24,29,0,0,alpha]
+   , [30,30,30,30,0,0,punct]
+   amanhã [32,38,32,37,0,0,alpha]
+   _pronomePessoal [40,41,39,40,6,16,node]
+      eu [40,41,39,40,0,0,alpha]
+   pinto [43,47,42,46,0,0,alpha]
+   _artigo [49,49,48,48,6,12,node]
+      a [49,49,48,48,0,0,alpha]
+   _pronomePossessivo [51,55,50,54,6,20,node]
+      minha [51,55,50,54,0,0,alpha]
+   unha [57,60,56,59,0,0,alpha]
+   de [62,63,61,62,0,0,alpha]
+   verde [65,69,64,68,0,0,alpha]
+   ! [70,70,69,69,0,0,punct]
+   ! [71,71,70,70,0,0,punct]

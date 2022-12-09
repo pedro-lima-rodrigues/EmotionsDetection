@@ -1,0 +1,11 @@
+
+***************
+    PASS 11 (RemoveWhiteSpace)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,20,0,20,0,0,node,un]
+   NOOOOOOOOOO [0,10,0,10,0,0,alpha]
+   _palmeiras [12,20,12,20,6,48,node]
+      PALMEIRAS [12,20,12,20,0,0,alpha]

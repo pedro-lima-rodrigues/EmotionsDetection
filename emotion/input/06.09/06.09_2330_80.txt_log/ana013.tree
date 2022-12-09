@@ -1,0 +1,43 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,138,0,134,0,0,node,un]
+   _frasePalmeiras [0,9,0,9,12,12,node]
+      _palmeiras [0,9,0,9,6,43,node]
+         @ [0,0,0,0,0,0,punct]
+         Palmeiras [1,9,1,9,0,0,alpha]
+   Perder [11,16,11,16,0,0,alpha]
+   _artigo [18,18,18,18,6,12,node]
+      a [18,18,18,18,0,0,alpha]
+   classificação [20,34,20,32,0,0,alpha]
+   _preposicao [36,39,34,37,6,39,node]
+      para [36,39,34,37,0,0,alpha]
+   um [41,42,39,40,0,0,alpha]
+   time [44,47,42,45,0,0,alpha]
+   de [49,50,47,48,0,0,alpha]
+   merda [52,56,50,54,0,0,alpha]
+   que [58,60,56,58,0,0,alpha]
+   nem [62,64,60,62,0,0,alpha]
+   _artigo [66,66,64,64,6,12,node]
+      o [66,66,64,64,0,0,alpha]
+   Atlético [68,76,66,73,0,0,alpha]
+   ? [77,77,74,74,0,0,punct]
+   _xingamento [79,81,76,78,9,16,node]
+      Pqp [79,81,76,78,0,0,alpha]
+   ! [82,82,79,79,0,0,punct]
+   _artigo [84,84,81,81,6,12,node]
+      O [84,84,81,81,0,0,alpha]
+   Atlético [86,94,83,90,0,0,alpha]
+   _vamos [96,98,92,94,6,92,node]
+      vai [96,98,92,94,0,0,alpha]
+   levar [100,104,96,100,0,0,alpha]
+   uma [106,108,102,104,0,0,alpha]
+   sapecada [110,117,106,113,0,0,alpha]
+   do [119,120,115,116,0,0,alpha]
+   Flamengo [122,129,118,125,0,0,alpha]
+   na [131,132,127,128,0,0,alpha]
+   final [134,138,130,134,0,0,alpha]

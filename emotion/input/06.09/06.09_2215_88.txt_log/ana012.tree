@@ -1,0 +1,15 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,25,0,25,0,0,node,un]
+   _frasePalmeiras [0,8,0,8,12,12,node,fired,blt]
+      _palmeiras [0,8,0,8,6,48,node]
+         Palmeiras [0,8,0,8,0,0,alpha]
+   sempre [10,15,10,15,0,0,alpha]
+   _frasePalmeiras [17,25,17,25,12,12,node,fired,blt]
+      _palmeiras [17,25,17,25,6,48,node]
+         palmeiras [17,25,17,25,0,0,alpha]

@@ -1,0 +1,17 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,32,0,32,0,0,node,un]
+   _frasePalmeiras [0,8,0,8,12,12,node,fired,blt]
+      _palmeiras [0,8,0,8,6,48,node]
+         Palmeiras [0,8,0,8,0,0,alpha]
+   perdendo [10,17,10,17,0,0,alpha]
+   _adverbio [19,23,19,23,6,64,node]
+      muito [19,23,19,23,0,0,alpha]
+   _gol [25,27,25,27,6,72,node]
+      gol [25,27,25,27,0,0,alpha]
+   vsff [29,32,29,32,0,0,alpha]

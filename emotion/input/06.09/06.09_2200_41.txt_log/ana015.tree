@@ -1,0 +1,40 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,142,0,139,0,0,node,un]
+   RT [0,1,0,1,0,0,alpha]
+   @ [3,3,3,3,0,0,punct]
+   TNTSportsBR [4,14,4,14,0,0,alpha]
+   : [15,15,15,15,0,0,punct]
+   _frasePalmeiras [17,27,17,27,12,12,node]
+      _artigo [17,17,17,17,6,12,node]
+         O [17,17,17,17,0,0,alpha]
+      _palmeiras [19,27,19,27,6,48,node]
+         Palmeiras [19,27,19,27,0,0,alpha]
+   precisou [29,36,29,36,0,0,alpha]
+   de [38,39,38,39,0,0,alpha]
+   pouco [41,45,41,45,0,0,alpha]
+   mais [47,50,47,50,0,0,alpha]
+   de [52,53,52,53,0,0,alpha]
+   2 [55,55,55,55,0,0,num]
+   minutos [57,63,57,63,0,0,alpha]
+   pra [65,67,65,67,0,0,alpha]
+   deixar [69,74,69,74,0,0,alpha]
+   tudo [76,79,76,79,0,0,alpha]
+   igual [81,85,81,85,0,0,alpha]
+   na [87,88,87,88,0,0,alpha]
+   semifinal [90,98,90,98,0,0,alpha]
+   da [100,101,100,101,0,0,alpha]
+   # [103,103,103,103,0,0,punct]
+   Libertadores [104,115,104,115,0,0,alpha]
+   2022 [116,119,116,119,0,0,num]
+   ! [120,120,120,120,0,0,punct]
+   Será [123,127,123,126,0,0,alpha]
+   que [129,131,128,130,0,0,alpha]
+   vem [133,135,132,134,0,0,alpha]
+   mai [137,139,136,138,0,0,alpha]
+   … [140,142,139,139,0,0,punct]

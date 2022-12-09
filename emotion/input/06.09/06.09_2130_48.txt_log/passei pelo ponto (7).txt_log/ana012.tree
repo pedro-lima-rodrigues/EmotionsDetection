@@ -1,0 +1,9 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,91,0,91,0,0,node,un]
+   oioioioioioioioioioioioioioioioioioioioioioioioioioioioioioioioioioioioioioioioioioioioioioi [0,91,0,91,0,0,alpha]

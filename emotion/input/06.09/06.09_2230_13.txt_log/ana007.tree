@@ -1,0 +1,32 @@
+
+***************
+    PASS 7 (repeticao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,60,0,59,0,0,node,un]
+   @ [0,0,0,0,0,0,punct]
+   Vessoni [1,7,1,7,0,0,alpha,fired]
+   \_ [8,8,8,8,0,0,white]
+   Tu [9,10,9,10,0,0,alpha,fired]
+   \_ [11,11,11,11,0,0,white]
+   cobre [12,16,12,16,0,0,alpha,fired]
+   \_ [17,17,17,17,0,0,white]
+   _artigo [18,18,18,18,6,12,node]
+      o [18,18,18,18,0,0,alpha]
+   \_ [19,19,19,19,0,0,white]
+   corinthians [20,30,20,30,0,0,alpha,fired]
+   , [31,31,31,31,0,0,punct]
+   \_ [32,32,32,32,0,0,white]
+   pq [33,34,33,34,0,0,alpha,fired]
+   \_ [35,35,35,35,0,0,white]
+   tá [36,38,36,37,0,0,alpha,fired]
+   \_ [39,39,38,38,0,0,white]
+   falando [40,46,39,45,0,0,alpha,fired]
+   \_ [47,47,46,46,0,0,white]
+   do [48,49,47,48,0,0,alpha,fired]
+   \_ [50,50,49,49,0,0,white]
+   _palmeiras [51,59,50,58,6,48,node]
+      Palmeiras [51,59,50,58,0,0,alpha]
+   ? [60,60,59,59,0,0,punct]

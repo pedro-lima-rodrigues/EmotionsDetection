@@ -1,0 +1,22 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,54,0,53,0,0,node,un]
+   _vamos [0,3,0,3,6,92,node]
+      bora [0,3,0,3,0,0,alpha]
+   ver [5,7,5,7,0,0,alpha]
+   _frasePalmeiras [9,17,9,17,12,12,node]
+      _palmeiras [9,17,9,17,6,48,node]
+         palmeiras [9,17,9,17,0,0,alpha]
+   ganha [19,23,19,23,0,0,alpha]
+   hjj [25,27,25,27,0,0,alpha]
+   _neg [29,32,29,31,6,76,node]
+      não [29,32,29,31,0,0,alpha]
+   fode [34,37,33,36,0,0,alpha]
+   com [39,41,38,40,0,0,alpha]
+   mimha [43,47,42,46,0,0,alpha]
+   aposta [49,54,48,53,0,0,alpha]

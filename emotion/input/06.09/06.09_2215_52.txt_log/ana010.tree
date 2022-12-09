@@ -1,0 +1,22 @@
+
+***************
+    PASS 10 (emojis)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,41,0,39,0,0,node,un]
+   _emocao [0,8,0,8,6,118,node, ("emocao" "torcida")]
+      por [0,2,0,2,0,0,alpha]
+      \_ [3,3,3,3,0,0,white]
+      favor [4,8,4,8,0,0,alpha]
+   \_ [9,9,9,9,0,0,white]
+   _palmeiras [10,18,10,18,6,48,node]
+      palmeiras [10,18,10,18,0,0,alpha]
+   \_ [19,19,19,19,0,0,white]
+   acerta [20,25,20,25,0,0,alpha]
+   \_ [26,26,26,26,0,0,white]
+   _artigo [27,27,27,27,6,12,node]
+      a [27,27,27,27,0,0,alpha]
+   \_ [28,28,28,28,0,0,white]
+   finalização [29,41,29,39,0,0,alpha]

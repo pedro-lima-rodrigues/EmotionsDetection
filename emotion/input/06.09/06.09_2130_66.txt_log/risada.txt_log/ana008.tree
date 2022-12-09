@@ -1,0 +1,23 @@
+
+***************
+    PASS 8 (frases)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,49,0,49,0,0,node,un]
+   _emocao [0,8,0,8,7,39,node, ("emocao" "engracado")]
+      KKKKKKKKK [0,8,0,8,0,0,alpha]
+   \n [9,9,9,9,0,0,white]
+   _emocao [10,18,10,18,7,39,node, ("emocao" "engracado")]
+      KKKKKKKKK [10,18,10,18,0,0,alpha]
+   \n [19,19,19,19,0,0,white]
+   _emocao [20,28,20,28,7,39,node, ("emocao" "engracado")]
+      KKKKKKKKK [20,28,20,28,0,0,alpha]
+   \n [29,29,29,29,0,0,white]
+   _emocao [30,38,30,38,7,39,node, ("emocao" "engracado")]
+      KKKKKKKKK [30,38,30,38,0,0,alpha]
+   \n [39,39,39,39,0,0,white]
+   _emocao [40,48,40,48,7,39,node, ("emocao" "engracado")]
+      KKKKKKKKK [40,48,40,48,0,0,alpha]
+   \n [49,49,49,49,0,0,white]

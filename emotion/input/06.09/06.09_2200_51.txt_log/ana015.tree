@@ -1,0 +1,31 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,73,0,70,0,0,node,un]
+   Assistindo [0,9,0,9,0,0,alpha]
+   _frasePalmeiras [11,21,11,21,12,12,node]
+      _artigo [11,11,11,11,6,12,node]
+         o [11,11,11,11,0,0,alpha]
+      _palmeiras [13,21,13,21,6,48,node]
+         Palmeiras [13,21,13,21,0,0,alpha]
+   como [23,26,23,26,0,0,alpha]
+   um [28,29,28,29,0,0,alpha]
+   bom [31,33,31,33,0,0,alpha]
+   roraimense [35,44,35,44,0,0,alpha]
+   _emocao [46,49,46,46,10,30,node,fired, ("emocao" "felicidade") ("emoji" 1)]
+      😄 [46,49,46,46,0,0,emoji]
+   https [51,55,48,52,0,0,alpha]
+   : [56,56,53,53,0,0,punct]
+   / [57,57,54,54,0,0,punct]
+   / [58,58,55,55,0,0,punct]
+   t [59,59,56,56,0,0,alpha]
+   . [60,60,57,57,0,0,punct]
+   co [61,62,58,59,0,0,alpha]
+   / [63,63,60,60,0,0,punct]
+   WqfA [64,67,61,64,0,0,alpha]
+   6 [68,68,65,65,0,0,num]
+   qgSMT [69,73,66,70,0,0,alpha]

@@ -1,0 +1,16 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,31,0,31,0,0,node,un]
+   Ansiedade [0,8,0,8,0,0,alpha]
+   do [10,11,10,11,0,0,alpha]
+   carai [13,17,13,17,0,0,alpha]
+   _xingamento [19,21,19,21,9,16,node]
+      vtc [19,21,19,21,0,0,alpha]
+   _frasePalmeiras [23,31,23,31,12,12,node,fired,blt]
+      _palmeiras [23,31,23,31,6,48,node]
+         palmeiras [23,31,23,31,0,0,alpha]

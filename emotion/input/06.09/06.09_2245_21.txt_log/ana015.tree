@@ -1,0 +1,28 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,68,0,65,0,0,node,un]
+   _emocao [0,16,0,16,13,16,node,fired, ("emocao" "torcida")]
+      _vamos [0,6,0,6,7,39,node]
+         VAAAAMO [0,6,0,6,0,0,alpha]
+      _frasePalmeiras [8,16,8,16,12,12,node]
+         _palmeiras [8,16,8,16,6,48,node]
+            PALMEIRAS [8,16,8,16,0,0,alpha]
+   _verboLigacao [18,19,18,18,6,60,node]
+      É [18,19,18,18,0,0,alpha]
+   _gol [21,23,20,22,6,72,node]
+      GOL [21,23,20,22,0,0,alpha]
+   DO [25,26,24,25,0,0,alpha]
+   HÓMI [28,32,27,30,0,0,alpha]
+   EL [34,35,32,33,0,0,alpha]
+   CAPITÁN [37,44,35,41,0,0,alpha]
+   _pronomePessoal [46,47,43,44,6,16,node]
+      EU [46,47,43,44,0,0,alpha]
+   TE [49,50,46,47,0,0,alpha]
+   AMO [52,54,49,51,0,0,alpha]
+   GUSTAVO [56,62,53,59,0,0,alpha]
+   GOMEZ [64,68,61,65,0,0,alpha]

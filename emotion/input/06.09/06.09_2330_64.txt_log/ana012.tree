@@ -1,0 +1,34 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,96,0,94,0,0,node,un]
+   RT [0,1,0,1,0,0,alpha]
+   _frasePalmeiras [3,12,3,12,12,12,node,fired,blt]
+      _palmeiras [3,12,3,12,6,43,node]
+         @ [3,3,3,3,0,0,punct]
+         Palmeiras [4,12,4,12,0,0,alpha]
+   : [13,13,13,13,0,0,punct]
+   Fim [15,17,15,17,0,0,alpha]
+   de [19,20,19,20,0,0,alpha]
+   jogo [22,25,22,25,0,0,alpha]
+   : [26,26,26,26,0,0,punct]
+   _frasePalmeiras [28,36,28,36,12,12,node,fired,blt]
+      _palmeiras [28,36,28,36,6,48,node]
+         Palmeiras [28,36,28,36,0,0,alpha]
+   2 [38,38,38,38,0,0,num]
+   x [39,39,39,39,0,0,alpha]
+   2 [40,40,40,40,0,0,num]
+   Athletico [42,50,42,50,0,0,alpha]
+   - [51,51,51,51,0,0,punct]
+   PR [52,53,52,53,0,0,alpha]
+   . [54,54,54,54,0,0,punct]
+   # [57,57,57,57,0,0,punct]
+   AvantiPalestra [58,71,58,71,0,0,alpha]
+   # [73,73,73,73,0,0,punct]
+   PALxCAP [74,80,74,80,0,0,alpha]
+   # [82,82,82,82,0,0,punct]
+   AlmaECoração [83,96,83,94,0,0,alpha]

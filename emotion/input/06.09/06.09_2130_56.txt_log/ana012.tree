@@ -1,0 +1,26 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,75,0,75,0,0,node,un]
+   @ [0,0,0,0,0,0,punct]
+   cabreloatips [1,12,1,12,0,0,alpha]
+   _frasePalmeiras [14,22,14,22,12,12,node,fired,blt]
+      _palmeiras [14,22,14,22,6,48,node]
+         Palmeiras [14,22,14,22,0,0,alpha]
+   3 [24,24,24,24,0,0,num]
+   x [25,25,25,25,0,0,alpha]
+   0 [26,26,26,26,0,0,num]
+   fora [28,31,28,31,0,0,alpha]
+   _artigo [33,34,33,34,6,12,node]
+      os [33,34,33,34,0,0,alpha]
+   _gol [36,39,36,39,6,72,node]
+      gols [36,39,36,39,0,0,alpha]
+   perdidos [41,48,41,48,0,0,alpha]
+   pelo [50,53,50,53,0,0,alpha]
+   suposto [55,61,55,61,0,0,alpha]
+   centro [63,68,63,68,0,0,alpha]
+   avante [70,75,70,75,0,0,alpha]

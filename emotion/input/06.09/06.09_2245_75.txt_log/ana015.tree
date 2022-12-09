@@ -1,0 +1,29 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,91,0,91,0,0,node,un]
+   _vamos [0,11,0,11,7,39,node]
+      VAMOOOOOOOOO [0,11,0,11,0,0,alpha]
+   CARALHOOOOOOO [13,25,13,25,0,0,alpha]
+   ISSO [27,30,27,30,0,0,alpha]
+   _verboLigacao [32,34,32,34,6,60,node]
+      FOI [32,34,32,34,0,0,alpha]
+   _frasePalmeiras [36,44,36,44,12,12,node]
+      _palmeiras [36,44,36,44,6,48,node]
+         PALMEIRAS [36,44,36,44,0,0,alpha]
+   PRA [46,48,46,48,0,0,alpha]
+   CARALHO [50,56,50,56,0,0,alpha]
+   PEGA [58,61,58,61,0,0,alpha]
+   NO [63,64,63,64,0,0,alpha]
+   _pronomePossessivo [66,68,66,68,6,20,node]
+      MEU [66,68,66,68,0,0,alpha]
+   PAU [70,72,70,72,0,0,alpha]
+   _emocao [74,77,74,77,6,30,node,fired, ("emocao" "raiva")]
+      JUIZ [74,77,74,77,0,0,alpha]
+   FILHO [79,83,79,83,0,0,alpha]
+   DA [85,86,85,86,0,0,alpha]
+   PUTA [88,91,88,91,0,0,alpha]

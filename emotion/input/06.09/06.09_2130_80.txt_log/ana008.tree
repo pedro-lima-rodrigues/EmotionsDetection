@@ -1,0 +1,35 @@
+
+***************
+    PASS 8 (frases)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,67,0,67,0,0,node,un]
+   Se [0,1,0,1,0,0,alpha]
+   \_ [2,2,2,2,0,0,white]
+   _artigo [3,3,3,3,6,12,node]
+      o [3,3,3,3,0,0,alpha]
+   \_ [4,4,4,4,0,0,white]
+   _palmeiras [5,13,5,13,6,48,node]
+      palmeiras [5,13,5,13,0,0,alpha]
+   \_ [14,14,14,14,0,0,white]
+   vencer [15,20,15,20,0,0,alpha]
+   \_ [21,21,21,21,0,0,white]
+   hoje [22,25,22,25,0,0,alpha]
+   \_ [26,26,26,26,0,0,white]
+   extendo [27,33,27,33,0,0,alpha]
+   \_ [34,34,34,34,0,0,white]
+   _pronomePossessivo [35,39,35,39,6,20,node]
+      minha [35,39,35,39,0,0,alpha]
+   \_ [40,40,40,40,0,0,white]
+   promessa [41,48,41,48,0,0,alpha]
+   \_ [49,49,49,49,0,0,white]
+   de [50,51,50,51,0,0,alpha]
+   \_ [52,52,52,52,0,0,white]
+   ficar [53,57,53,57,0,0,alpha]
+   \_ [58,58,58,58,0,0,white]
+   _sem [59,61,59,61,6,84,node]
+      sem [59,61,59,61,0,0,alpha]
+   \_ [62,62,62,62,0,0,white]
+   beber [63,67,63,67,0,0,alpha]

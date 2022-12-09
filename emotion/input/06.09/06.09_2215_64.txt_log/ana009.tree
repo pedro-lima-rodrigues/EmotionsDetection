@@ -1,0 +1,13 @@
+
+***************
+    PASS 9 (palavrao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,13,0,13,0,0,node,un]
+   _vamos [0,3,0,3,6,92,node]
+      Vamo [0,3,0,3,0,0,alpha]
+   \_ [4,4,4,4,0,0,white]
+   _palmeiras [5,13,5,13,6,48,node]
+      Palmeiras [5,13,5,13,0,0,alpha]

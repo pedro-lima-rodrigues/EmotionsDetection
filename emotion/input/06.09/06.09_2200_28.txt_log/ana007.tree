@@ -1,0 +1,13 @@
+
+***************
+    PASS 7 (repeticao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,18,0,18,0,0,node,un]
+   _vamos [0,8,0,8,7,39,node,fired,blt]
+      boraaaaaa [0,8,0,8,0,0,alpha,fired]
+   \_ [9,9,9,9,0,0,white]
+   _palmeiras [10,18,10,18,6,48,node]
+      palmeiras [10,18,10,18,0,0,alpha]

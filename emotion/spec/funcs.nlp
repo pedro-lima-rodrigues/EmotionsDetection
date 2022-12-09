@@ -8,72 +8,88 @@
 
 @DECL
 
-# palavra com letras repetidas
+# palavra com letras repetidas v0
+#LetrasReps(L("palavra"),L("letras")){
+#	L("comp_plv") = strlength(L("palavra"));
+#	L("comp_ltr") = strlength(L("letras"));
+#	if(strequalnocase(strchar(L("palavra"), 0),strchar(L("letras"), 0)) && L("comp_plv") > L("comp_ltr")){
+#		"passei pelo ponto (1).txt" << L("c") << "   " << L("j") << "   ////   ";
+#		L("c") = 1;
+#		while(L("c")<L("comp_plv")){
+#			"passei pelo ponto (2).txt" << L("c") << "   " << L("j") << "   ////   ";
+#			L("j") = 0;
+#			while(L("j")<L("comp_ltr")-1){
+#				"passei pelo ponto (3).txt" << L("c") << "   " << L("j") << "   ////   ";
+#				if(strequalnocase(strchar(L("palavra"), L("c")-1),strchar(L("letras"), L("j")))){
+#					"passei pelo ponto (4).txt" << L("c") << "   " << L("j") << "   ////   ";
+#					if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("letras"), L("j")))){
+#						"passei pelo ponto (5).txt" << L("c") << "   " << L("j") << "   ////   ";
+#						if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("letras"), L("j")+1))){
+#							"passei pelo ponto (6).txt" << L("palavra");
+#							return 0;
+#						}
+#					}
+#				}
+#				L("j")++;
+#			}
+#			if(L("j")>=L("comp_ltr")-1){
+#				"passei pelo ponto (7).txt" << "oi";
+#				if(strequalnocase(strchar(L("palavra"), L("c")-1),strchar(L("letras"), L("comp_ltr")-1))){
+#					"passei pelo ponto (8).txt" << "oi";
+#					if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("letras"), L("comp_ltr")-1))){
+#						"passei pelo ponto (9).txt" << L("palavra");
+#						return 0;
+#					}
+#				}
+#			}
+#			L("c")++;
+#		}
+#		return 1;
+#	}
+#	return 0;
+#}
+
+# palavra com letras repetidas v1
 LetrasRep(L("palavra"),L("letras")){
 	L("comp_plv") = strlength(L("palavra"));
 	L("comp_ltr") = strlength(L("letras"));
-	if(strequalnocase(strchar(L("palavra"), 0),strchar(L("letras"), 0)) && L("comp_plv") != L("comp_ltr")){
+	if(strequalnocase(strchar(L("palavra"), 0),strchar(L("letras"), 0)) && L("comp_plv") > L("comp_ltr")){
 		"passei pelo ponto (1).txt" << L("c") << "   " << L("j") << "   ////   ";
 		L("c") = 1;
-		L("ok") = 1;
 		while(L("c")<L("comp_plv")){
 			"passei pelo ponto (2).txt" << L("c") << "   " << L("j") << "   ////   ";
-			L("j") = 0;
-			while(L("j")<L("comp_ltr")-1){
+			if(L("j")<L("comp_ltr")-1){
 				"passei pelo ponto (3).txt" << L("c") << "   " << L("j") << "   ////   ";
 				if(strequalnocase(strchar(L("palavra"), L("c")-1),strchar(L("letras"), L("j")))){
 					"passei pelo ponto (4).txt" << L("c") << "   " << L("j") << "   ////   ";
 					if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("letras"), L("j")))){
 						"passei pelo ponto (5).txt" << L("c") << "   " << L("j") << "   ////   ";
 						if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("letras"), L("j")+1))){
-							"passei pelo ponto (6).txt" << "oi";
+							"passei pelo ponto (6).txt" << L("palavra");
 							return 0;
+						}
+						else{
+							L("j")++;
 						}
 					}
 				}
-				L("j")++;
 			}
-			if(L("j")>L("comp_ltr")-2){
+			else{
 				"passei pelo ponto (7).txt" << "oi";
 				if(strequalnocase(strchar(L("palavra"), L("c")-1),strchar(L("letras"), L("comp_ltr")-1))){
 					"passei pelo ponto (8).txt" << "oi";
 					if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("letras"), L("comp_ltr")-1))){
-						"passei pelo ponto (9).txt" << "oi";
+						"passei pelo ponto (9).txt" << L("palavra");
 						return 0;
 					}
 				}
 			}
 			L("c")++;
 		}
-		return 1;
-	}
-	return 0;
-}
-
-LetraRep(L("palavra"),L("letras")){
-	L("comp_plv") = strlength(L("palavra"));
-	L("comp_ltr") = strlength(L("letras"));
-	if(strequalnocase(strchar(L("palavra"), 0),strchar(L("letras"), 0)) && L("comp_plv") != L("comp_ltr")){
-		L("c") = 1;
-		while(L("c")<L("comp_plv")){
-			while(L("j")<L("comp_ltr")-1){
-				if(strequalnocase(strchar(L("palavra"), L("c")-1),strchar(L("letras"), L("j")))){
-					if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("letras"), L("j")))){
-						if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("letras"), L("j")+1))){
-							return 0;
-						}
-					}
-				}
-				L("j")++;
-			}
-			if(strequalnocase(strchar(L("palavra"), L("c")-1),strchar(L("letras"), L("comp_ltr")))){
-				if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("letras"), L("comp_ltr")))){
-					return 0;
-				}
-			}
-			L("c")++;
+		if(strequalnocase(strchar(L("palavra"), L("comp_plv")-1),strchar(L("letras"), L("comp_ltr")-1))){
+			return 1;
 		}
-		return 1;
+		return 0;
 	}
 	return 0;
 }
@@ -149,53 +165,59 @@ FinalRep(L("palavra"),L("inicio"),L("fim")){
 AleRep(L("palavra"),L("letras")){
 	L("comp") = strlength(L("palavra"));
 	L("comp2") = strlength(L("letras"));
-	while(L("c")<L("comp")){
-		L("check") = 0;
-		L("i") = 0;
-		while(L("i")<L("comp2") && L("check")==0){
-			if(strequalnocase(strchar(L("palavra"), L("c")),strchar(L("letras"), L("i")))){
-				L("check") = 1;
+	if(L("comp")>L("comp2") && strlength(struniquechars(L("palavra")))==L("comp2")){
+		while(L("c")<L("comp")){
+			L("check") = 0;
+			L("i") = 0;
+			while(L("i")<L("comp2") && L("check")==0){
+				if(strequalnocase(strchar(L("palavra"), L("c")),strchar(L("letras"), L("i")))){
+					L("check") = 1;
+				}
+				L("i")++;
 			}
-			L("i")++;
+			if(L("check")==0){
+				return 0;
+			}
+			L("c")++;
 		}
-		if(L("check")==0){
-			return 0;
-		}
-		L("c")++;
+		return 1;
 	}
-	return 1;
+	return 0;
 }
 
 # 2 letras em ordem repetidas
 OrdRep(L("palavra"),L("trecho")){
 	L("comp") = strlength(L("palavra"));
 	L("comp2") = strlength(L("trecho"));
-	while(L("i")<L("comp2")){
-		if(strequalnocase(strchar(L("palavra"), 0),strchar(L("trecho"), L("i")))){
-			L("1letra") = 1;
+	if(L("comp")>L("comp2")){
+		while(L("i")<L("comp2")){
+			if(strequalnocase(strchar(L("palavra"), 0),strchar(L("trecho"), L("i")))){
+				L("1letra") = 1;
+			}
+			L("i")++;
 		}
-		L("i")++;
-	}
-	if(L("1letra") == 1){
-		L("c") = 1;
-		while(L("c")<L("comp")){
-			L("i") = 0;
-			while(L("i")<L("comp2")-1){
-				if(strequalnocase(strchar(L("palavra"), L("c")-1),strchar(L("trecho"), L("i")))){
-					if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("trecho"), L("i")+1))){
+		if(L("1letra") == 1){
+			L("c") = 1;
+			while(L("c")<L("comp")){
+				L("i") = 0;
+				while(L("i")<L("comp2")-1){
+					if(strequalnocase(strchar(L("palavra"), L("c")-1),strchar(L("trecho"), L("i")))){
+						if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("trecho"), L("i")+1))){
+							return 0;
+						}
+					}
+					L("i")++;
+				}
+				if(strequalnocase(strchar(L("palavra"), L("c")-1),strchar(L("trecho"), L("comp2")-1))){
+					if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("trecho"), 0))){
 						return 0;
 					}
 				}
-				L("i")++;
+				L("c")++;
 			}
-			if(strequalnocase(strchar(L("palavra"), L("c")-1),strchar(L("trecho"), L("comp2")-1))){
-				if(strnotequalnocase(strchar(L("palavra"), L("c")),strchar(L("trecho"), 0))){
-					return 0;
-				}
-			}
-			L("c")++;
+			return 1;
 		}
-		return 1;
+		return 0;
 	}
 	return 0;
 }

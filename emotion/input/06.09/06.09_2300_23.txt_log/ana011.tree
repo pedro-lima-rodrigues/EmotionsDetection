@@ -1,0 +1,25 @@
+
+***************
+    PASS 11 (RemoveWhiteSpace)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,62,0,60,0,0,node,un]
+   Esse [0,3,0,3,0,0,alpha]
+   _emocao [5,8,5,8,6,30,node, ("emocao" "raiva")]
+      juiz [5,8,5,8,0,0,alpha]
+   _emocao [10,20,10,19,6,34,node, ("emocao" "raiva")]
+      desgraçado [10,20,10,19,0,0,alpha]
+   _neg [22,25,21,23,6,76,node]
+      não [22,25,21,23,0,0,alpha]
+   apita [27,31,25,29,0,0,alpha]
+   nenhuma [33,39,31,37,0,0,alpha]
+   _emocao [41,45,39,43,6,30,node, ("emocao" "raiva")]
+      falta [41,45,39,43,0,0,alpha]
+   _preposicao [47,50,45,48,6,39,node]
+      para [47,50,45,48,0,0,alpha]
+   _artigo [52,52,50,50,6,12,node]
+      o [52,52,50,50,0,0,alpha]
+   _palmeiras [54,62,52,60,6,48,node]
+      Palmeiras [54,62,52,60,0,0,alpha]

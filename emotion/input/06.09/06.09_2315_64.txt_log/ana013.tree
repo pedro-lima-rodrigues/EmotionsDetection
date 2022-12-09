@@ -1,0 +1,24 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,68,0,68,0,0,node,un]
+   _pronomePessoal [0,1,0,1,6,16,node]
+      Eu [0,1,0,1,0,0,alpha]
+   fico [3,6,3,6,0,0,alpha]
+   _adverbio [8,9,8,9,6,64,node]
+      MT [8,9,8,9,0,0,alpha]
+   triste [11,16,11,16,0,0,alpha]
+   vendo [18,22,18,22,0,0,alpha]
+   _frasePalmeiras [24,34,24,34,12,12,node]
+      _artigo [24,24,24,24,6,12,node]
+         o [24,24,24,24,0,0,alpha]
+      _palmeiras [26,34,26,34,6,48,node]
+         palmeiras [26,34,26,34,0,0,alpha]
+   ser [36,38,36,38,0,0,alpha]
+   eliminado [40,48,40,48,0,0,alpha]
+   _emocao [50,68,50,68,7,39,node, ("emocao" "engracado")]
+      KAKAKAKAKAKAKAKAKKA [50,68,50,68,0,0,alpha]

@@ -1,0 +1,25 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,50,0,49,0,0,node,un]
+   Rivais [0,5,0,5,0,0,alpha]
+   e [7,7,7,7,0,0,alpha]
+   inimigos [9,16,9,16,0,0,alpha]
+   também [18,24,18,23,0,0,alpha]
+   _vamos [26,28,25,27,6,92,node]
+      vai [26,28,25,27,0,0,alpha]
+   _emocao [29,50,28,49,13,53,node,fired, ("emocao" "raiva")]
+      _xingamento [29,40,28,39,9,21,node]
+         \_ [29,29,28,28,0,0,white]
+         tomar [30,34,29,33,0,0,alpha]
+         \_ [35,35,34,34,0,0,white]
+         no [36,37,35,36,0,0,alpha]
+         \_ [38,38,37,37,0,0,white]
+         cu [39,40,38,39,0,0,alpha]
+      _frasePalmeiras [42,50,41,49,12,12,node]
+         _palmeiras [42,50,41,49,6,48,node]
+            palmeiras [42,50,41,49,0,0,alpha]

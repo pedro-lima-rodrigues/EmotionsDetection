@@ -1,0 +1,15 @@
+
+FINAL OUTPUT TREE:
+
+_ROOT [0,52,0,41,0,0,node,un]
+   _frasePalmeiras [0,8,0,8,12,12,node]
+      _palmeiras [0,8,0,8,6,48,node]
+         Palmeiras [0,8,0,8,0,0,alpha]
+   com [10,12,10,12,0,0,alpha]
+   duas [14,17,14,17,0,0,alpha]
+   eliminações [19,31,19,29,0,0,alpha]
+   em [33,34,31,32,0,0,alpha]
+   casa [36,39,34,37,0,0,alpha]
+   🔥 [41,44,39,39,0,0,emoji]
+   🔥 [45,48,40,40,0,0,emoji]
+   🔥 [49,52,41,41,0,0,emoji]

@@ -1,0 +1,20 @@
+
+***************
+    PASS 11 (RemoveWhiteSpace)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,43,0,42,0,0,node,un]
+   Mds [0,2,0,2,0,0,alpha]
+   esse [4,7,4,7,0,0,alpha]
+   time [9,12,9,12,0,0,alpha]
+   do [14,15,14,15,0,0,alpha]
+   _palmeiras [17,25,17,25,6,48,node]
+      Palmeiras [17,25,17,25,0,0,alpha]
+   _verboLigacao [27,28,27,27,6,60,node]
+      é [27,28,27,27,0,0,alpha]
+   um [30,31,29,30,0,0,alpha]
+   absurdo [33,39,32,38,0,0,alpha]
+   _xingamento [41,43,40,42,9,16,node]
+      pqp [41,43,40,42,0,0,alpha]

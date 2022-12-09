@@ -1,0 +1,26 @@
+o cg=artigo genero=m numero=s
+a cg=artigo genero=f numero=s
+os cg=artigo genero=m numero=p
+as cg=artigo genero=f numero=p
+eu cg=pronome tipo=pessoal pessoa=1 numero=s
+você cg=pronome tipo=pessoal pessoa=2 numero=s
+meu cg=pronome tipo=possessivo genero=m pessoa=1 numero=s
+minha cg=pronome tipo=possessivo genero=f pessoa=1 numero=s
+nosso cg=pronome tipo=possessivo genero=m pessoa=1 numero=p
+nossa cg=pronome tipo=possessivo genero=f pessoa=1 numero=p
+falta cg=substantivo emocao=raiva numero=s
+nojo cg=substantivo emocao=raiva
+burrice cg=substantivo emocao=raiva
+porcaria cg=substantivo emocao=raiva
+VAR cg=substantivo emocao=raiva
+arbitragem cg=substantivo emocao=raiva numero=s
+juiz cg=substantivo emocao=raiva numero=s
+juízes cg=substantivo emocao=raiva numero=p
+árbitro cg=substantivo emocao=raiva numero=s
+expulsão cg=substantivo emocao=raiva numero=s
+horroroso cg=adjetivo emocao=raiva
+lixo cg=substantivo emocao=raiva numero=s
+ridículo cg=adjetivo emocao=raiva genero=m numero=s
+ridícula cg=adjetivo emocao=raiva genero=f numero=s
+ridículos cg=adjetivo emocao=raiva genero=m numero=p
+ridículas cg=adjetivo emocao=raiva genero=f numero=p

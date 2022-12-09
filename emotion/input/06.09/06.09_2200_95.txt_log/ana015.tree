@@ -1,0 +1,36 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,80,0,79,0,0,node,un]
+   _emocao [0,14,0,14,13,59,node,fired, ("emocao" "raiva")]
+      _frasePalmeiras [0,9,0,9,12,12,node]
+         _palmeiras [0,9,0,9,6,43,node]
+            @ [0,0,0,0,0,0,punct]
+            Palmeiras [1,9,1,9,0,0,alpha]
+      _xingamento [11,14,11,14,9,16,node]
+         Tmnc [11,14,11,14,0,0,alpha]
+   ENFIOU [16,21,16,21,0,0,alpha]
+   _artigo [23,23,23,23,6,12,node]
+      O [23,23,23,23,0,0,alpha]
+   _emocao [25,27,25,27,6,30,node,fired, ("emocao" "raiva")]
+      VAR [25,27,25,27,0,0,alpha]
+   NO [29,30,29,30,0,0,alpha]
+   RABO [32,35,32,35,0,0,alpha]
+   CRL [37,39,37,39,0,0,alpha]
+   _tem [41,43,41,43,6,80,node]
+      TEM [41,43,41,43,0,0,alpha]
+   _artigo [45,45,45,45,6,12,node]
+      A [45,45,45,45,0,0,alpha]
+   PORRA [47,51,47,51,0,0,alpha]
+   DA [53,54,53,54,0,0,alpha]
+   TECNOLOGIA [56,65,56,65,0,0,alpha]
+   E [67,67,67,67,0,0,alpha]
+   _neg [69,72,69,71,6,76,node]
+      NÃO [69,72,69,71,0,0,alpha]
+   USA [74,76,73,75,0,0,alpha]
+   _xingamento [78,80,77,79,9,16,node]
+      VSF [78,80,77,79,0,0,alpha]

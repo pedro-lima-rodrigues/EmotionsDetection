@@ -1,0 +1,22 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,33,0,33,0,0,node,un]
+   pprt [0,3,0,3,0,0,alpha]
+   _emocao [5,9,5,9,7,39,node,fired, ("emocao" "engracado")]
+      kkkkk [5,9,5,9,0,0,alpha]
+   https [11,15,11,15,0,0,alpha]
+   : [16,16,16,16,0,0,punct]
+   / [17,17,17,17,0,0,punct]
+   / [18,18,18,18,0,0,punct]
+   t [19,19,19,19,0,0,alpha]
+   . [20,20,20,20,0,0,punct]
+   co [21,22,21,22,0,0,alpha]
+   / [23,23,23,23,0,0,punct]
+   GMocpm [24,29,24,29,0,0,alpha]
+   03 [30,31,30,31,0,0,num]
+   es [32,33,32,33,0,0,alpha]

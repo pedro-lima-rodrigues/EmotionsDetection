@@ -1,0 +1,34 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,102,0,102,0,0,node,un]
+   Cap [0,2,0,2,0,0,alpha]
+   tomando [4,10,4,10,0,0,alpha]
+   _gol [12,14,12,14,6,72,node]
+      gol [12,14,12,14,0,0,alpha]
+   com [16,18,16,18,0,0,alpha]
+   jogada [20,25,20,25,0,0,alpha]
+   de [27,28,27,28,0,0,alpha]
+   lateral [30,36,30,36,0,0,alpha]
+   , [37,37,37,37,0,0,punct]
+   _frasePalmeiras [39,47,39,47,12,12,node]
+      _palmeiras [39,47,39,47,6,48,node]
+         Palmeiras [39,47,39,47,0,0,alpha]
+   tomando [49,55,49,55,0,0,alpha]
+   _gol [57,59,57,59,6,72,node]
+      gol [57,59,57,59,0,0,alpha]
+   do [61,62,61,62,0,0,alpha]
+   Pablo [64,68,64,68,0,0,alpha]
+   . [69,69,69,69,0,0,punct]
+   . [70,70,70,70,0,0,punct]
+   . [71,71,71,71,0,0,punct]
+   show [73,76,73,76,0,0,alpha]
+   de [78,79,78,79,0,0,alpha]
+   horrores [81,88,81,88,0,0,alpha]
+   , [89,89,89,89,0,0,punct]
+   jogo [91,94,91,94,0,0,alpha]
+   animado [96,102,96,102,0,0,alpha]

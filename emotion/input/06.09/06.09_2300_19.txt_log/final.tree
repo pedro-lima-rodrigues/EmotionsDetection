@@ -1,0 +1,19 @@
+
+FINAL OUTPUT TREE:
+
+_ROOT [0,47,0,46,0,0,node,un]
+   Tão [0,3,0,2,0,0,alpha]
+   _emocao [5,27,4,26,13,64,node, ("emocao" "raiva")]
+      _verboRaiva [5,12,4,11,6,52,node]
+         roubando [5,12,4,11,0,0,alpha]
+      _adverbio [14,15,13,14,6,64,node]
+         mt [14,15,13,14,0,0,alpha]
+      _frasePalmeiras [17,27,16,26,12,12,node]
+         _artigo [17,17,16,16,6,12,node]
+            o [17,17,16,16,0,0,alpha]
+         _palmeiras [19,27,18,26,6,48,node]
+            Palmeiras [19,27,18,26,0,0,alpha]
+   que [29,31,28,30,0,0,alpha]
+   chinelagem [33,42,32,41,0,0,alpha]
+   _emocao [44,47,43,46,7,39,node, ("emocao" "engracado")]
+      kkkk [44,47,43,46,0,0,alpha]

@@ -1,0 +1,20 @@
+
+FINAL OUTPUT TREE:
+
+_ROOT [0,70,0,67,0,0,node,un]
+   Classificação [0,14,0,12,0,0,alpha]
+   do [16,17,14,15,0,0,alpha]
+   _frasePalmeiras [19,27,17,25,12,12,node]
+      _palmeiras [19,27,17,25,6,48,node]
+         palmeiras [19,27,17,25,0,0,alpha]
+   e [29,29,27,27,0,0,alpha]
+   mais [31,34,29,32,0,0,alpha]
+   de [36,37,34,35,0,0,alpha]
+   11 [39,40,37,38,0,0,num]
+   escanteios [42,51,40,49,0,0,alpha]
+   e [53,53,51,51,0,0,alpha]
+   _pronomePessoal [55,56,53,54,6,16,node]
+      eu [55,56,53,54,0,0,alpha]
+   tô [58,60,56,57,0,0,alpha]
+   rico [62,65,59,62,0,0,alpha]
+   hoje [67,70,64,67,0,0,alpha]

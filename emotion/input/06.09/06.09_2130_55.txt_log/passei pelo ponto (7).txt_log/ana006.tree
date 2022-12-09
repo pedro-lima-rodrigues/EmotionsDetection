@@ -1,0 +1,9 @@
+
+***************
+    PASS 6 (pos)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,5,0,5,0,0,node,un]
+   oioioi [0,5,0,5,0,0,alpha]

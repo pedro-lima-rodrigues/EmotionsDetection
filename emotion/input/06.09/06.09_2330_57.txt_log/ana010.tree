@@ -1,0 +1,23 @@
+
+***************
+    PASS 10 (emojis)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,35,0,35,0,0,node,un]
+   _palmeiras [0,8,0,8,6,48,node]
+      Palmeiras [0,8,0,8,0,0,alpha]
+   \_ [9,9,9,9,0,0,white]
+   voltando [10,17,10,17,0,0,alpha]
+   \_ [18,18,18,18,0,0,white]
+   _artigo [19,19,19,19,6,12,node]
+      a [19,19,19,19,0,0,alpha]
+   \_ [20,20,20,20,0,0,white]
+   ser [21,23,21,23,0,0,alpha]
+   \_ [24,24,24,24,0,0,white]
+   _artigo [25,25,25,25,6,12,node]
+      o [25,25,25,25,0,0,alpha]
+   \_ [26,26,26,26,0,0,white]
+   _palmeiras [27,35,27,35,6,48,node]
+      Palmeiras [27,35,27,35,0,0,alpha]

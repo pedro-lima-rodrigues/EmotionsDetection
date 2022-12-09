@@ -1,0 +1,35 @@
+ind attr
+
+0
+
+pst
+"male"
+end ind
+
+ind attr
+
+0
+
+pst
+"female"
+end ind
+
+ind attr
+
+0
+
+pst
+"month"
+end ind
+
+ind attr
+
+0
+
+pnum
+1
+end ind
+
+
+quit
+

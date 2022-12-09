@@ -1,0 +1,23 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,57,0,55,0,0,node,un]
+   Único [0,5,0,4,0,0,alpha]
+   jogo [7,10,6,9,0,0,alpha]
+   que [12,14,11,13,0,0,alpha]
+   torço [16,21,15,19,0,0,alpha]
+   _preposicao [23,26,21,24,6,39,node]
+      para [23,26,21,24,0,0,alpha]
+   _frasePalmeiras [28,38,26,36,12,12,node,fired,blt]
+      _artigo [28,28,26,26,6,12,node]
+         o [28,28,26,26,0,0,alpha]
+      _palmeiras [30,38,28,36,6,48,node]
+         Palmeiras [30,38,28,36,0,0,alpha]
+   e [40,40,38,38,0,0,alpha]
+   me [42,43,40,41,0,0,alpha]
+   acontece [45,52,43,50,0,0,alpha]
+   isso [54,57,52,55,0,0,alpha]

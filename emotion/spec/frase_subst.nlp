@@ -10,7 +10,7 @@
 
 @RULES
 _frasePalmeiras <-
-	_artigo	[s optional]		### (1)
+	_artigo [s optional]			### (1)
 	_pronomePossessivo [s optional]	### (2)
 	_palmeiras						### (3)
 	@@

@@ -1,0 +1,17 @@
+
+***************
+    PASS 7 (repeticao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,20,0,20,0,0,node,un]
+   vou [0,2,0,2,0,0,alpha,fired]
+   \_ [3,3,3,3,0,0,white]
+   secar [4,8,4,8,0,0,alpha,fired]
+   \_ [9,9,9,9,0,0,white]
+   _artigo [10,10,10,10,6,12,node]
+      o [10,10,10,10,0,0,alpha]
+   \_ [11,11,11,11,0,0,white]
+   _palmeiras [12,20,12,20,6,48,node]
+      palmeiras [12,20,12,20,0,0,alpha]

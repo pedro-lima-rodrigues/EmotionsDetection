@@ -1,0 +1,23 @@
+
+***************
+    PASS 11 (RemoveWhiteSpace)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,52,0,50,0,0,node,un]
+   _palmeiras [0,9,0,9,6,43,node]
+      @ [0,0,0,0,0,0,punct]
+      Palmeiras [1,9,1,9,0,0,alpha]
+   _neg [11,14,11,13,6,76,node]
+      Não [11,14,11,13,0,0,alpha]
+   dá [16,18,15,16,0,0,alpha]
+   sempre [20,25,18,23,0,0,alpha]
+   pra [27,29,25,27,0,0,alpha]
+   se [31,32,29,30,0,0,alpha]
+   contar [34,39,32,37,0,0,alpha]
+   com [41,43,39,41,0,0,alpha]
+   _artigo [45,45,43,43,6,12,node]
+      a [45,45,43,43,0,0,alpha]
+   sorte [47,51,45,49,0,0,alpha]
+   . [52,52,50,50,0,0,punct]

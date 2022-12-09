@@ -1,0 +1,32 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,111,0,109,0,0,node,un]
+   _frasePalmeiras [0,8,0,8,12,12,node]
+      _palmeiras [0,8,0,8,6,48,node]
+         Palmeiras [0,8,0,8,0,0,alpha]
+   tiene [10,14,10,14,0,0,alpha]
+   mística [16,23,16,22,0,0,alpha]
+   copera [25,30,24,29,0,0,alpha]
+   , [31,31,30,30,0,0,punct]
+   lastima [33,39,32,38,0,0,alpha]
+   que [41,43,40,42,0,0,alpha]
+   _artigo [45,45,44,44,6,12,node]
+      a [45,45,44,44,0,0,alpha]
+   un [47,48,46,47,0,0,alpha]
+   pelotudo [50,57,49,56,0,0,alpha]
+   se [59,60,58,59,0,0,alpha]
+   le [62,63,61,62,0,0,alpha]
+   ocurrió [65,72,64,70,0,0,alpha]
+   meter [74,78,72,76,0,0,alpha]
+   una [80,82,78,80,0,0,alpha]
+   plancha [84,90,82,88,0,0,alpha]
+   en [92,93,90,91,0,0,alpha]
+   el [95,96,93,94,0,0,alpha]
+   primer [98,103,96,101,0,0,alpha]
+   tiempo [105,110,103,108,0,0,alpha]
+   . [111,111,109,109,0,0,punct]

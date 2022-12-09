@@ -1,0 +1,23 @@
+
+FINAL OUTPUT TREE:
+
+_ROOT [0,75,0,75,0,0,node,un]
+   _frasePalmeiras [0,8,0,8,12,12,node]
+      _palmeiras [0,8,0,8,6,48,node]
+         Palmeiras [0,8,0,8,0,0,alpha]
+   com [10,12,10,12,0,0,alpha]
+   1 [14,14,14,14,0,0,num]
+   _artigo [16,16,16,16,6,12,node]
+      a [16,16,16,16,0,0,alpha]
+   menos [18,22,18,22,0,0,alpha]
+   metendo [24,30,24,30,0,0,alpha]
+   2 [32,32,32,32,0,0,num]
+   x [33,33,33,33,0,0,alpha]
+   0 [34,34,34,34,0,0,num]
+   no [36,37,36,37,0,0,alpha]
+   Atlhetico [39,47,39,47,0,0,alpha]
+   Paranaense [49,58,49,58,0,0,alpha]
+   mds [60,62,60,62,0,0,alpha]
+   que [64,66,64,66,0,0,alpha]
+   _emocao [68,75,68,75,6,34,node, ("emocao" "raiva")]
+      vergonha [68,75,68,75,0,0,alpha]

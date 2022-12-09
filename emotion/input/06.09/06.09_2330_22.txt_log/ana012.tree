@@ -1,0 +1,15 @@
+
+***************
+    PASS 12 (frase_subst)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,21,0,21,0,0,node,un]
+   _frasePalmeiras [0,9,0,9,12,12,node,fired,blt]
+      _palmeiras [0,9,0,9,6,43,node]
+         @ [0,0,0,0,0,0,punct]
+         Palmeiras [1,9,1,9,0,0,alpha]
+   Murilo [11,16,11,16,0,0,alpha]
+   _emocao [18,21,18,21,6,34,node, ("emocao" "raiva")]
+      lixo [18,21,18,21,0,0,alpha]

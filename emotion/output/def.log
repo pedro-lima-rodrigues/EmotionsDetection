@@ -1,7 +1,6 @@
-Sequence file is:
-dicttok
+NOHASH rule: _artigo [] [] <- _xALPHA [1,1 pre] [] @@
+NOHASH rule: _pronomePessoal [] [] <- _xALPHA [1,1 pre] [] @@
 NOHASH rule: _xNIL [] [] <- _xALPHA [1,1] [] @@
+NOHASH rule: _xingamento [] [] <- vai [0,1] [] _xWHITE [0,1] [] _xWILD [1,1 singlet matches=(tomar toma)] [] _xWHITE [1,1] [] no [1,1] [] _xWHITE [1,1] [] cu [1,1] [] @@
+NOHASH rule: _xingamento [] [] <- _vamos [0,1] [] _xWHITE [0,1] [] _xWILD [0,1 singlet matches=(pra para)] [] _xWHITE [0,1] [] puta [1,1] [] _xWHITE [1,1] [] _xWILD [1,1 singlet matches=(que q)] [] _xWHITE [1,1] [] pariu [1,1] [] @@
 NOHASH rule: _xNIL [] [] <- _xWHITE [1,1 singlet] [] @@
-
-Passes: (dicttok,nil) (nlp,KBFuncs) (nlp,KBInit) (nlp,funcs) (,dicionario) (nlp,frases) (nlp,pos) (nlp,repeticao) (nlp,palavrao) (nlp,emojis) (nlp,RemoveWhiteSpace) (nlp,frase_subst) (nlp,frase_verbo) (,raiva) (nlp,emocao) (nlp,KBMostra) (nlp,output) 
-

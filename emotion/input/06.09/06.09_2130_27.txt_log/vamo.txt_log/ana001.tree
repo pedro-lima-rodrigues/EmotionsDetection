@@ -1,0 +1,27 @@
+
+***************
+    PASS 1 (tokenize)
+***************
+_ROOT [0,131,0,131,0,0,node,un]
+   VAMOSSSSSSS [0,10,0,10,0,0,alpha]
+   \n [11,11,11,11,0,0,white]
+   VAMOSSSSSSS [12,22,12,22,0,0,alpha]
+   \n [23,23,23,23,0,0,white]
+   VAMOSSSSSSS [24,34,24,34,0,0,alpha]
+   \n [35,35,35,35,0,0,white]
+   VAMOSSSSSSS [36,46,36,46,0,0,alpha]
+   \n [47,47,47,47,0,0,white]
+   VAMOSSSSSSS [48,58,48,58,0,0,alpha]
+   \n [59,59,59,59,0,0,white]
+   VAMOSSSSSSS [60,70,60,70,0,0,alpha]
+   \n [71,71,71,71,0,0,white]
+   VAMOSSSSSSS [72,82,72,82,0,0,alpha]
+   \n [83,83,83,83,0,0,white]
+   VAMOSSSSSSS [84,94,84,94,0,0,alpha]
+   \n [95,95,95,95,0,0,white]
+   VAMOSSSSSSS [96,106,96,106,0,0,alpha]
+   \n [107,107,107,107,0,0,white]
+   VAMOSSSSSSS [108,118,108,118,0,0,alpha]
+   \n [119,119,119,119,0,0,white]
+   VAMOSSSSSSS [120,130,120,130,0,0,alpha]
+   \n [131,131,131,131,0,0,white]

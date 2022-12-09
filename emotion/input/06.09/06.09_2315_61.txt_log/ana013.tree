@@ -1,0 +1,31 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,98,0,96,0,0,node,un]
+   Se [0,1,0,1,0,0,alpha]
+   _artigo [3,4,3,4,6,12,node]
+      os [3,4,3,4,0,0,alpha]
+   jogadores [6,14,6,14,0,0,alpha]
+   do [16,17,16,17,0,0,alpha]
+   _frasePalmeiras [19,27,19,27,12,12,node]
+      _palmeiras [19,27,19,27,6,48,node]
+         palmeiras [19,27,19,27,0,0,alpha]
+   provocarem [29,38,29,38,0,0,alpha]
+   e [40,40,40,40,0,0,alpha]
+   caírem [42,48,42,47,0,0,alpha]
+   na [50,51,49,50,0,0,alpha]
+   porrada [53,59,52,58,0,0,alpha]
+   com [61,63,60,62,0,0,alpha]
+   _artigo [65,65,64,64,6,12,node]
+      o [65,65,64,64,0,0,alpha]
+   atlético [67,75,66,73,0,0,alpha]
+   _pronomePessoal [77,78,75,76,6,16,node]
+      eu [77,78,75,76,0,0,alpha]
+   passo [80,84,78,82,0,0,alpha]
+   pano [86,89,84,87,0,0,alpha]
+   _emocao [91,98,89,96,7,39,node, ("emocao" "engracado")]
+      kkkkkkkk [91,98,89,96,0,0,alpha]

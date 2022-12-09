@@ -1,0 +1,20 @@
+
+***************
+    PASS 11 (RemoveWhiteSpace)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,56,0,56,0,0,node,un]
+   solicitando [0,10,0,10,0,0,alpha]
+   _artigo [12,12,12,12,6,12,node]
+      a [12,12,12,12,0,0,alpha]
+   pena [14,17,14,17,0,0,alpha]
+   de [19,20,19,20,0,0,alpha]
+   morte [22,26,22,26,0,0,alpha]
+   imediata [28,35,28,35,0,0,alpha]
+   do [37,38,37,38,0,0,alpha]
+   dudu [40,43,40,43,0,0,alpha]
+   do [45,46,45,46,0,0,alpha]
+   _palmeiras [48,56,48,56,6,48,node]
+      palmeiras [48,56,48,56,0,0,alpha]

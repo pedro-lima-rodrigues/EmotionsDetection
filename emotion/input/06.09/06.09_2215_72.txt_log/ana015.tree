@@ -1,0 +1,16 @@
+
+***************
+    PASS 15 (emocao)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,29,0,28,0,0,node,un]
+   _frasePalmeiras [0,9,0,9,12,12,node]
+      _palmeiras [0,9,0,9,6,43,node]
+         @ [0,0,0,0,0,0,punct]
+         Palmeiras [1,9,1,9,0,0,alpha]
+   Só [11,13,11,12,0,0,alpha]
+   chute [15,19,14,18,0,0,alpha]
+   fraco [21,25,20,24,0,0,alpha]
+   vey [27,29,26,28,0,0,alpha]

@@ -1,0 +1,25 @@
+
+***************
+    PASS 11 (RemoveWhiteSpace)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,72,0,71,0,0,node,un]
+   RT [0,1,0,1,0,0,alpha]
+   @ [3,3,3,3,0,0,punct]
+   captainbarnez [4,16,4,16,0,0,alpha]
+   : [17,17,17,17,0,0,punct]
+   _artigo [19,19,19,19,6,12,node]
+      o [19,19,19,19,0,0,alpha]
+   _emocao [21,24,21,24,6,30,node, ("emocao" "raiva")]
+      juiz [21,24,21,24,0,0,alpha]
+   simplesmente [26,37,26,37,0,0,alpha]
+   tá [39,41,39,40,0,0,alpha]
+   tacando [43,49,42,48,0,0,alpha]
+   _artigo [51,51,50,50,6,12,node]
+      o [51,51,50,50,0,0,alpha]
+   fodase [53,58,52,57,0,0,alpha]
+   pro [60,62,59,61,0,0,alpha]
+   _palmeiras [64,72,63,71,6,48,node]
+      palmeiras [64,72,63,71,0,0,alpha]

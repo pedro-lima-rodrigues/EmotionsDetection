@@ -1,0 +1,27 @@
+
+***************
+    PASS 6 (pos)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,51,0,41,0,0,node,un]
+   _vamos [0,3,0,3,6,92,node,fired,blt]
+      Vamo [0,3,0,3,0,0,alpha]
+   \_ [4,4,4,4,0,0,white]
+   _palmeiras [5,13,5,13,6,48,node,fired,blt]
+      palmeiras [5,13,5,13,0,0,alpha]
+   \_ [14,14,14,14,0,0,white]
+   \n [15,15,15,15,0,0,white]
+   _vamos [16,19,16,19,6,92,node,fired,blt]
+      Vamo [16,19,16,19,0,0,alpha]
+   \_ [20,20,20,20,0,0,white]
+   virar [21,25,21,25,0,0,alpha]
+   \_ [26,26,26,26,0,0,white]
+   essa [27,30,27,30,0,0,alpha]
+   \_ [31,31,31,31,0,0,white]
+   bagaça [32,38,32,37,0,0,alpha]
+   \_ [39,39,38,38,0,0,white]
+   💚 [40,43,39,39,0,0,emoji]
+   💚 [44,47,40,40,0,0,emoji]
+   💚 [48,51,41,41,0,0,emoji]

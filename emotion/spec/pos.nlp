@@ -8,30 +8,39 @@
 
 @NODES _ROOT
 
+@PRE
+<1,1> vareq("cg","artigo");
+
 @RULES
 _artigo <-
-	_xWILD [s one matches=(o os a as)]	### (1)
+	_xALPHA	### (1)
 	@@
 
+@PRE
+<1,1> vareq("tipo","pessoal");
+
+@RULES
 _pronomePessoal <-
-	_xWILD [s one matches=(eu você)]	### (1)
+	_xALPHA	### (1)
 	@@
 
+@RULES
 _pronomePossessivo <-
-	_xWILD [s one matches=(meu minha)]	### (1)
+	_xWILD [s one matches=(meu minha nosso nossa)]	### (1)
 	@@
 
+# RAIVA
 @POST
 S("emocao") = "raiva";
 single();
 
 @RULES
-_substantivoRaiva <-
-	_xWILD [s one matches=(falta nojo burrice sacanagem porcaria VAR arbitragem juiz juízes árbitro)]	### (1)
+_emocao <-
+	_xWILD [s one matches=(falta nojo burrice porcaria VAR arbitragem juiz juízes árbitro expulsão)]	### (1)
 	@@
 
-_adjetivo <-
-	_xWILD [s one matches=(horroroso lixo ridículo nojento)]	### (1)
+_emocao <-
+	_xWILD [s one matches=(horroroso lixo ridículo ridícula ridículos ridículas vergonha nojento maldito repugnante chato chata ruim péssimo péssima horrível desgraçado)]	### (1)
 	@@
 
 @RULES
@@ -40,19 +49,32 @@ _preposicao <-
 	@@
 
 _palmeiras <-
-	_xWILD [s one matches=(palmeiras verdão porco)]	### (1)
+	\@
+	palmeiras	### (1)
+	@@
+
+_palmeiras <-
+	_xWILD [s one matches=(palmeiras verdão porco porcada)]	### (1)
 	@@
 
 _verboRaiva <-
-	_xWILD [s one matches=(roubar roubou roubaram roubando assaltando odiar odeio)]	### (1)
+	_xWILD [s one matches=(rouba roubar roubou roubaram roubando assalta assaltar assaltou assaltaram assaltando fodendo odiar odeio)]	### (1)
+	@@
+
+_adjetivoRaiva <-
+	_xWILD [s one matches=(assaltados roubados assaltado roubado)]	### (1)
+	@@
+
+_verboLigacao <-
+	_xWILD [s one matches=(é foi foram são sendo)]	### (1)
 	@@
 
 _adverbio <-
-	_xWILD [s one matches=(contra)]	### (1)
+	_xWILD [s one matches=(mt muito bastante)]	### (1)
 	@@
 
-_interjeicao <-
-	_xWILD [s one matches=(vamos vamo bora)]	### (1)
+_contra <-
+	contra	### (1)
 	@@
 
 _gol <-
@@ -73,4 +95,76 @@ _sem <-
 
 _mundial <-
 	mundial [s]	### (1)
+	@@
+
+_vamos <-
+	_xWILD [s one matches=(vamos vamo bora vai)]	### (1)
+	@@
+
+_torcida <-
+	_xWILD [s one matches=(amor virada)]	### (1)
+	@@
+
+# TORCIDA
+@POST
+S("emocao") = "torcida";
+single();
+
+@RULES
+_emocao <-
+	_xWILD [s one matches=(pfvr PFV)]	### (1)
+	@@
+
+_emocao <-
+	avanti	### (1)
+	@@
+
+_emocao <-
+	_xWILD [s one matches=(decepcione decepcionar)]	### (1)
+	@@
+
+_emocao <-
+	por		### (1)
+	_xWHITE	### (2)
+	favor	### (3)
+	@@
+
+_emocao <-
+	depende	### (1)
+	@@
+
+_emocao <-
+	_xWILD [s one matches=(amém amem)]	### (1)
+	@@
+
+_emocao <-
+	_xWILD [s one matches=(confio)]	### (1)
+	@@
+
+_emocao <-
+	pelo	### (1)
+	_xWHITE
+	amor
+	_xWHITE
+	_xWILD [s one matches=(de d)]	### (1)
+	_xWHITE
+	deus
+	@@
+
+_emocao <-
+	plmds
+	@@
+
+# FELICIDADE
+@POST
+S("emocao") = "felicidade";
+single();
+
+@RULES
+_emocao <-
+	campeão	### (1)
+	@@
+
+_emocao <-
+	parabéns	### (1)
 	@@
