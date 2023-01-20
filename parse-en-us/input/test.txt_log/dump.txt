@@ -1,0 +1,9 @@
+
+[PASS sentsem: Register sentences in KB.]
+
+[sentregister: sent1]
+
+[PASS clausesem: Register clauses in KB.]
+
+[clausereg: sent1 clause1]
+[text= The quick brown fox jumped over the lazy boy]

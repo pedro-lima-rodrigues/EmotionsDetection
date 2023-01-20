@@ -1,0 +1,10 @@
+PART   SEM          STEM          NE_TEXT       ALL_TEXT
+========================================================
+
+sentence: The quick brown fox jumped over the lazy boy
+
+clause: The quick brown fox jumped over the lazy boy
+voice:	active
+np  	fox     	fox     	nil         	The quick brown fox
+vg  	jump    	jump    	nil         	jumped
+advl	boy     	boy     	nil         	over the lazy boy

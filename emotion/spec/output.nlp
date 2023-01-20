@@ -6,12 +6,26 @@
 # MODIFIED:
 ###############################################
 
-@CODE
-G("output") << G("$inputhead") << ": " << pnvar(pnroot(),"$text") << "\n";
+#@CODE
+#G("output") << G("$inputhead") << ": " << pnvar(pnroot(),"$text") << "\n";
 #L("emocao") = down(G("emocao"));
 #while (L("emocao")) {
-#	G("output") << "\t" << conceptname(L("emocao")) << ": " << numval(L("emocao"),"contagem") << "\n";
-#	L("emocao") = next(L("emocao"));
+#    G("output") << "\t" << conceptname(L("emocao")) << ": " << numval(L("emocao"),"contagem") << "\n";
+#    L("emocao") = next(L("emocao"));
 #}
+#@@CODE
+
+@CODE
+
+G("output") = cbuf();
+G("output") << "<tweet>";
+L("emocao") = down(G("emocao"));
+while (L("emocao")) {
+    G("output") << "<emocao>" << conceptname(L("emocao")) << "</emocao>";
+    G("output") << "<contagem>" << numval(L("emocao"),"contagem") << "</contagem>";
+    L("emocao") = next(L("emocao"));
+}
+G("output") << "</tweet>";
+
 
 @@CODE

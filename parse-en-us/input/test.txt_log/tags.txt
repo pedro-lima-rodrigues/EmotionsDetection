@@ -1,0 +1,7 @@
+
+======================================
+
+[ The/DT quick/JJ brown/JJ fox/NN ]
+jumped/VBD over/IN 
+[ the/DT lazy/JJ boy/NN ]
+./. 

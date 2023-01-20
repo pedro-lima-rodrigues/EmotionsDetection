@@ -1,0 +1,26 @@
+
+***************
+    PASS 61 (tok200)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,44,0,44,0,0,node,un, ("TOT LINES" 1) ("TOT TABS" 0) ("TOT LOWERS" 8) ("TOT CAPS" 1) ("TOT UPPERS" 0) ("TOT NUMS" 0)]
+   _TEXTZONE [0,44,0,44,33,19,node,un, ("line count" 1) ("func words" 1)]
+      _det [0,2,0,2,51,280,node, ("NOSP" 1) ("det" 1) ("pos num" 1) ("cap" 1) ("number" "any") ("stem" "the") ("needs-np" 1)]
+         The [0,2,0,2,0,0,alpha, ("NOSP" 1) ("det" 1) ("pos num" 1) ("cap" 1)]
+      quick [4,8,4,8,0,0,alpha, ("noun" 1) ("adj" 1) ("adv" 1) ("pos num" 3) ("lower" 1) ("wordcon" concept:"quick") ("stem" "quick")]
+      brown [10,14,10,14,0,0,alpha, ("noun" 1) ("verb" 1) ("adj" 1) ("pos num" 3) ("lower" 1) ("wordcon" concept:"brown") ("stem" "brown")]
+      fox [16,18,16,18,0,0,alpha, ("noun" 1) ("verb" 1) ("pos num" 2) ("lower" 1) ("wordcon" concept:"fox") ("stem" "fox")]
+      _verb [20,25,20,25,56,65,node, ("verb" 1) ("pos num" 1) ("lower" 1) ("wordcon" concept:"jumped") ("stem" "jump") ("pos" "_verb") ("sem" "jump")]
+         jumped [20,25,20,25,0,0,alpha, ("verb" 1) ("pos num" 1) ("lower" 1) ("wordcon" concept:"jumped") ("stem" "jump") ("pos" "_verb")]
+      _prep [27,30,27,30,51,1158,node, ("noun" 1) ("adj" 1) ("adv" 1) ("prep" 1) ("pos num" 4) ("lower" 1) ("stem" "over")]
+         over [27,30,27,30,0,0,alpha, ("noun" 1) ("adj" 1) ("adv" 1) ("prep" 1) ("pos num" 4) ("lower" 1)]
+      _det [32,34,32,34,51,280,node, ("det" 1) ("pos num" 1) ("lower" 1) ("number" "any") ("stem" "the") ("needs-np" 1)]
+         the [32,34,32,34,0,0,alpha, ("det" 1) ("pos num" 1) ("lower" 1)]
+      _adj [36,39,36,39,56,65,node, ("adj" 1) ("pos num" 1) ("lower" 1) ("wordcon" concept:"lazy") ("stem" "lazy") ("pos" "_adj") ("mypos" "JJ") ("sem" "lazy")]
+         lazy [36,39,36,39,0,0,alpha, ("adj" 1) ("pos num" 1) ("lower" 1) ("wordcon" concept:"lazy") ("stem" "lazy") ("pos" "_adj") ("mypos" "JJ")]
+      _noun [41,43,41,43,56,65,node, ("noun" 1) ("pos num" 1) ("lower" 1) ("wordcon" concept:"boy") ("stem" "boy") ("pos" "_noun") ("sem" "boy") ("number" "singular")]
+         boy [41,43,41,43,0,0,alpha, ("noun" 1) ("pos num" 1) ("lower" 1) ("wordcon" concept:"boy") ("stem" "boy") ("pos" "_noun")]
+      _qEOS [44,44,44,44,41,151,node]
+         . [44,44,44,44,0,0,punct, ("NOSP" 1)]

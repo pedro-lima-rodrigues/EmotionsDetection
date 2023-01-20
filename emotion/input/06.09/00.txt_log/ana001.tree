@@ -1,21 +1,21 @@
 
 ***************
-    PASS 1 (tokenize)
+    PASS 1 (dicttok)
 ***************
-_ROOT [0,51,0,41,0,0,node,un]
-   Vamo [0,3,0,3,0,0,alpha]
+_ROOT [0,51,0,41,0,0,node,un, ("TOT LINES" 1) ("TOT TABS" 0) ("TOT LOWERS" 7) ("TOT CAPS" 2) ("TOT UPPERS" 0) ("TOT NUMS" 0)]
+   Vamo [0,3,0,3,0,0,alpha, ("NOSP" 1) ("cap" 1)]
    \_ [4,4,4,4,0,0,white]
-   palmeiras [5,13,5,13,0,0,alpha]
+   palmeiras [5,13,5,13,0,0,alpha, ("lower" 1)]
    \_ [14,14,14,14,0,0,white]
    \n [15,15,15,15,0,0,white]
-   Vamo [16,19,16,19,0,0,alpha]
+   Vamo [16,19,16,19,0,0,alpha, ("cap" 1)]
    \_ [20,20,20,20,0,0,white]
-   virar [21,25,21,25,0,0,alpha]
+   virar [21,25,21,25,0,0,alpha, ("lower" 1)]
    \_ [26,26,26,26,0,0,white]
-   essa [27,30,27,30,0,0,alpha]
+   essa [27,30,27,30,0,0,alpha, ("lower" 1)]
    \_ [31,31,31,31,0,0,white]
-   bagaça [32,38,32,37,0,0,alpha]
+   bagaça [32,38,32,37,0,0,alpha, ("lower" 1)]
    \_ [39,39,38,38,0,0,white]
-   💚 [40,43,39,39,0,0,emoji]
-   💚 [44,47,40,40,0,0,emoji]
-   💚 [48,51,41,41,0,0,emoji]
+   💚 [40,43,39,39,0,0,emoji, ("lower" 1)]
+   💚 [44,47,40,40,0,0,emoji, ("NOSP" 1) ("lower" 1)]
+   💚 [48,51,41,41,0,0,emoji, ("NOSP" 1) ("lower" 1)]
