@@ -1,0 +1,1 @@
+<tweet><emocao>torcida</emocao><contagem>1</contagem></tweet>

@@ -1,23 +1,22 @@
 ###############################################
 # FILE: output
 # SUBJ: comment
-# AUTH: Your Name
+# AUTH: Pedro Rodrigues
 # CREATED: 2022-9-9 17:18:58
 # MODIFIED:
 ###############################################
 
-#@CODE
-#G("output") << G("$inputhead") << ": " << pnvar(pnroot(),"$text") << "\n";
-#L("emocao") = down(G("emocao"));
-#while (L("emocao")) {
+# @CODE
+# G("output") << G("$inputhead") << ": " << pnvar(pnroot(),"$text") << "\n";
+# L("emocao") = down(G("emocao"));
+# while (L("emocao")) {
 #    G("output") << "\t" << conceptname(L("emocao")) << ": " << numval(L("emocao"),"contagem") << "\n";
 #    L("emocao") = next(L("emocao"));
-#}
-#@@CODE
+# }
+# @@CODE
 
 @CODE
-
-G("output") = cbuf();
+# G("output") = cbuf();
 G("output") << "<tweet>";
 L("emocao") = down(G("emocao"));
 while (L("emocao")) {
@@ -26,6 +25,4 @@ while (L("emocao")) {
     L("emocao") = next(L("emocao"));
 }
 G("output") << "</tweet>";
-
-
 @@CODE
