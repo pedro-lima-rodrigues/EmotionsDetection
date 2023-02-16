@@ -1,9 +1,0 @@
-
-***************
-    PASS 1 (tokenize)
-***************
-_ROOT [0,210,0,210,0,0,node,un]
-   @ [0,0,0,0,0,0,punct]
-   Palmeiras [1,9,1,9,0,0,alpha]
-   \_ [10,10,10,10,0,0,white]
-   Kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk [11,210,11,210,0,0,alpha]

@@ -17,15 +17,18 @@
 
 @CODE
 
-G("output") = cbuf();
-G("output") << "<tweet>";
+#G("output") = cbuf();
+G("output") = "out.xml";
+G("output") << "<Row><tweet>";
 L("emocao") = down(G("emocao"));
 while (L("emocao")) {
+    G("output") << "<resultado>";
     G("output") << "<emocao>" << conceptname(L("emocao")) << "</emocao>";
     G("output") << "<contagem>" << numval(L("emocao"),"contagem") << "</contagem>";
+    G("output") << "</resultado>";
     L("emocao") = next(L("emocao"));
 }
-G("output") << "</tweet>";
+G("output") << "</tweet></Row>";
 
 
 @@CODE

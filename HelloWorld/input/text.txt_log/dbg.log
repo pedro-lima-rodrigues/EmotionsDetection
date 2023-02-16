@@ -1,0 +1,9 @@
+[Pass 1 time: 0.001 sec     tokenize]
+[Input file: c:\Hugo\GitHub\EmotionsDetection\HelloWorld\input\text.txt]
+[Total passes: 1]
+[Total time: 0.001 sec]
+[Time per 1000 chars (0.001/12): 0.0833333 sec]
+[Time per pass per 1000 chars: 0.0833333]
+infile  passes tottime length tot/1000 tot/pass/1000
+c:\Hugo\GitHub\EmotionsDetection\HelloWorld\input\text.txt	1	0.001	12	0.0833333	0.0833333
+[Clean time: 0.001 sec]

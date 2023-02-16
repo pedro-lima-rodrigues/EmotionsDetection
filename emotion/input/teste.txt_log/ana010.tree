@@ -1,0 +1,24 @@
+
+***************
+    PASS 10 (emojis)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,38,0,38,0,0,node,un, ("TOT LINES" 1) ("TOT TABS" 0) ("TOT LOWERS" 16) ("TOT CAPS" 2) ("TOT UPPERS" 0) ("TOT NUMS" 0)]
+   Silencio [0,7,0,7,0,0,alpha, ("NOSP" 1) ("cap" 1) ("lower" 1)]
+   \_ [8,8,8,8,0,0,white, ("lower" 1)]
+   _pronomePossessivo [9,11,9,11,6,28,node]
+      meu [9,11,9,11,0,0,alpha, ("lower" 1) ("cg" "pronome") ("tipo" "possessivo") ("genero" "m") ("pessoa" "1") ("numero" "s")]
+   \_ [12,12,12,12,0,0,white, ("lower" 1)]
+   _palmeiras [13,21,13,21,6,56,node]
+      Palmeiras [13,21,13,21,0,0,alpha, ("cap" 1) ("lower" 1)]
+   \_ [22,22,22,22,0,0,white, ("lower" 1)]
+   _vamos [23,25,23,25,6,100,node]
+      vai [23,25,23,25,0,0,alpha, ("lower" 1)]
+   \_ [26,26,26,26,0,0,white, ("lower" 1)]
+   jogar [27,31,27,31,0,0,alpha, ("lower" 1)]
+   \_ [32,32,32,32,0,0,white, ("lower" 1)]
+   _emocao [33,37,33,37,7,39,node, ("emocao" "engracado")]
+      kkkkk [33,37,33,37,0,0,alpha, ("lower" 1)]
+   . [38,38,38,38,0,0,punct, ("NOSP" 1) ("lower" 1)]
