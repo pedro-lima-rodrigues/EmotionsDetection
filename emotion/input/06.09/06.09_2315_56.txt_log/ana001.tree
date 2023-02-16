@@ -1,8 +1,0 @@
-
-***************
-    PASS 1 (tokenize)
-***************
-_ROOT [0,27,0,27,0,0,node,un]
-   KKKKKKKKKKKKKKKKKK [0,17,0,17,0,0,alpha]
-   \_ [18,18,18,18,0,0,white]
-   PALMEIRAS [19,27,19,27,0,0,alpha]

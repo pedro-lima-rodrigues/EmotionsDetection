@@ -1,9 +1,0 @@
-
-***************
-    PASS 13 (frase_verbo)
-***************
-
-PAT OUTPUT TREE:
-
-_ROOT [0,71,0,71,0,0,node,un]
-   oiAthleticoPRbuscaAthleticoPRAthleticoPRbuscaAthleticoPRAthleticoPRbusca [0,71,0,71,0,0,alpha]

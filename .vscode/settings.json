@@ -47,5 +47,7 @@
     },
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "git.ignoreLimitWarning": true,
-    "analyzer.current": "c:\\Users\\pepel\\GitHub\\EmotionsDetection\\corporate"
+    "analyzer.current": "c:\\Users\\pepel\\GitHub\\EmotionsDetection\\corporate",
+    "ecl.launchConfiguration": "not found",
+    "ecl.targetCluster": {}
 }

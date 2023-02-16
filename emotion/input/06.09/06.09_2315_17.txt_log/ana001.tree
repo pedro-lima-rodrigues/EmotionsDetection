@@ -1,8 +1,0 @@
-
-***************
-    PASS 1 (tokenize)
-***************
-_ROOT [0,14,0,14,0,0,node,un]
-   PORRA [0,4,0,4,0,0,alpha]
-   \_ [5,5,5,5,0,0,white]
-   PALMEIRAS [6,14,6,14,0,0,alpha]

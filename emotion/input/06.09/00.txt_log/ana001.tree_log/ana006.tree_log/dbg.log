@@ -1,6 +1,0 @@
-[Pass 1 time: 0.117 sec     tokenize]
-[Pass 2 time: 0.005 sec     KBFuncs]
-[Pass 3 time: 0.004 sec     KBInit]
-[Pass 4 time: 0.003 sec     funcs]
-[Pass 5 time: 0.004 sec     dicionario]
-[Pass 6 time: 0.115 sec     pos]

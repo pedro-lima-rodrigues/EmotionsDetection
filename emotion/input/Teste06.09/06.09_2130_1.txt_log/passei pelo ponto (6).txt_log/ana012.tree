@@ -1,9 +1,0 @@
-
-***************
-    PASS 12 (frase_subst)
-***************
-
-PAT OUTPUT TREE:
-
-_ROOT [0,50,0,47,0,0,node,un]
-   virarvirarbagaçavirarvirarbagaçavirarvirarbagaça [0,50,0,47,0,0,alpha]
