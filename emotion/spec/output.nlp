@@ -1,0 +1,34 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: Your Name
+# CREATED: 2022-9-9 17:18:58
+# MODIFIED:
+###############################################
+
+#@CODE
+#G("output") << G("$inputhead") << ": " << pnvar(pnroot(),"$text") << "\n";
+#L("emocao") = down(G("emocao"));
+#while (L("emocao")) {
+#    G("output") << "\t" << conceptname(L("emocao")) << ": " << numval(L("emocao"),"contagem") << "\n";
+#    L("emocao") = next(L("emocao"));
+#}
+#@@CODE
+
+@CODE
+
+#G("output") = cbuf();
+G("output") = "out.xml";
+G("output") << "<Row><tweet>";
+L("emocao") = down(G("emocao"));
+while (L("emocao")) {
+    G("output") << "<resultado>";
+    G("output") << "<emocao>" << conceptname(L("emocao")) << "</emocao>";
+    G("output") << "<contagem>" << numval(L("emocao"),"contagem") << "</contagem>";
+    G("output") << "</resultado>";
+    L("emocao") = next(L("emocao"));
+}
+G("output") << "</tweet></Row>";
+
+
+@@CODE
