@@ -6,18 +6,17 @@
 # MODIFIED:
 ###############################################
 
-#@CODE
+@CODE
+
 #G("output") << G("$inputhead") << ": " << pnvar(pnroot(),"$text") << "\n";
 #L("emocao") = down(G("emocao"));
 #while (L("emocao")) {
 #    G("output") << "\t" << conceptname(L("emocao")) << ": " << numval(L("emocao"),"contagem") << "\n";
 #    L("emocao") = next(L("emocao"));
 #}
-#@@CODE
-
-@CODE
 
 #G("output") = cbuf();
+
 G("output") = "out.xml";
 G("output") << "<Row><tweet>";
 L("emocao") = down(G("emocao"));

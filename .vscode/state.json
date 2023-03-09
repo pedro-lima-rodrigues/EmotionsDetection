@@ -3,7 +3,7 @@
         {
             "name": "Analyzer",
             "type": "state",
-            "currentAnalyzer": "c:\\Hugo\\GitHub\\EmotionsDetection\\emotion"
+            "currentAnalyzer": "c:\\Users\\pepel\\GitHub\\EmotionsDetection\\emotion"
         }
     ]
 }

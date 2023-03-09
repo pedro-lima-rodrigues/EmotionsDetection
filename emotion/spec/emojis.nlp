@@ -32,16 +32,6 @@ _emocao <-
 	_xWILD [s one matches=(😀 😃 😄 😁 😆 🏆)]	### (1)
 	@@
 
-# TRISTEZA
-@POST
-S("emocao") = "tristeza";
-single();
-
-@RULES
-_emocao <-
-	_xWILD [s one matches=(🥲 😢 😭 😥 😓)]
-	@@
-
 # TORCIDA
 @POST
 S("emocao") = "torcida";
