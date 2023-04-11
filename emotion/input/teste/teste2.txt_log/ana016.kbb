@@ -1,0 +1,10 @@
+emocao
+  engracado: 
+    contagem=[2]
+  torcida: 
+    contagem=[2]
+  raiva: 
+    contagem=[1]
+  felicidade: 
+    contagem=[1]
+

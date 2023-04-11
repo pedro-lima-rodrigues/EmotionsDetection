@@ -8,26 +8,25 @@
 
 @CODE
 
-#G("output") << G("$inputhead") << ": " << pnvar(pnroot(),"$text") << "\n";
-#L("emocao") = down(G("emocao"));
-#while (L("emocao")) {
-#    G("output") << "\t" << conceptname(L("emocao")) << ": " << numval(L("emocao"),"contagem") << "\n";
-#    L("emocao") = next(L("emocao"));
-#}
-
-#G("output") = cbuf();
-
-G("output") = "out.xml";
-G("output") << "<Row><tweet>";
+G("output") << G("$inputhead") << ": " << pnvar(pnroot(),"$text") << "\n";
 L("emocao") = down(G("emocao"));
 while (L("emocao")) {
-    G("output") << "<resultado>";
-    G("output") << "<emocao>" << conceptname(L("emocao")) << "</emocao>";
-    G("output") << "<contagem>" << numval(L("emocao"),"contagem") << "</contagem>";
-    G("output") << "</resultado>";
+    G("output") << "\t" << conceptname(L("emocao")) << ": " << numval(L("emocao"),"contagem") << "\n";
     L("emocao") = next(L("emocao"));
 }
-G("output") << "</tweet></Row>";
+
+#G("output") = cbuf();
+#G("output") = "out.xml"; //deixar essa linha comentada
+#G("output") << "<Row><tweet>";
+#L("emocao") = down(G("emocao"));
+#while (L("emocao")) {
+#    G("output") << "<resultado>";
+#    G("output") << "<emocao>" << conceptname(L("emocao")) << "</emocao>";
+#    G("output") << "<contagem>" << numval(L("emocao"),"contagem") << "</contagem>";
+#    G("output") << "</resultado>";
+#    L("emocao") = next(L("emocao"));
+#}
+#G("output") << "</tweet></Row>";
 
 
 @@CODE

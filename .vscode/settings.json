@@ -49,5 +49,6 @@
     "git.ignoreLimitWarning": true,
     "analyzer.current": "c:\\Users\\pepel\\GitHub\\EmotionsDetection\\corporate",
     "ecl.launchConfiguration": "not found",
-    "ecl.targetCluster": {}
+    "ecl.targetCluster": {},
+    "ecl.eclccPath": "C:\\Program Files (x86)\\HPCCSystems\\8.2.18\\clienttools\\bin\\eclcc.exe"
 }

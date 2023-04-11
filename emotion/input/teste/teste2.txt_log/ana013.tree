@@ -1,0 +1,28 @@
+
+***************
+    PASS 13 (frase_verbo)
+***************
+
+PAT OUTPUT TREE:
+
+_ROOT [0,49,0,49,0,0,node,un, ("TOT LINES" 1) ("TOT TABS" 0) ("TOT LOWERS" 26) ("TOT CAPS" 0) ("TOT UPPERS" 0) ("TOT NUMS" 0)]
+   _emocao [0,1,0,1,7,39,node, ("emocao" "engracado")]
+      kk [0,1,0,1,0,0,alpha, ("NOSP" 1) ("lower" 1)]
+   _emocao [3,4,3,4,7,39,node, ("emocao" "engracado")]
+      kk [3,4,3,4,0,0,alpha, ("lower" 1)]
+   _emocao [6,13,6,13,8,16,node, ("emocao" "torcida")]
+      pra [6,8,6,8,0,0,alpha, ("lower" 1)]
+      \_ [9,9,9,9,0,0,white, ("lower" 1)]
+      cima [10,13,10,13,0,0,alpha, ("lower" 1)]
+   _emocao [15,22,15,22,8,16,node, ("emocao" "torcida")]
+      pra [15,17,15,17,0,0,alpha, ("lower" 1)]
+      \_ [18,18,18,18,0,0,white, ("lower" 1)]
+      cima [19,22,19,22,0,0,alpha, ("lower" 1)]
+   _emocao [24,39,24,39,13,76,node,fired,blt, ("emocao" "raiva")]
+      _contra [24,29,24,29,6,76,node,fired]
+         contra [24,29,24,29,0,0,alpha, ("lower" 1)]
+      _frasePalmeiras [31,39,31,39,12,12,node,fired]
+         _palmeiras [31,39,31,39,6,56,node]
+            palmeiras [31,39,31,39,0,0,alpha, ("lower" 1)]
+   _emocao [41,49,41,49,7,39,node, ("emocao" "felicidade")]
+      golllllll [41,49,41,49,0,0,alpha, ("lower" 1)]

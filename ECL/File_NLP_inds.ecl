@@ -4,5 +4,5 @@
       STRING id;
       STRING text;
 	END;
-	EXPORT File := DATASET('~inds',Layout,FLAT);
+	EXPORT File := DATASET('~inds_06.10',Layout,FLAT);
 END;
